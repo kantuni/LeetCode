@@ -1,7 +1,7 @@
 class Solution {
   public:
     bool isValid(string s) {
-      map<char, char> memo = {
+      map<char, char> inverse = {
         {')', '('},
         {'}', '{'},
         {']', '['}
@@ -18,7 +18,7 @@ class Solution {
           case ')':
           case '}':
           case ']': {
-            if (st.size() == 0 or st.top() != memo[c]) {
+            if (st.size() == 0 or st.top() != inverse[c]) {
               return false;
             }
             st.pop();
