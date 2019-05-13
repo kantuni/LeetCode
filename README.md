@@ -13,10 +13,12 @@
 | 58 | [Length of Last Word](https://github.com/kantuni/LeetCode/tree/master/58) |
 | 66 | [Plus One](https://github.com/kantuni/LeetCode/tree/master/66) |
 | 69 | [Sqrt(x)](https://github.com/kantuni/LeetCode/tree/master/69) |
+| 70 | [Climbing Stairs](https://github.com/kantuni/LeetCode/tree/master/70) |
 | 167 | [Two Sum II - Input array is sorted](https://github.com/kantuni/LeetCode/tree/master/167) |
 | 412 | [Fizz Buzz](https://github.com/kantuni/LeetCode/tree/master/412) |
 | 876 | [Middle of the Linked List](https://github.com/kantuni/LeetCode/tree/master/876) |
 | 883 | [Projection Area of 3D Shapes](https://github.com/kantuni/LeetCode/tree/master/883) |
 | 884 | [Uncommon Words from Two Sentences](https://github.com/kantuni/LeetCode/tree/master/884) |
 
-Problems solved: **16**
+Problems solved: **17**
+
