@@ -1,7 +1,7 @@
 # Solutions to [LeetCode](https://leetcode.com/) Problems
 
-| # | Title |
-| - | ----- |
+| #  | Title |
+| :- | :---- |
 | 1 | [Two Sum](https://github.com/kantuni/LeetCode/tree/master/1) |
 | 7 | [Reverse Integer](https://github.com/kantuni/LeetCode/tree/master/7) |
 | 9	| [Palindrome Number](https://github.com/kantuni/LeetCode/tree/master/9) |
@@ -21,4 +21,3 @@
 | 884 | [Uncommon Words from Two Sentences](https://github.com/kantuni/LeetCode/tree/master/884) |
 
 Problems solved: **17**
-
