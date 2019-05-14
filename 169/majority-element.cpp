@@ -1,13 +1,18 @@
 class Solution {
   public:
     int majorityElement(vector<int>& nums) {
-      map<int, int> memo;
+      // Boyer-Moore Voting Algorithm
+      int cnt = 0, cand = -1;
       for (auto num: nums) {
-        memo[num]++;
-        if (memo[num] > nums.size() / 2) {
-          return num;
+        if (cnt == 0) {
+          cand = num;
+        }
+        if (num == cand) {
+          cnt++;
+        } else {
+          cnt--;
         }
       }
-      return -1;
+      return cand;
     }
 };
