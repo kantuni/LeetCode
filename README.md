@@ -20,5 +20,6 @@
 | 876 | [Middle of the Linked List](https://github.com/kantuni/LeetCode/tree/master/876) |
 | 883 | [Projection Area of 3D Shapes](https://github.com/kantuni/LeetCode/tree/master/883) |
 | 884 | [Uncommon Words from Two Sentences](https://github.com/kantuni/LeetCode/tree/master/884) |
+| 905 | [Sort Array By Parity](https://github.com/kantuni/LeetCode/tree/master/905) |
 
-Problems solved: **18**
+Problems solved: **19**
