@@ -7,7 +7,7 @@ class Solution {
           p += tolower(c);
         }
       }
-      for (int i = 0; i < p.size(); i++) {
+      for (int i = 0; i < p.size() / 2; i++) {
         if (p[i] != p[p.size() - 1 - i]) {
           return false;
         }

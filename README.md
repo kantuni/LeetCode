@@ -14,6 +14,7 @@
 | 66 | [Plus One](https://github.com/kantuni/LeetCode/tree/master/66) |
 | 69 | [Sqrt(x)](https://github.com/kantuni/LeetCode/tree/master/69) |
 | 70 | [Climbing Stairs](https://github.com/kantuni/LeetCode/tree/master/70) |
+| 125 | [Valid Palindrome](https://github.com/kantuni/LeetCode/tree/master/125) |
 | 136 | [Single Number](https://github.com/kantuni/LeetCode/tree/master/136) |
 | 167 | [Two Sum II - Input array is sorted](https://github.com/kantuni/LeetCode/tree/master/167) |
 | 169 | [Majority Element](https://github.com/kantuni/LeetCode/tree/master/169) |
@@ -24,4 +25,4 @@
 | 884 | [Uncommon Words from Two Sentences](https://github.com/kantuni/LeetCode/tree/master/884) |
 | 905 | [Sort Array By Parity](https://github.com/kantuni/LeetCode/tree/master/905) |
 
-Problems solved: **21**
+Problems solved: **22**
