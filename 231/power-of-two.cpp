@@ -1,10 +1,6 @@
 class Solution {
   public:
     bool isPowerOfTwo(int n) {
-      if (n == 0) {
-        return false;
-      }
-      double p = log2(n);
-      return ceil(p) == p;
+      return n > 0 and !(n & (n - 1));
     }
 };
