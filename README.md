@@ -20,10 +20,11 @@
 | 169 | [Majority Element](https://github.com/kantuni/LeetCode/tree/master/169) |
 | 217 | [Contains Duplicate](https://github.com/kantuni/LeetCode/tree/master/217) |
 | 231 | [Power of Two](https://github.com/kantuni/LeetCode/tree/master/231) |
+| 263 | [Ugly Number](https://github.com/kantuni/LeetCode/tree/master/263) |
 | 412 | [Fizz Buzz](https://github.com/kantuni/LeetCode/tree/master/412) |
 | 876 | [Middle of the Linked List](https://github.com/kantuni/LeetCode/tree/master/876) |
 | 883 | [Projection Area of 3D Shapes](https://github.com/kantuni/LeetCode/tree/master/883) |
 | 884 | [Uncommon Words from Two Sentences](https://github.com/kantuni/LeetCode/tree/master/884) |
 | 905 | [Sort Array By Parity](https://github.com/kantuni/LeetCode/tree/master/905) |
 
-Problems solved: **23**
+Problems solved: **24**
