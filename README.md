@@ -29,4 +29,4 @@
 | 884 | [Uncommon Words from Two Sentences](https://github.com/kantuni/LeetCode/tree/master/884) |
 | 905 | [Sort Array By Parity](https://github.com/kantuni/LeetCode/tree/master/905) |
 
-Problems solved: **25**
+Problems solved: **26**
