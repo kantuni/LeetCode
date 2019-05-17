@@ -30,6 +30,7 @@
 | 883 | [Projection Area of 3D Shapes](https://github.com/kantuni/LeetCode/tree/master/883) |
 | 884 | [Uncommon Words from Two Sentences](https://github.com/kantuni/LeetCode/tree/master/884) |
 | 905 | [Sort Array By Parity](https://github.com/kantuni/LeetCode/tree/master/905) |
+| 977 | [Squares of a Sorted Array](https://github.com/kantuni/LeetCode/tree/master/977) |
 
 
-Problems solved: **28**
+Problems solved: **29**
