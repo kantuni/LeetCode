@@ -9,6 +9,8 @@
 | 14 | [Longest Common Prefix](https://github.com/kantuni/LeetCode/tree/master/14) |
 | 20 | [Valid Parentheses](https://github.com/kantuni/LeetCode/tree/master/20) |
 | 21 | [Merge Two Sorted Lists](https://github.com/kantuni/LeetCode/tree/master/21) |
+| 26 | [Remove Duplicates from Sorted Array](https://github.com/kantuni/LeetCode/tree/master/26) |
+| 27 | [Remove Element](https://github.com/kantuni/LeetCode/tree/master/27) |
 | 28 | [Implement strStr()](https://github.com/kantuni/LeetCode/tree/master/28) |
 | 58 | [Length of Last Word](https://github.com/kantuni/LeetCode/tree/master/58) |
 | 66 | [Plus One](https://github.com/kantuni/LeetCode/tree/master/66) |
@@ -33,4 +35,4 @@
 | 977 | [Squares of a Sorted Array](https://github.com/kantuni/LeetCode/tree/master/977) |
 
 
-Problems solved: **29**
+Problems solved: **31**
