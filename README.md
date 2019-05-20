@@ -13,6 +13,7 @@
 | 27 | [Remove Element](https://github.com/kantuni/LeetCode/tree/master/27) |
 | 28 | [Implement strStr()](https://github.com/kantuni/LeetCode/tree/master/28) |
 | 35 | [Search Insert Position](https://github.com/kantuni/LeetCode/tree/master/35) |
+| 38 | [Count and Say](https://github.com/kantuni/LeetCode/tree/master/38) |
 | 58 | [Length of Last Word](https://github.com/kantuni/LeetCode/tree/master/58) |
 | 66 | [Plus One](https://github.com/kantuni/LeetCode/tree/master/66) |
 | 69 | [Sqrt(x)](https://github.com/kantuni/LeetCode/tree/master/69) |
@@ -36,4 +37,4 @@
 | 977 | [Squares of a Sorted Array](https://github.com/kantuni/LeetCode/tree/master/977) |
 
 
-Problems solved: **32**
+Problems solved: **33**
