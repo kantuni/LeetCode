@@ -18,6 +18,7 @@
 | 66 | [Plus One](https://github.com/kantuni/LeetCode/tree/master/66) |
 | 69 | [Sqrt(x)](https://github.com/kantuni/LeetCode/tree/master/69) |
 | 70 | [Climbing Stairs](https://github.com/kantuni/LeetCode/tree/master/70) |
+| 88 | [Merge Sorted Array](https://github.com/kantuni/LeetCode/tree/master/88) |
 | 125 | [Valid Palindrome](https://github.com/kantuni/LeetCode/tree/master/125) |
 | 136 | [Single Number](https://github.com/kantuni/LeetCode/tree/master/136) |
 | 167 | [Two Sum II - Input array is sorted](https://github.com/kantuni/LeetCode/tree/master/167) |
@@ -37,4 +38,4 @@
 | 977 | [Squares of a Sorted Array](https://github.com/kantuni/LeetCode/tree/master/977) |
 
 
-Problems solved: **33**
+Problems solved: **34**
