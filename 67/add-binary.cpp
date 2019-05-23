@@ -1,21 +1,15 @@
 class Solution {
   public:
     string addBinary(string a, string b) {
-      if (a.size() > b.size()) {
-        swap(a, b);
-      }
-      while (a.size() != b.size()) {
-        a = "0" + a;
-      }
-      string c;
+      string ans;
+      int i = a.size() - 1, j = b.size() - 1;
       int carry = 0;
-      for (int i = a.size() - 1; i > -1; i--) {
-        int ai = a[i] - '0';
-        int bi = b[i] - '0';
-        int ci = (ai + bi + carry) % 2;
-        c = to_string(ci) + c;
-        carry = (ai + bi + carry) / 2;
+      while (i > -1 || j > -1 || carry == 1) {
+        carry += (i > -1) ? a[i--] - '0' : 0;
+        carry += (j > -1) ? b[j--] - '0' : 0;
+        ans = char(carry % 2 + '0') + ans;
+        carry /= 2;
       }
-      return (carry > 0) ? to_string(carry) + c : c;
+      return ans;
     }
 };
