@@ -17,6 +17,7 @@
 | 53 | [Maximum Subarray](https://github.com/kantuni/LeetCode/tree/master/53) |
 | 58 | [Length of Last Word](https://github.com/kantuni/LeetCode/tree/master/58) |
 | 66 | [Plus One](https://github.com/kantuni/LeetCode/tree/master/66) |
+| 67 | [Add Binary](https://github.com/kantuni/LeetCode/tree/master/67) |
 | 69 | [Sqrt(x)](https://github.com/kantuni/LeetCode/tree/master/69) |
 | 70 | [Climbing Stairs](https://github.com/kantuni/LeetCode/tree/master/70) |
 | 88 | [Merge Sorted Array](https://github.com/kantuni/LeetCode/tree/master/88) |
@@ -40,4 +41,4 @@
 | 977 | [Squares of a Sorted Array](https://github.com/kantuni/LeetCode/tree/master/977) |
 
 
-Problems solved: **36**
+Problems solved: **37**
