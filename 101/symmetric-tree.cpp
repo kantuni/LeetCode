@@ -10,18 +10,18 @@
 
 class Solution {
   private:
-    bool traverse(TreeNode *p, TreeNode *q) {
+    bool mirror(TreeNode *p, TreeNode *q) {
       if (p == nullptr and q == nullptr) {
         return true;
       }
       if (p != nullptr and q != nullptr and p->val == q->val) {
-        return traverse(p->left, q->right) and traverse(p->right, q->left);
+        return mirror(p->left, q->right) and mirror(p->right, q->left);
       }
       return false;
     }
 
   public:
     bool isSymmetric(TreeNode* root) {
-      return traverse(root, root);
+      return mirror(root, root);
     }
 };
