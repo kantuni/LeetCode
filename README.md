@@ -23,6 +23,7 @@
 | 83 | [Remove Duplicates from Sorted List](https://github.com/kantuni/LeetCode/tree/master/83) |
 | 88 | [Merge Sorted Array](https://github.com/kantuni/LeetCode/tree/master/88) |
 | 100 | [Same Tree](https://github.com/kantuni/LeetCode/tree/master/100) |
+| 101 | [Symmetric Tree](https://github.com/kantuni/LeetCode/tree/master/101) |
 | 125 | [Valid Palindrome](https://github.com/kantuni/LeetCode/tree/master/125) |
 | 136 | [Single Number](https://github.com/kantuni/LeetCode/tree/master/136) |
 | 167 | [Two Sum II - Input array is sorted](https://github.com/kantuni/LeetCode/tree/master/167) |
@@ -43,4 +44,4 @@
 | 977 | [Squares of a Sorted Array](https://github.com/kantuni/LeetCode/tree/master/977) |
 
 
-Problems solved: **39**
+Problems solved: **40**
