@@ -34,6 +34,7 @@
 | 231 | [Power of Two](https://github.com/kantuni/LeetCode/tree/master/231) |
 | 263 | [Ugly Number](https://github.com/kantuni/LeetCode/tree/master/263) |
 | 412 | [Fizz Buzz](https://github.com/kantuni/LeetCode/tree/master/412) |
+| 416 | [Partition Equal Subset Sum](https://github.com/kantuni/LeetCode/tree/master/416) |
 | 509 | [Fibonacci Number](https://github.com/kantuni/LeetCode/tree/master/509) |
 | 700 | [Search in a Binary Search Tree](https://github.com/kantuni/LeetCode/tree/master/700) |
 | 709 | [To Lower Case](https://github.com/kantuni/LeetCode/tree/master/709) |
@@ -45,4 +46,4 @@
 | 977 | [Squares of a Sorted Array](https://github.com/kantuni/LeetCode/tree/master/977) |
 
 
-Problems solved: **41**
+Problems solved: **42**
