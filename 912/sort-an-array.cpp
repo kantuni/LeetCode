@@ -2,12 +2,12 @@ class Solution {
   public:
     vector<int> sortArray(vector<int>& nums) {
       const int M = 100001;
-      vector<int> freq(M);
+      vector<int> f(M);
       for (auto num: nums) {
-        freq[num + M / 2]++;
+        f[num + M / 2]++;
       }
-      for (int i = 0, j = 0; i < freq.size(); i++) {
-        while (freq[i]--) {
+      for (int i = 0, j = 0; i < f.size(); i++) {
+        while (f[i]--) {
           nums[j++] = i - M / 2;
         }
       }
