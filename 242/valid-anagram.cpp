@@ -1,14 +1,18 @@
 class Solution {
   public:
     bool isAnagram(string s, string t) {
-      map<char, int> ms;
-      for (auto c: s) {
-        ms[c]++;
+      vector<int> sigma(26);
+      for (int i = 0; i < s.size(); i++) {
+        sigma[s[i] - 'a']++;
       }
-      map<char, int> mt;
-      for (auto c: t) {
-        mt[c]++;
+      for (int i = 0; i < t.size(); i++) {
+        sigma[t[i] - 'a']--;
       }
-      return ms == mt;
+      for (int i = 0; i < 26; i++) {
+        if (sigma[i] != 0) {
+          return false;
+        }
+      }
+      return true;
     }
 };
