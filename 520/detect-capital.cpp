@@ -15,7 +15,7 @@ class Solution {
           break;
         }
       }
-      bool c3 = isupper(word[0]);
+      bool c3 = isupper(word.front());
       for (int i = 1; i < word.size(); i++) {
         if (isupper(word[i])) {
           c3 = false;
