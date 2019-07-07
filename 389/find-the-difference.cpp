@@ -1,13 +1,21 @@
 class Solution {
   public:
     char findTheDifference(string s, string t) {
-      sort(s.begin(), s.end());
-      sort(t.begin(), t.end());
-      for (int i = 0; i < s.size(); i++) {
-        if (s[i] != t[i]) {
-          return t[i];
+      vector<int> ms(26);
+      for (auto c: s) {
+        ms[c - 'a']++;
+      }
+      vector<int> mt(26);
+      for (auto c: t) {
+        mt[c - 'a']++;
+      }
+      char ans;
+      for (int i = 0; i < 26; i++) {
+        if (ms[i] != mt[i]) {
+          ans = i + 'a';
+          break;
         }
       }
-      return t[t.size() - 1];
+      return ans;
     }
 };
