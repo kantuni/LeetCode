@@ -38,6 +38,7 @@
 | 412 | [Fizz Buzz](https://github.com/kantuni/LeetCode/tree/master/412) |
 | 416 | [Partition Equal Subset Sum](https://github.com/kantuni/LeetCode/tree/master/416) |
 | 485 | [Max Consecutive Ones](https://github.com/kantuni/LeetCode/tree/master/485) |
+| 498 | [Diagonal Traverse](https://github.com/kantuni/LeetCode/tree/master/498) |
 | 509 | [Fibonacci Number](https://github.com/kantuni/LeetCode/tree/master/509) |
 | 520 | [Detect Capital](https://github.com/kantuni/LeetCode/tree/master/520) |
 | 700 | [Search in a Binary Search Tree](https://github.com/kantuni/LeetCode/tree/master/700) |
@@ -53,4 +54,4 @@
 | 977 | [Squares of a Sorted Array](https://github.com/kantuni/LeetCode/tree/master/977) |
 
 
-Problems solved: **49**
+Problems solved: **50**
