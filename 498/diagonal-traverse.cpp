@@ -1,45 +1,44 @@
-// WA
 class Solution {
   public:
     vector<int> findDiagonalOrder(vector<vector<int>>& matrix) {
-      if (matrix.size() == 0) return {};
-      int m = matrix.size(), n = matrix[0].size();
-      vector<vector<int>> color(m, vector<int>(n));
-      vector<int> upper;
-      for (int i = 0; i < min(m, n); i++) {
-        for (int j = 0; j < min(m, n) and i - j > -1; j++) {
-          if (i % 2 == 0) {
-            if (color[i - j][j] == 0) {
-              upper.push_back(matrix[i - j][j]);
-            }
-            color[i - j][j] = 1;
+      if (matrix.size() == 0) {
+        return {};
+      }
+      vector<int> ans;
+      int n = matrix.size(), m = matrix.front().size();
+      int i = 0, j = 0;
+      while (ans.size() < n * m) {
+        // up the diagonal
+        while (0 <= i and i < n and 0 <= j and j < m) {
+          ans.push_back(matrix[i][j]);
+          if (i - 1 >= 0 and j + 1 < m) {
+            i--, j++;
           } else {
-            if (color[j][i - j] == 0) {
-              upper.push_back(matrix[j][i - j]);
-            }
-            color[j][i - j] = 1;
+            break;
           }
         }
-      }
-      vector<int> lower;
-      for (int i = 0; i < min(m, n); i++) {
-        for (int j = 0; j < min(m, n) and i - j > -1; j++) {
-          if ((min(m, n) - i) % 2 == 1) {
-            if (color[m - 1 - i + j][n - 1 - j] == 0) {
-              lower.push_back(matrix[m - 1 - i + j][n - 1 - j]);
-            }
-            color[m - 1 - i + j][n - 1 - j] = 1;
+        // find next start
+        if (j + 1 < m) {
+          j++;
+        } else {
+          i++;
+        }
+        // down the diagonal
+        while (0 <= i and i < n and 0 <= j and j < m) {
+          ans.push_back(matrix[i][j]);
+          if (i + 1 < n and j - 1 >= 0) {
+            i++, j--;
           } else {
-            if (color[m - 1 - j][n - 1 - i + j] == 0) {
-              lower.push_back(matrix[m - 1 - j][n - 1 - i + j]);
-            }
-            color[m - 1 - j][n - 1 - i + j] = 1;
+            break;
           }
         }
+        // find next start
+        if (i + 1 < n) {
+          i++;
+        } else {
+          j++;
+        }
       }
-      reverse(lower.begin(), lower.end());
-      vector<int> ans(upper);
-      ans.insert(ans.end(), lower.begin(), lower.end());
       return ans;
     }
 };
