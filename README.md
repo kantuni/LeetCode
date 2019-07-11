@@ -15,6 +15,7 @@
 | 35 | [Search Insert Position](https://github.com/kantuni/LeetCode/tree/master/35) |
 | 38 | [Count and Say](https://github.com/kantuni/LeetCode/tree/master/38) |
 | 53 | [Maximum Subarray](https://github.com/kantuni/LeetCode/tree/master/53) |
+| 54 | [Spiral Matrix](https://github.com/kantuni/LeetCode/tree/master/54) |
 | 58 | [Length of Last Word](https://github.com/kantuni/LeetCode/tree/master/58) |
 | 66 | [Plus One](https://github.com/kantuni/LeetCode/tree/master/66) |
 | 67 | [Add Binary](https://github.com/kantuni/LeetCode/tree/master/67) |
@@ -54,4 +55,4 @@
 | 977 | [Squares of a Sorted Array](https://github.com/kantuni/LeetCode/tree/master/977) |
 
 
-Problems solved: **50**
+Problems solved: **51**
