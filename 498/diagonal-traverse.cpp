@@ -17,7 +17,7 @@ class Solution {
             break;
           }
         }
-        // find next start
+        // go right if possible, otherwise go down
         if (j + 1 < m) {
           j++;
         } else {
@@ -32,7 +32,7 @@ class Solution {
             break;
           }
         }
-        // find next start
+        // go down if possible, otherwise go right
         if (i + 1 < n) {
           i++;
         } else {
