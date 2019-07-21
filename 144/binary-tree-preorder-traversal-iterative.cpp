@@ -17,8 +17,7 @@ class Solution {
       stack<TreeNode*> s;
       s.push(root);
       while (!s.empty()) {
-        auto top = s.top();
-        s.pop();
+        auto top = s.top(); s.pop();
         ans.push_back(top->val);
         if (top->right != nullptr) {
           s.push(top->right);
