@@ -23,6 +23,7 @@
 | 70 | [Climbing Stairs](https://github.com/kantuni/LeetCode/tree/master/70) |
 | 83 | [Remove Duplicates from Sorted List](https://github.com/kantuni/LeetCode/tree/master/83) |
 | 88 | [Merge Sorted Array](https://github.com/kantuni/LeetCode/tree/master/88) |
+| 94 | [Binary Tree Inorder Traversal](https://github.com/kantuni/LeetCode/tree/master/94) |
 | 100 | [Same Tree](https://github.com/kantuni/LeetCode/tree/master/100) |
 | 101 | [Symmetric Tree](https://github.com/kantuni/LeetCode/tree/master/101) |
 | 104 | [Maximum Depth of Binary Tree](https://github.com/kantuni/LeetCode/tree/master/104) |
@@ -57,4 +58,4 @@
 | 977 | [Squares of a Sorted Array](https://github.com/kantuni/LeetCode/tree/master/977) |
 
 
-Problems solved: **53**
+Problems solved: **54**
