@@ -14,24 +14,19 @@ class Solution {
         return {};
       }
       vector<int> ans;
-      map<TreeNode*, bool> memo;
       stack<TreeNode*> s;
       s.push(root);
       while (!s.empty()) {
-        auto cur = s.top();
-        if (memo[cur]) {
-          ans.push_back(cur->val);
-          s.pop();
-        } else {
-          if (cur->right != nullptr) {
-            s.push(cur->right);
-          }
-          if (cur->left != nullptr) {
-            s.push(cur->left);
-          }
-          memo[cur] = true;
+        auto cur = s.top(); s.pop();
+        if (cur->left != nullptr) {
+          s.push(cur->left);
         }
+        if (cur->right != nullptr) {
+          s.push(cur->right);
+        }
+        ans.push_back(cur->val);
       }
+      reverse(ans.begin(), ans.end());
       return ans;
     }
 };
