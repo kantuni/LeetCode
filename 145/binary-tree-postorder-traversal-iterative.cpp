@@ -18,13 +18,13 @@ class Solution {
       s.push(root);
       while (!s.empty()) {
         auto cur = s.top(); s.pop();
+        ans.push_back(cur->val);
         if (cur->left != nullptr) {
           s.push(cur->left);
         }
         if (cur->right != nullptr) {
           s.push(cur->right);
         }
-        ans.push_back(cur->val);
       }
       reverse(ans.begin(), ans.end());
       return ans;
