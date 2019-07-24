@@ -31,6 +31,7 @@
 | 125 | [Valid Palindrome](https://github.com/kantuni/LeetCode/tree/master/125) |
 | 136 | [Single Number](https://github.com/kantuni/LeetCode/tree/master/136) |
 | 144 | [Binary Tree Preorder Traversal](https://github.com/kantuni/LeetCode/tree/master/144) |
+| 145 | [Binary Tree Postorder Traversal](https://github.com/kantuni/LeetCode/tree/master/145) |
 | 167 | [Two Sum II - Input array is sorted](https://github.com/kantuni/LeetCode/tree/master/167) |
 | 169 | [Majority Element](https://github.com/kantuni/LeetCode/tree/master/169) |
 | 189 | [Rotate Array](https://github.com/kantuni/LeetCode/tree/master/189) |
@@ -58,4 +59,4 @@
 | 977 | [Squares of a Sorted Array](https://github.com/kantuni/LeetCode/tree/master/977) |
 
 
-Problems solved: **54**
+Problems solved: **55**
