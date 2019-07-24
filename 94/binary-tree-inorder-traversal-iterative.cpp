@@ -10,9 +10,6 @@
 class Solution {
   public:
     vector<int> inorderTraversal(TreeNode* root) {
-      if (root == nullptr) {
-        return {};
-      }
       vector<int> ans;
       stack<TreeNode*> s;
       auto cur = root;
