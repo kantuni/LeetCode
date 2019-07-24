@@ -17,13 +17,13 @@ class Solution {
       stack<TreeNode*> s;
       s.push(root);
       while (!s.empty()) {
-        auto top = s.top(); s.pop();
-        ans.push_back(top->val);
-        if (top->right != nullptr) {
-          s.push(top->right);
+        auto cur = s.top(); s.pop();
+        ans.push_back(cur->val);
+        if (cur->right != nullptr) {
+          s.push(cur->right);
         }
-        if (top->left != nullptr) {
-          s.push(top->left);
+        if (cur->left != nullptr) {
+          s.push(cur->left);
         }
       }
       return ans;
