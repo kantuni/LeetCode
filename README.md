@@ -26,6 +26,7 @@
 | 94 | [Binary Tree Inorder Traversal](https://github.com/kantuni/LeetCode/tree/master/94) |
 | 100 | [Same Tree](https://github.com/kantuni/LeetCode/tree/master/100) |
 | 101 | [Symmetric Tree](https://github.com/kantuni/LeetCode/tree/master/101) |
+| 102 | [Binary Tree Level Order Traversal](https://github.com/kantuni/LeetCode/tree/master/102) |
 | 104 | [Maximum Depth of Binary Tree](https://github.com/kantuni/LeetCode/tree/master/104) |
 | 118 | [Pascal's Triangle](https://github.com/kantuni/LeetCode/tree/master/118) |
 | 125 | [Valid Palindrome](https://github.com/kantuni/LeetCode/tree/master/125) |
@@ -59,4 +60,4 @@
 | 977 | [Squares of a Sorted Array](https://github.com/kantuni/LeetCode/tree/master/977) |
 
 
-Problems solved: **55**
+Problems solved: **56**
