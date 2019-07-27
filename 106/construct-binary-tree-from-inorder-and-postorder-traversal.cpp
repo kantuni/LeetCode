@@ -18,10 +18,10 @@ class Solution {
       auto root = new TreeNode(val);
       auto it = find(inorder.begin(), inorder.end(), val);
       vector<int> lin(inorder.begin(), it);
-      vector<int> rin(it + 1, inorder.end());
       vector<int> lpost(postorder.begin(), postorder.begin() + lin.size());
-      vector<int> rpost(postorder.begin() + lin.size(), postorder.end() - 1);
       root->left = buildTree(lin, lpost);
+      vector<int> rin(it + 1, inorder.end());
+      vector<int> rpost(postorder.begin() + lin.size(), postorder.end() - 1);
       root->right = buildTree(rin, rpost);
       return root;
     }
