@@ -31,6 +31,7 @@
 | 105 | [Construct Binary Tree from Preorder and Inorder Traversal](https://github.com/kantuni/LeetCode/tree/master/105) |
 | 106 | [Construct Binary Tree from Inorder and Postorder Traversal](https://github.com/kantuni/LeetCode/tree/master/106) |
 | 112 | [Path Sum](https://github.com/kantuni/LeetCode/tree/master/112) |
+| 116 | [Populating Next Right Pointers in Each Node](https://github.com/kantuni/LeetCode/tree/master/116) |
 | 118 | [Pascal's Triangle](https://github.com/kantuni/LeetCode/tree/master/118) |
 | 125 | [Valid Palindrome](https://github.com/kantuni/LeetCode/tree/master/125) |
 | 136 | [Single Number](https://github.com/kantuni/LeetCode/tree/master/136) |
@@ -63,4 +64,4 @@
 | 977 | [Squares of a Sorted Array](https://github.com/kantuni/LeetCode/tree/master/977) |
 
 
-Problems solved: **59**
+Problems solved: **60**
