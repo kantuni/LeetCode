@@ -9,20 +9,21 @@
  */
 
 class Solution {
-  public:
-    TreeNode* buildTree(vector<int>& inorder, vector<int>& postorder) {
-      if (inorder.empty() and postorder.empty()) {
+  private:
+    TreeNode* solve(vector<int>& in, int is, int ie, vector<int>& post, int ps, int pe) {
+      if (is >= ie or ps >= pe) {
         return nullptr;
       }
-      auto val = postorder.back();
+      auto val = post[pe - 1];
       auto root = new TreeNode(val);
-      auto it = find(inorder.begin(), inorder.end(), val);
-      vector<int> lin(inorder.begin(), it);
-      vector<int> lpost(postorder.begin(), postorder.begin() + lin.size());
-      root->left = buildTree(lin, lpost);
-      vector<int> rin(it + 1, inorder.end());
-      vector<int> rpost(postorder.begin() + lin.size(), postorder.end() - 1);
-      root->right = buildTree(rin, rpost);
+      auto index = find(in.begin() + is, in.begin() + ie, val) - in.begin();
+      root->left = solve(in, is, index, post, ps, ps + index - is);
+      root->right = solve(in, index + 1, ie, post, ps + index - is, pe - 1);
       return root;
+    }
+
+  public:
+    TreeNode* buildTree(vector<int>& inorder, vector<int>& postorder) {
+      return solve(inorder, 0, inorder.size(), postorder, 0, postorder.size());
     }
 };
