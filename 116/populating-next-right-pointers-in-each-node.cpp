@@ -21,20 +21,12 @@ class Node {
 class Solution {
   public:
     Node* connect(Node* root) {
-      if (root == nullptr) {
-        return nullptr;
+      if (root and root->left and root->right) {
+        root->left->next = root->right;
+        root->right->next = root->next ? root->next->left : nullptr;
+        root->left = connect(root->left);
+        root->right = connect(root->right);
       }
-      // attach the rightmost node in the left subtree
-      // to the leftmost node in the right subtree
-      auto rmost = root->left;
-      auto lmost = root->right;
-      while (rmost != nullptr and lmost != nullptr) {
-        rmost->next = lmost;
-        rmost = rmost->right;
-        lmost = lmost->left;
-      }
-      root->left = connect(root->left);
-      root->right = connect(root->right);
       return root;
     }
 };
