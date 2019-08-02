@@ -1,18 +1,16 @@
 class Solution {
-  private:
-    set<int> memo;
-
   public:
     bool isHappy(int n) {
-      if (n == 1) return true;
-      if (memo.count(n)) return false;
-      int m = 0;
-      int tmp = n;
-      while (tmp > 0) {
-        m += (tmp % 10) * (tmp % 10);
-        tmp /= 10;
+      set<int> memo;
+      while (!memo.count(n) and n != 1) {
+        memo.insert(n);
+        int m = 0;
+        while (n > 0) {
+          m += (n % 10) * (n % 10);
+          n /= 10;
+        }
+        n = m;
       }
-      memo.insert(n);
-      return m != n ? isHappy(m) : false; 
+      return n == 1;
     }
 };
