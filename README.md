@@ -44,6 +44,7 @@
 | 231 | [Power of Two](https://github.com/kantuni/LeetCode/tree/master/231) |
 | 242 | [Valid Anagram](https://github.com/kantuni/LeetCode/tree/master/242) |
 | 263 | [Ugly Number](https://github.com/kantuni/LeetCode/tree/master/263) |
+| 268 | [Missing Number](https://github.com/kantuni/LeetCode/tree/master/268) |
 | 389 | [Find the Difference](https://github.com/kantuni/LeetCode/tree/master/389) |
 | 412 | [Fizz Buzz](https://github.com/kantuni/LeetCode/tree/master/412) |
 | 416 | [Partition Equal Subset Sum](https://github.com/kantuni/LeetCode/tree/master/416) |
@@ -64,4 +65,4 @@
 | 977 | [Squares of a Sorted Array](https://github.com/kantuni/LeetCode/tree/master/977) |
 
 
-Problems solved: **60**
+Problems solved: **61**
