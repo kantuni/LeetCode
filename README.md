@@ -40,6 +40,7 @@
 | 167 | [Two Sum II - Input array is sorted](https://github.com/kantuni/LeetCode/tree/master/167) |
 | 169 | [Majority Element](https://github.com/kantuni/LeetCode/tree/master/169) |
 | 189 | [Rotate Array](https://github.com/kantuni/LeetCode/tree/master/189) |
+| 202 | [Happy Number](https://github.com/kantuni/LeetCode/tree/master/202) |
 | 217 | [Contains Duplicate](https://github.com/kantuni/LeetCode/tree/master/217) |
 | 231 | [Power of Two](https://github.com/kantuni/LeetCode/tree/master/231) |
 | 242 | [Valid Anagram](https://github.com/kantuni/LeetCode/tree/master/242) |
@@ -65,4 +66,4 @@
 | 977 | [Squares of a Sorted Array](https://github.com/kantuni/LeetCode/tree/master/977) |
 
 
-Problems solved: **61**
+Problems solved: **62**
