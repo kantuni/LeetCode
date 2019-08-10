@@ -4,6 +4,7 @@
 | :- | :---- |
 | 1 | [Two Sum](https://github.com/kantuni/LeetCode/tree/master/1) |
 | 2 | [Add Two Numbers](https://github.com/kantuni/LeetCode/tree/master/2) |
+| 3 | [Longest Substring Without Repeating Characters](https://github.com/kantuni/LeetCode/tree/master/3) |
 | 7 | [Reverse Integer](https://github.com/kantuni/LeetCode/tree/master/7) |
 | 9	| [Palindrome Number](https://github.com/kantuni/LeetCode/tree/master/9) |
 | 13 | [Roman to Integer](https://github.com/kantuni/LeetCode/tree/master/13) |
@@ -68,4 +69,4 @@
 | 977 | [Squares of a Sorted Array](https://github.com/kantuni/LeetCode/tree/master/977) |
 
 
-Problems solved: **64**
+Problems solved: **65**
