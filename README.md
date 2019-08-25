@@ -14,6 +14,7 @@
 | 26 | [Remove Duplicates from Sorted Array](https://github.com/kantuni/LeetCode/tree/master/26) |
 | 27 | [Remove Element](https://github.com/kantuni/LeetCode/tree/master/27) |
 | 28 | [Implement strStr()](https://github.com/kantuni/LeetCode/tree/master/28) |
+| 33 | [Search in Rotated Sorted Array](https://github.com/kantuni/LeetCode/tree/master/33) |
 | 35 | [Search Insert Position](https://github.com/kantuni/LeetCode/tree/master/35) |
 | 38 | [Count and Say](https://github.com/kantuni/LeetCode/tree/master/38) |
 | 41 | [First Missing Positive](https://github.com/kantuni/LeetCode/tree/master/41) |
@@ -71,4 +72,4 @@
 | 977 | [Squares of a Sorted Array](https://github.com/kantuni/LeetCode/tree/master/977) |
 
 
-Problems solved: **67**
+Problems solved: **68**
