@@ -70,6 +70,7 @@
 | 905 | [Sort Array By Parity](https://github.com/kantuni/LeetCode/tree/master/905) |
 | 912 | [Sort an Array](https://github.com/kantuni/LeetCode/tree/master/912) |
 | 977 | [Squares of a Sorted Array](https://github.com/kantuni/LeetCode/tree/master/977) |
+| 984 | [String Without AAA or BBB](https://github.com/kantuni/LeetCode/tree/master/984) |
 
 
-Problems solved: **68**
+Problems solved: **69**
