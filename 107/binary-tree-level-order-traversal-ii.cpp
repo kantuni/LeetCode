@@ -1,10 +1,10 @@
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
- *   int val;
- *   TreeNode *left;
- *   TreeNode *right;
- *   TreeNode(int x) : val(x), left(NULL), right(NULL) {}
+ *     int val;
+ *     TreeNode *left;
+ *     TreeNode *right;
+ *     TreeNode(int x) : val(x), left(NULL), right(NULL) {}
  * };
  */
 
@@ -18,12 +18,8 @@ class Solution {
         order.push_back({});
       }
       order[lvl].push_back(root->val);
-      if (root->left != nullptr) {
-        levelOrder(root->left, order, lvl + 1);
-      }
-      if (root->right != nullptr) {
-        levelOrder(root->right, order, lvl + 1);
-      }
+      levelOrder(root->left, order, lvl + 1);
+      levelOrder(root->right, order, lvl + 1);
     }
 
   public:
