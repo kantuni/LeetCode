@@ -11,13 +11,13 @@
 class Solution {
   private:
     TreeNode* solve(vector<int>& nums, int start, int end) {
-      int n = end - start + 1;
-      if (n == 0 or start > end) {
+      if (start > end) {
         return nullptr;
       }
-      TreeNode* root = new TreeNode(nums[start + n / 2]);
-      root->left = solve(nums, start, start + n / 2 - 1);
-      root->right = solve(nums, start + n / 2 + 1, end);
+      int mid = start + (end - start ) / 2;
+      TreeNode* root = new TreeNode(nums[mid]);
+      root->left = solve(nums, start, mid - 1);
+      root->right = solve(nums, mid + 1, end);
       return root;
     }
 
