@@ -9,17 +9,20 @@
  */
 
 class Solution {
-  public:
-    TreeNode* sortedArrayToBST(vector<int>& nums) {
-      int n = nums.size();
-      if (n == 0) {
+  private:
+    TreeNode* solve(vector<int>& nums, int start, int end) {
+      int n = end - start + 1;
+      if (n == 0 or start > end) {
         return nullptr;
       }
-      TreeNode* root = new TreeNode(nums[n / 2]);
-      vector<int> lTree(nums.begin(), nums.begin() + n / 2);
-      vector<int> rTree(nums.begin() + n / 2 + 1, nums.end());
-      root->left = sortedArrayToBST(lTree);
-      root->right = sortedArrayToBST(rTree);
+      TreeNode* root = new TreeNode(nums[start + n / 2]);
+      root->left = solve(nums, start, start + n / 2 - 1);
+      root->right = solve(nums, start + n / 2 + 1, end);
       return root;
+    }
+
+  public:
+    TreeNode* sortedArrayToBST(vector<int>& nums) {
+      return solve(nums, 0, nums.size() - 1);
     }
 };
