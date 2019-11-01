@@ -36,6 +36,7 @@
 | 106 | [Construct Binary Tree from Inorder and Postorder Traversal](https://github.com/kantuni/LeetCode/tree/master/106) |
 | 107 | [Binary Tree Level Order Traversal II](https://github.com/kantuni/LeetCode/tree/master/107) |
 | 108 | [Convert Sorted Array to Binary Search Tree](https://github.com/kantuni/LeetCode/tree/master/108) |
+| 110 | [Balanced Binary Tree](https://github.com/kantuni/LeetCode/tree/master/110) |
 | 112 | [Path Sum](https://github.com/kantuni/LeetCode/tree/master/112) |
 | 116 | [Populating Next Right Pointers in Each Node](https://github.com/kantuni/LeetCode/tree/master/116) |
 | 118 | [Pascal's Triangle](https://github.com/kantuni/LeetCode/tree/master/118) |
@@ -77,4 +78,4 @@
 | 984 | [String Without AAA or BBB](https://github.com/kantuni/LeetCode/tree/master/984) |
 
 
-Problems solved: **73**
+Problems solved: **74**
