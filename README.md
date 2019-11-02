@@ -41,6 +41,7 @@
 | 112 | [Path Sum](https://github.com/kantuni/LeetCode/tree/master/112) |
 | 116 | [Populating Next Right Pointers in Each Node](https://github.com/kantuni/LeetCode/tree/master/116) |
 | 118 | [Pascal's Triangle](https://github.com/kantuni/LeetCode/tree/master/118) |
+| 119 | [Pascal's Triangle II](https://github.com/kantuni/LeetCode/tree/master/119) |
 | 121 | [Best Time to Buy and Sell Stock](https://github.com/kantuni/LeetCode/tree/master/121) |
 | 122 | [Best Time to Buy and Sell Stock II](https://github.com/kantuni/LeetCode/tree/master/122) |
 | 125 | [Valid Palindrome](https://github.com/kantuni/LeetCode/tree/master/125) |
@@ -79,4 +80,4 @@
 | 984 | [String Without AAA or BBB](https://github.com/kantuni/LeetCode/tree/master/984) |
 
 
-Problems solved: **75**
+Problems solved: **76**
