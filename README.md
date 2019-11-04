@@ -49,6 +49,7 @@
 | 141 | [Linked List Cycle](https://github.com/kantuni/LeetCode/tree/master/141) |
 | 144 | [Binary Tree Preorder Traversal](https://github.com/kantuni/LeetCode/tree/master/144) |
 | 145 | [Binary Tree Postorder Traversal](https://github.com/kantuni/LeetCode/tree/master/145) |
+| 155 | [Min Stack](https://github.com/kantuni/LeetCode/tree/master/155) |
 | 153 | [Find Minimum in Rotated Sorted Array](https://github.com/kantuni/LeetCode/tree/master/153) |
 | 167 | [Two Sum II - Input array is sorted](https://github.com/kantuni/LeetCode/tree/master/167) |
 | 169 | [Majority Element](https://github.com/kantuni/LeetCode/tree/master/169) |
@@ -81,4 +82,4 @@
 | 984 | [String Without AAA or BBB](https://github.com/kantuni/LeetCode/tree/master/984) |
 
 
-Problems solved: **77**
+Problems solved: **78**
