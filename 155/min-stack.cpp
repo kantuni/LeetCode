@@ -3,12 +3,8 @@ class MinStack {
     stack<pair<int, int>> s;
     
     void push(int x) {
-      if (s.size() == 0) {
-        s.push({x, x});
-      } else {
-        int smallest = min(x, s.top().second);
-        s.push({x, smallest});
-      }
+      int smallest = s.size() > 0 ? min(x, getMin()) : x;
+      s.push({x, smallest});
     }
     
     void pop() {
@@ -23,4 +19,3 @@ class MinStack {
       return s.top().second;
     }
 };
-
