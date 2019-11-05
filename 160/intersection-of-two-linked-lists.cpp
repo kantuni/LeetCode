@@ -10,16 +10,16 @@
 class Solution {
   public:
     ListNode* getIntersectionNode(ListNode* headA, ListNode* headB) {
-      ListNode* ha = headA;
-      while (ha != nullptr) {
-        ListNode* hb = headB;
-        while (hb != nullptr) {
-          if (ha == hb) {
-            return ha;
-          }
-          hb = hb->next;
+      set<ListNode*> s;
+      while (headA != nullptr) {
+        s.insert(headA);
+        headA = headA->next;
+      }
+      while (headB != nullptr) {
+        if (s.count(headB) > 0) {
+          return headB;
         }
-        ha = ha->next;
+        headB = headB->next;
       }
       return nullptr;
     }
