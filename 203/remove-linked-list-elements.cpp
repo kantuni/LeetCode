@@ -14,9 +14,10 @@ class Solution {
         return nullptr;
       }
       if (head->val == val) {
-        return removeElements(head->next, val);
+        head = removeElements(head->next, val);
+      } else {
+        head->next = removeElements(head->next, val);
       }
-      head->next = removeElements(head->next, val);
       return head;
     }
 };
