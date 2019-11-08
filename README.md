@@ -56,6 +56,7 @@
 | 168 | [Excel Sheet Column Title](https://github.com/kantuni/LeetCode/tree/master/168) |
 | 169 | [Majority Element](https://github.com/kantuni/LeetCode/tree/master/169) |
 | 171 | [Excel Sheet Column Number](https://github.com/kantuni/LeetCode/tree/master/171) |
+| 172 | [Factorial Trailing Zeroes](https://github.com/kantuni/LeetCode/tree/master/172) |
 | 189 | [Rotate Array](https://github.com/kantuni/LeetCode/tree/master/189) |
 | 202 | [Happy Number](https://github.com/kantuni/LeetCode/tree/master/202) |
 | 217 | [Contains Duplicate](https://github.com/kantuni/LeetCode/tree/master/217) |
@@ -85,4 +86,4 @@
 | 984 | [String Without AAA or BBB](https://github.com/kantuni/LeetCode/tree/master/984) |
 
 
-Problems solved: **81**
+Problems solved: **82**
