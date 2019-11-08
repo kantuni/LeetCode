@@ -53,6 +53,7 @@
 | 153 | [Find Minimum in Rotated Sorted Array](https://github.com/kantuni/LeetCode/tree/master/153) |
 | 160 | [Intersection of Two Linked Lists](https://github.com/kantuni/LeetCode/tree/master/160) |
 | 167 | [Two Sum II - Input array is sorted](https://github.com/kantuni/LeetCode/tree/master/167) |
+| 168 | [Excel Sheet Column Title](https://github.com/kantuni/LeetCode/tree/master/168) |
 | 169 | [Majority Element](https://github.com/kantuni/LeetCode/tree/master/169) |
 | 189 | [Rotate Array](https://github.com/kantuni/LeetCode/tree/master/189) |
 | 202 | [Happy Number](https://github.com/kantuni/LeetCode/tree/master/202) |
@@ -83,4 +84,4 @@
 | 984 | [String Without AAA or BBB](https://github.com/kantuni/LeetCode/tree/master/984) |
 
 
-Problems solved: **79**
+Problems solved: **80**
