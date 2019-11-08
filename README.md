@@ -60,6 +60,7 @@
 | 189 | [Rotate Array](https://github.com/kantuni/LeetCode/tree/master/189) |
 | 190 | [Reverse Bits](https://github.com/kantuni/LeetCode/tree/master/190) |
 | 191 | [Number of 1 Bits](https://github.com/kantuni/LeetCode/tree/master/191) |
+| 198 | [House Robber](https://github.com/kantuni/LeetCode/tree/master/198) |
 | 202 | [Happy Number](https://github.com/kantuni/LeetCode/tree/master/202) |
 | 217 | [Contains Duplicate](https://github.com/kantuni/LeetCode/tree/master/217) |
 | 231 | [Power of Two](https://github.com/kantuni/LeetCode/tree/master/231) |
@@ -88,4 +89,4 @@
 | 984 | [String Without AAA or BBB](https://github.com/kantuni/LeetCode/tree/master/984) |
 
 
-Problems solved: **84**
+Problems solved: **85**
