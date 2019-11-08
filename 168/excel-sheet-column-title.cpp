@@ -12,4 +12,3 @@ class Solution {
       return helper(n - 1);
     }
 };
-
