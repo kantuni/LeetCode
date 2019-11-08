@@ -10,16 +10,16 @@ class Solution {
     }
 
     int solve(vector<int>& nums, int pos) {
-      if (pos >= nums.size()) {
+      if (pos < 0) {
         return 0;
       }
-      int take = nums[pos] + remember(nums, pos + 2);
-      int skip = remember(nums, pos + 1);
+      int take = nums[pos] + remember(nums, pos - 2);
+      int skip = remember(nums, pos - 1);
       return max(take, skip);
     }
 
   public:
     int rob(vector<int>& nums) {
-      return solve(nums, 0);
+      return solve(nums, nums.size() - 1);
     }
 };
