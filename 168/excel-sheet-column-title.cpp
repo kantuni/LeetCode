@@ -5,6 +5,6 @@ class Solution {
         return "";
       }
       n -= 1;
-      return convertToTitle(n / 26) + string(1, 'A' + (n % 26));
+      return convertToTitle(n / 26) + string(1, (n % 26) + 'A');
     }
 };
