@@ -14,6 +14,6 @@ class Solution {
         return nullptr;
       }
       head->next = removeElements(head->next, val);
-      return head->val != val ? head : head->next;
+      return head->val == val ? head->next : head;
     }
 };
