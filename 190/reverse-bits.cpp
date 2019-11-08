@@ -2,13 +2,9 @@ class Solution {
   public:
     uint32_t reverseBits(uint32_t n) {
       uint32_t ans = 0;
-      int p = 31;
-      while (n > 0) {
-        if (n % 2 == 1) {
-          ans += (1 << p);
-        }
+      for (int i = 0; i < 32; i++) {
+        ans = ans * 2 + n % 2;
         n /= 2;
-        p--;
       }
       return ans;
     }
