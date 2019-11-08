@@ -13,9 +13,9 @@ class Solution {
       if (pos >= nums.size()) {
         return 0;
       }
-      int cur = nums[pos] + remember(nums, pos + 2);
-      int nxt = remember(nums, pos + 1);
-      return max(cur, nxt);
+      int take = nums[pos] + remember(nums, pos + 2);
+      int skip = remember(nums, pos + 1);
+      return max(take, skip);
     }
 
   public:
