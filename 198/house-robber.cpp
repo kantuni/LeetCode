@@ -2,19 +2,19 @@ class Solution {
   private:
     map<int, int> memo;
 
-    int remember(vector<int>& nums, int index) {
-      if (memo.count(index) == 0) {
-        memo[index] = solve(nums, index);
+    int remember(vector<int>& nums, int pos) {
+      if (memo.count(pos) == 0) {
+        memo[pos] = solve(nums, pos);
       }
-      return memo[index];
+      return memo[pos];
     }
 
-    int solve(vector<int>& nums, int index) {
-      if (index >= nums.size()) {
+    int solve(vector<int>& nums, int pos) {
+      if (pos >= nums.size()) {
         return 0;
       }
-      int cur = nums[index] + remember(nums, index + 2);
-      int nxt = remember(nums, index + 1);
+      int cur = nums[pos] + remember(nums, pos + 2);
+      int nxt = remember(nums, pos + 1);
       return max(cur, nxt);
     }
 
