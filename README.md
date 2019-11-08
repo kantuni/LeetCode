@@ -62,6 +62,7 @@
 | 191 | [Number of 1 Bits](https://github.com/kantuni/LeetCode/tree/master/191) |
 | 198 | [House Robber](https://github.com/kantuni/LeetCode/tree/master/198) |
 | 202 | [Happy Number](https://github.com/kantuni/LeetCode/tree/master/202) |
+| 203 | [Remove Linked List Elements](https://github.com/kantuni/LeetCode/tree/master/203) |
 | 217 | [Contains Duplicate](https://github.com/kantuni/LeetCode/tree/master/217) |
 | 231 | [Power of Two](https://github.com/kantuni/LeetCode/tree/master/231) |
 | 242 | [Valid Anagram](https://github.com/kantuni/LeetCode/tree/master/242) |
@@ -89,4 +90,4 @@
 | 984 | [String Without AAA or BBB](https://github.com/kantuni/LeetCode/tree/master/984) |
 
 
-Problems solved: **85**
+Problems solved: **86**
