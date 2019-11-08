@@ -13,11 +13,7 @@ class Solution {
       if (head == nullptr) {
         return nullptr;
       }
-      if (head->val == val) {
-        head = removeElements(head->next, val);
-      } else {
-        head->next = removeElements(head->next, val);
-      }
-      return head;
+      head->next = removeElements(head->next, val);
+      return head->val != val ? head : head->next;
     }
 };
