@@ -1,16 +1,14 @@
 class Solution {
   public:
     uint32_t reverseBits(uint32_t n) {
-      vector<int> bits(32);
-      for (int i = 0; n > 0; i++) {
-        bits[i] = n % 2;
-        n /= 2;
-      }
       uint32_t ans = 0;
-      for (int i = 31, j = 0; i > -1; i--, j++) {
-        if (bits[i] == 1) {
-          ans += (1 << j);
+      int p = 31;
+      while (n > 0) {
+        if (n % 2 == 1) {
+          ans += (1 << p);
         }
+        n /= 2;
+        p--;
       }
       return ans;
     }
