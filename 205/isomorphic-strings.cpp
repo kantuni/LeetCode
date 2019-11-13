@@ -1,12 +1,12 @@
 class Solution {
   public:
     bool isIsomorphic(string s, string t) {
-      map<char, int> sm, tm;
+      unordered_map<char, int> ms, mt;
       for (int i = 0; i < s.size(); i++) {
-        sm[s[i]] = tm[t[i]] = i;
+        ms[s[i]] = mt[t[i]] = i;
       }
       for (int i = 0; i < s.size(); i++) {
-        if (sm[s[i]] != tm[t[i]]) {
+        if (ms[s[i]] != mt[t[i]]) {
           return false;
         }
       }
