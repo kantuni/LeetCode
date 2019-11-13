@@ -1,20 +1,15 @@
 class Solution {
   public:
     bool isIsomorphic(string s, string t) {
-      map<char, char> memo;
+      map<char, int> sm, tm;
       for (int i = 0; i < s.size(); i++) {
-        memo[s[i]] = t[i];
+        sm[s[i]] = tm[t[i]] = i;
       }
-      set<char> used;
-      for (auto [from, to]: memo) {
-        if (used.count(to) > 0) {
+      for (int i = 0; i < s.size(); i++) {
+        if (sm[s[i]] != tm[t[i]]) {
           return false;
         }
-        used.insert(to);
       }
-      for (int i = 0; i < s.size(); i++) {
-        s[i] = memo[s[i]];
-      }
-      return s == t;
+      return true;
     }
 };
