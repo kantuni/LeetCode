@@ -64,6 +64,7 @@
 | 202 | [Happy Number](https://github.com/kantuni/LeetCode/tree/master/202) |
 | 203 | [Remove Linked List Elements](https://github.com/kantuni/LeetCode/tree/master/203) |
 | 204 | [Count Primes](https://github.com/kantuni/LeetCode/tree/master/204) |
+| 205 | [Isomorphic Strings](https://github.com/kantuni/LeetCode/tree/master/205) |
 | 217 | [Contains Duplicate](https://github.com/kantuni/LeetCode/tree/master/217) |
 | 231 | [Power of Two](https://github.com/kantuni/LeetCode/tree/master/231) |
 | 242 | [Valid Anagram](https://github.com/kantuni/LeetCode/tree/master/242) |
@@ -91,4 +92,4 @@
 | 984 | [String Without AAA or BBB](https://github.com/kantuni/LeetCode/tree/master/984) |
 
 
-Problems solved: **87**
+Problems solved: **88**
