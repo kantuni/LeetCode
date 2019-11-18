@@ -16,8 +16,8 @@ class Solution {
       if (head->next == nullptr) {
         return head;
       }
-      ListNode *newHead = reverseList(head->next);
-      ListNode *tmp = newHead;
+      ListNode* newHead = reverseList(head->next);
+      ListNode* tmp = newHead;
       while (tmp->next != nullptr) {
         tmp = tmp->next;
       }
