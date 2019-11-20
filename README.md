@@ -67,6 +67,7 @@
 | 205 | [Isomorphic Strings](https://github.com/kantuni/LeetCode/tree/master/205) |
 | 206 | [Reverse Linked List](https://github.com/kantuni/LeetCode/tree/master/206) |
 | 217 | [Contains Duplicate](https://github.com/kantuni/LeetCode/tree/master/217) |
+| 219 | [Contains Duplicate II](https://github.com/kantuni/LeetCode/tree/master/219) |
 | 231 | [Power of Two](https://github.com/kantuni/LeetCode/tree/master/231) |
 | 242 | [Valid Anagram](https://github.com/kantuni/LeetCode/tree/master/242) |
 | 263 | [Ugly Number](https://github.com/kantuni/LeetCode/tree/master/263) |
@@ -93,4 +94,4 @@
 | 984 | [String Without AAA or BBB](https://github.com/kantuni/LeetCode/tree/master/984) |
 
 
-Problems solved: **89**
+Problems solved: **90**
