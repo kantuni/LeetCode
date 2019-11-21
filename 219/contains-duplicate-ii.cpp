@@ -1,15 +1,17 @@
 class Solution {
   public:
     bool containsNearbyDuplicate(vector<int>& nums, int k) {
-      unordered_map<int, vector<int>> memo;
-      for (int i = 0; i < nums.size(); i++) {
-        memo[nums[i]].push_back(i);
+      int n = nums.size();
+      vector<pair<int, int>> np(n);
+      for (int i = 0; i < n; i++) {
+        np[i] = {nums[i], i};
       }
-      for (auto [key, values]: memo) {
-        for (int i = 0; i < values.size() - 1; i++) {
-          if (abs(values[i] - values[i + 1]) <= k) {
-            return true;
-          }
+      sort(np.begin(), np.end());
+      for (int i = 0; i < n - 1; i++) {
+        bool same = np[i].first == np[i + 1].first;
+        int dist = np[i + 1].second - np[i].second;
+        if (same and dist <= k) {
+          return true;
         }
       }
       return false;
