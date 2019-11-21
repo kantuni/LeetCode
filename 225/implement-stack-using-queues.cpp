@@ -20,7 +20,8 @@ class MyStack {
       }
     }
     
-    // Removes the element on top of the stack and returns that element.
+    // Removes the element on top of the stack 
+    // and returns that element.
     int pop() {
       int front = q1.front(); q1.pop();
       return front;
