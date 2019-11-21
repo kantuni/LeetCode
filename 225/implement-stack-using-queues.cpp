@@ -4,8 +4,7 @@ class MyStack {
 
   public:
     // Initialize your data structure here.
-    MyStack() {
-    }
+    MyStack() {}
     
     // Push element x onto stack.
     void push(int x) {
