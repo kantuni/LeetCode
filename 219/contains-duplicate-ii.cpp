@@ -2,14 +2,14 @@ class Solution {
   public:
     bool containsNearbyDuplicate(vector<int>& nums, int k) {
       int n = nums.size();
-      vector<pair<int, int>> np(n);
+      vector<pair<int, int>> numsp(n);
       for (int i = 0; i < n; i++) {
-        np[i] = {nums[i], i};
+        numsp[i] = {nums[i], i};
       }
-      sort(np.begin(), np.end());
+      sort(numsp.begin(), numsp.end());
       for (int i = 0; i < n - 1; i++) {
-        bool same = np[i].first == np[i + 1].first;
-        int dist = np[i + 1].second - np[i].second;
+        bool same = numsp[i].first == numsp[i + 1].first;
+        int dist = numsp[i + 1].second - numsp[i].second;
         if (same and dist <= k) {
           return true;
         }
