@@ -14,10 +14,9 @@ class Solution {
       if (root == nullptr) {
         return nullptr;
       }
-      TreeNode* newLeft = invertTree(root->right);
-      TreeNode* newRight = invertTree(root->left);
-      root->left = newLeft;
-      root->right = newRight;
+      swap(root->left, root->right);
+      root->left = invertTree(root->left);
+      root->right = invertTree(root->right);
       return root;
     }
 };
