@@ -71,6 +71,7 @@
 | 225 | [Implement Stack using Queues](https://github.com/kantuni/LeetCode/tree/master/225) |
 | 226 | [Invert Binary Tree](https://github.com/kantuni/LeetCode/tree/master/226) |
 | 231 | [Power of Two](https://github.com/kantuni/LeetCode/tree/master/231) |
+| 232 | [Implement Queue using Stacks](https://github.com/kantuni/LeetCode/tree/master/232) |
 | 242 | [Valid Anagram](https://github.com/kantuni/LeetCode/tree/master/242) |
 | 263 | [Ugly Number](https://github.com/kantuni/LeetCode/tree/master/263) |
 | 268 | [Missing Number](https://github.com/kantuni/LeetCode/tree/master/268) |
@@ -96,4 +97,4 @@
 | 984 | [String Without AAA or BBB](https://github.com/kantuni/LeetCode/tree/master/984) |
 
 
-Problems solved: **92**
+Problems solved: **93**
