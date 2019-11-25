@@ -31,10 +31,10 @@ class MyQueue {
     
     // Get the front element.
     int peek() {
-      if (s2.empty()) {
-        return front;
+      if (!s2.empty()) {
+        return s2.top();
       }
-      return s2.top();
+      return front;
     }
     
     // Returns whether the queue is empty.
