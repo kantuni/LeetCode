@@ -9,20 +9,19 @@
 
 class Solution {
   private:
-    ListNode* copy(ListNode* head) {
-      ListNode* newHead = new ListNode(-1);
-      ListNode* tmp = newHead;
-      while (head != nullptr) {
-        tmp->next = new ListNode(head->val);
+    int getLength(ListNode* head) {
+      ListNode* tmp = head;
+      int len = 0;
+      while (tmp != nullptr) {
         tmp = tmp->next;
-        head = head->next;
+        len++;
       }
-      return newHead->next;
+      return len;
     }
-
-    ListNode* reverseList(ListNode* head) {
+  
+    ListNode* reverseHalf(ListNode* head, int n) {
       ListNode* prv = nullptr;
-      while (head != nullptr) {
+      for (int i = 0; i < n / 2; i++) {
         ListNode* tmp = head->next;
         head->next = prv;
         prv = head;
@@ -33,12 +32,16 @@ class Solution {
 
   public:
     bool isPalindrome(ListNode* head) {
-      ListNode* tmp = copy(head);
-      ListNode* tail = reverseList(tmp);
-      while (head and tail and head->val == tail->val) {
-        head = head->next;
-        tail = tail->next;
+      int len = getLength(head);
+      ListNode* ltor = head;
+      for (int i = 0; i < len / 2 + len % 2; i++) {
+        ltor = ltor->next;
       }
-      return head == tail;
+      ListNode* rtol = reverseHalf(head, len);
+      while (ltor and rtol and ltor->val == rtol->val) {
+        ltor = ltor->next;
+        rtol = rtol->next;
+      }
+      return ltor == rtol;
     }
 };
