@@ -9,8 +9,12 @@ class Solution {
 
   public:
     bool isRectangleOverlap(vector<int>& rec1, vector<int>& rec2) {
-      int ax1 = rec1[0], ay1 = rec1[1], ax2 = rec1[2], ay2 = rec1[3];
-      int bx1 = rec2[0], by1 = rec2[1], bx2 = rec2[2], by2 = rec2[3];
-      return intersect(ax1, ax2, bx1, bx2) and intersect(ay1, ay2, by1, by2);
+      int ax1 = rec1[0], ax2 = rec1[2];
+      int ay1 = rec1[1], ay2 = rec1[3];
+      int bx1 = rec2[0], bx2 = rec2[2];
+      int by1 = rec2[1], by2 = rec2[3];
+      bool intersect_on_x = intersect(ax1, ax2, bx1, bx2);
+      bool intersect_on_y = intersect(ay1, ay2, by1, by2);
+      return intersect_on_x and intersect_on_y;
     }
 };
