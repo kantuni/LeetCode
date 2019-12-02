@@ -13,8 +13,8 @@ class Solution {
       int ay1 = rec1[1], ay2 = rec1[3];
       int bx1 = rec2[0], bx2 = rec2[2];
       int by1 = rec2[1], by2 = rec2[3];
-      bool intersect_on_x = intersect(ax1, ax2, bx1, bx2);
-      bool intersect_on_y = intersect(ay1, ay2, by1, by2);
-      return intersect_on_x and intersect_on_y;
+      bool intersectOnX = intersect(ax1, ax2, bx1, bx2);
+      bool intersectOnY = intersect(ay1, ay2, by1, by2);
+      return intersectOnX and intersectOnY;
     }
 };
