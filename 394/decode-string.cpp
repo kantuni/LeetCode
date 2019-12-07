@@ -13,11 +13,11 @@ class Solution {
             bcnt -= s[bend] == ']';
             bend++;
           }
-          string sub = s.substr(bstart, bend - 1 - bstart);
-          string rsub = decodeString(sub);
+          string encoded = s.substr(bstart, bend - 1 - bstart);
+          string decoded = decodeString(sub);
           string ans = s.substr(0, start);
           while (cnt--) {
-            ans += rsub;
+            ans += decoded;
           }
           ans += s.substr(bend);
           return decodeString(ans);
