@@ -14,7 +14,7 @@ class Solution {
             bend++;
           }
           string encoded = s.substr(bstart, bend - 1 - bstart);
-          string decoded = decodeString(sub);
+          string decoded = decodeString(encoded);
           string ans = s.substr(0, start);
           while (cnt--) {
             ans += decoded;
