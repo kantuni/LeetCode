@@ -5,8 +5,7 @@ class Solution {
       for (int i = 0; i < s.size(); i++) {
         if (isdigit(s[i])) {
           start = (start == -1) ? i : start;
-          cnt *= 10;
-          cnt += s[i] - '0';
+          cnt = 10 * cnt + (s[i] - '0');
         } else if (s[i] == '[') {
           int bcnt = 1, bstart = i + 1, bend = i + 1;
           while (bcnt > 0) {
