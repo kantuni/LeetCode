@@ -80,6 +80,7 @@
 | 258 | [Add Digits](https://github.com/kantuni/LeetCode/tree/master/258) |
 | 263 | [Ugly Number](https://github.com/kantuni/LeetCode/tree/master/263) |
 | 268 | [Missing Number](https://github.com/kantuni/LeetCode/tree/master/268) |
+| 278 | [First Bad Version](https://github.com/kantuni/LeetCode/tree/master/278) |
 | 383 | [Ransom Note](https://github.com/kantuni/LeetCode/tree/master/383) |
 | 389 | [Find the Difference](https://github.com/kantuni/LeetCode/tree/master/389) |
 | 394 | [Decode String](https://github.com/kantuni/LeetCode/tree/master/394) |
@@ -104,4 +105,4 @@
 | 984 | [String Without AAA or BBB](https://github.com/kantuni/LeetCode/tree/master/984) |
 
 
-Problems solved: **100**
+Problems solved: **101**
