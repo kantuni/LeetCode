@@ -76,6 +76,7 @@
 | 235 | [Lowest Common Ancestor of a Binary Search Tree](https://github.com/kantuni/LeetCode/tree/master/235) |
 | 237 | [Delete Node in a Linked List](https://github.com/kantuni/LeetCode/tree/master/237) |
 | 242 | [Valid Anagram](https://github.com/kantuni/LeetCode/tree/master/242) |
+| 257 | [Binary Tree Paths](https://github.com/kantuni/LeetCode/tree/master/257) |
 | 263 | [Ugly Number](https://github.com/kantuni/LeetCode/tree/master/263) |
 | 268 | [Missing Number](https://github.com/kantuni/LeetCode/tree/master/268) |
 | 383 | [Ransom Note](https://github.com/kantuni/LeetCode/tree/master/383) |
@@ -102,4 +103,4 @@
 | 984 | [String Without AAA or BBB](https://github.com/kantuni/LeetCode/tree/master/984) |
 
 
-Problems solved: **98**
+Problems solved: **99**
