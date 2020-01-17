@@ -84,6 +84,7 @@
 | 383 | [Ransom Note](https://github.com/kantuni/LeetCode/tree/master/383) |
 | 389 | [Find the Difference](https://github.com/kantuni/LeetCode/tree/master/389) |
 | 394 | [Decode String](https://github.com/kantuni/LeetCode/tree/master/394) |
+| 404 | [Sum of Left Leaves](https://github.com/kantuni/LeetCode/tree/master/404) |
 | 412 | [Fizz Buzz](https://github.com/kantuni/LeetCode/tree/master/412) |
 | 416 | [Partition Equal Subset Sum](https://github.com/kantuni/LeetCode/tree/master/416) |
 | 485 | [Max Consecutive Ones](https://github.com/kantuni/LeetCode/tree/master/485) |
@@ -105,4 +106,4 @@
 | 984 | [String Without AAA or BBB](https://github.com/kantuni/LeetCode/tree/master/984) |
 
 
-Problems solved: **101**
+Problems solved: **102**
