@@ -24,7 +24,8 @@ class Solution {
         return 0;
       }
       int left = isLeaf(root->left) 
-        ? root->left->val : sumOfLeftLeaves(root->left);
+        ? root->left->val
+        : sumOfLeftLeaves(root->left);
       int right = sumOfLeftLeaves(root->right);
       return left + right;
     }
