@@ -4,12 +4,13 @@ class Solution {
       set<int> memo;
       while (!memo.count(n) and n != 1) {
         memo.insert(n);
-        int m = 0;
+        int tmp = 0;
         while (n > 0) {
-          m += (n % 10) * (n % 10);
+          int d = n % 10;
+          tmp += d * d;
           n /= 10;
         }
-        n = m;
+        n = tmp;
       }
       return n == 1;
     }
