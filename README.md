@@ -18,6 +18,7 @@
 | 35 | [Search Insert Position](https://github.com/kantuni/LeetCode/tree/master/35) |
 | 38 | [Count and Say](https://github.com/kantuni/LeetCode/tree/master/38) |
 | 41 | [First Missing Positive](https://github.com/kantuni/LeetCode/tree/master/41) |
+| 49 | [Group Anagrams](https://github.com/kantuni/LeetCode/tree/master/49) |
 | 53 | [Maximum Subarray](https://github.com/kantuni/LeetCode/tree/master/53) |
 | 54 | [Spiral Matrix](https://github.com/kantuni/LeetCode/tree/master/54) |
 | 58 | [Length of Last Word](https://github.com/kantuni/LeetCode/tree/master/58) |
@@ -105,6 +106,7 @@
 | 912 | [Sort an Array](https://github.com/kantuni/LeetCode/tree/master/912) |
 | 977 | [Squares of a Sorted Array](https://github.com/kantuni/LeetCode/tree/master/977) |
 | 984 | [String Without AAA or BBB](https://github.com/kantuni/LeetCode/tree/master/984) |
+| unknown | [Counting Elements](https://github.com/kantuni/LeetCode/tree/master/unknown) |
 
 
-Problems solved: **103**
+Problems solved: **104**
