@@ -99,6 +99,7 @@
 | 747 | [Largest Number At Least Twice of Others](https://github.com/kantuni/LeetCode/tree/master/747) |
 | 771 | [Jewels and Stones](https://github.com/kantuni/LeetCode/tree/master/771) |
 | 836 | [Rectangle Overlap](https://github.com/kantuni/LeetCode/tree/master/836) |
+| 844 | [Backspace String Compare](https://github.com/kantuni/LeetCode/tree/master/844) | 
 | 876 | [Middle of the Linked List](https://github.com/kantuni/LeetCode/tree/master/876) |
 | 883 | [Projection Area of 3D Shapes](https://github.com/kantuni/LeetCode/tree/master/883) |
 | 884 | [Uncommon Words from Two Sentences](https://github.com/kantuni/LeetCode/tree/master/884) |
@@ -109,4 +110,4 @@
 | unknown | [Counting Elements](https://github.com/kantuni/LeetCode/tree/master/unknown) |
 
 
-Problems solved: **104**
+Problems solved: **105**
