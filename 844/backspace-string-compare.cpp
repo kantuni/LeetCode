@@ -2,7 +2,6 @@ class Solution {
   public:
     bool backspaceCompare(string S, string T) {
       int i = S.size() - 1, j = T.size() - 1;
-      int sc = 0, tc = 0;
       while (i > -1 or j > -1) {
         int ss = 0;
         while (i > -1) {
@@ -24,16 +23,14 @@ class Solution {
             break;
           }
         }
-        if (i > -1 and j > -1 and S[i] != T[j]) {
+        if (i == -1 and j == -1) {
+          return true;
+        }
+        if (i < 0 or j < 0 or S[i] != T[j]) {
           return false;
         }
-        if (i > -1) {
-          sc++, i--;
-        }
-        if (j > -1) {
-          tc++, j--;
-        }
+        i--, j--;
       }
-      return sc == tc;
+      return true;
     }
 };
