@@ -1,45 +1,39 @@
 class Solution {
-  private:
-    void applyBackspaces(string &S) {
-      for (int i = 0; i < S.size(); i++) {
-        int skip = 0;
-        while (i < S.size() and S[i] == '#') {
-          S[i] = '+';
-          skip++, i++;
-        }
-        for (int j = i - 1 - skip; j > -1 and skip > 0; j--) {
-          if (S[j] != '+') {
-            skip--;
-          }
-          S[j] = '+';
-        }
-      }
-    }
-
   public:
     bool backspaceCompare(string S, string T) {
-      applyBackspaces(S);
-      applyBackspaces(T);
-      int n = S.size(), m = T.size();
+      int i = S.size() - 1, j = T.size() - 1;
       int sc = 0, tc = 0;
-      int i = 0, j = 0;
-      while (i < n or j < m) {
-        while (i < n and S[i] == '+') {
-          i++;
+      while (i > -1 or j > -1) {
+        int ss = 0;
+        while (i > -1) {
+          if (S[i] == '#') {
+            ss++, i--;
+          } else if (ss > 0) {
+            ss--, i--;
+          } else {
+            break;
+          }
         }
-        while (j < m and T[j] == '+') {
-          j++;
+        int ts = 0;
+        while (j > -1) {
+          if (T[j] == '#') {
+            ts++, j--;
+          } else if (ts > 0) {
+            ts--, j--;
+          } else {
+            break;
+          }
         }
-        if (i < n and j < m and S[i] != T[j]) {
+        if (i > -1 and j > -1 and S[i] != T[j]) {
           return false;
         }
-        if (i < n) {
-          sc++, i++;
+        if (i > -1) {
+          sc++, i--;
         }
-        if (j < m) {
-          tc++, j++;
+        if (j > -1) {
+          tc++, j--;
         }
       }
-      return i == n and j == m and sc == tc;
+      return sc == tc;
     }
 };
