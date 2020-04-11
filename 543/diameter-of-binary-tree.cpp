@@ -18,7 +18,6 @@ class Solution {
       }
       auto l = maxHeight(root->left);
       auto r = maxHeight(root->right);
-      // remember the length of the longest path
       diameter = max(diameter, l + r);
       return 1 + max(l, r);
     }
