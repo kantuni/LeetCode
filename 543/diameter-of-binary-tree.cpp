@@ -10,23 +10,22 @@
 
 class Solution {
   private:
+    int diameter = 1;
+
     int maxHeight(TreeNode* root) {
       if (root == nullptr) {
         return 0;
       }
       auto l = maxHeight(root->left);
       auto r = maxHeight(root->right);
+      // remember the length of the longest path
+      diameter = max(diameter, l + r + 1);
       return 1 + max(l, r);
     }
 
   public:
     int diameterOfBinaryTree(TreeNode* root) {
-      if (root == nullptr) {
-        return 0;
-      }
-      int option1 = maxHeight(root->left) + maxHeight(root->right);
-      int option2 = diameterOfBinaryTree(root->left);
-      int option3 = diameterOfBinaryTree(root->right);
-      return max({option1, option2, option3});
+      maxHeight(root);
+      return diameter - 1;
     }
 };
