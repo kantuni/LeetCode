@@ -93,6 +93,7 @@
 | 498 | [Diagonal Traverse](https://github.com/kantuni/LeetCode/tree/master/498) |
 | 509 | [Fibonacci Number](https://github.com/kantuni/LeetCode/tree/master/509) |
 | 520 | [Detect Capital](https://github.com/kantuni/LeetCode/tree/master/520) |
+| 543 | [Diameter of Binary Tree](https://github.com/kantuni/LeetCode/tree/master/543) |
 | 700 | [Search in a Binary Search Tree](https://github.com/kantuni/LeetCode/tree/master/700) |
 | 709 | [To Lower Case](https://github.com/kantuni/LeetCode/tree/master/709) |
 | 724 | [Find Pivot Index](https://github.com/kantuni/LeetCode/tree/master/724) |
@@ -110,4 +111,4 @@
 | unknown | [Counting Elements](https://github.com/kantuni/LeetCode/tree/master/unknown) |
 
 
-Problems solved: **105**
+Problems solved: **106**
