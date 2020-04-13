@@ -109,7 +109,8 @@
 | 977 | [Squares of a Sorted Array](https://github.com/kantuni/LeetCode/tree/master/977) |
 | 984 | [String Without AAA or BBB](https://github.com/kantuni/LeetCode/tree/master/984) |
 | unknown | [Counting Elements](https://github.com/kantuni/LeetCode/tree/master/unknown) |
-| unknown | [Last Stone Weight](https://github.com/kantuni/LeetCode/tree/master/unknown)
+| unknown | [Last Stone Weight](https://github.com/kantuni/LeetCode/tree/master/unknown) |
+| unknown | [Contiguous Array](https://github.com/kantuni/LeetCode/tree/master/unknown) |
 
 
-Problems solved: **107**
+Problems solved: **108**
