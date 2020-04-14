@@ -111,6 +111,7 @@
 | unknown | [Counting Elements](https://github.com/kantuni/LeetCode/tree/master/unknown) |
 | unknown | [Last Stone Weight](https://github.com/kantuni/LeetCode/tree/master/unknown) |
 | unknown | [Contiguous Array](https://github.com/kantuni/LeetCode/tree/master/unknown) |
+| unknown | [Perform String Shifts](https://github.com/kantuni/LeetCode/tree/master/unknown) |
 
 
-Problems solved: **108**
+Problems solved: **109**
