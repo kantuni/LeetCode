@@ -95,6 +95,7 @@
 | 509 | [Fibonacci Number](https://github.com/kantuni/LeetCode/tree/master/509) |
 | 520 | [Detect Capital](https://github.com/kantuni/LeetCode/tree/master/520) |
 | 543 | [Diameter of Binary Tree](https://github.com/kantuni/LeetCode/tree/master/543) |
+| 678 | [Valid Parenthesis String](https://github.com/kantuni/LeetCode/tree/master/678) |
 | 700 | [Search in a Binary Search Tree](https://github.com/kantuni/LeetCode/tree/master/700) |
 | 709 | [To Lower Case](https://github.com/kantuni/LeetCode/tree/master/709) |
 | 724 | [Find Pivot Index](https://github.com/kantuni/LeetCode/tree/master/724) |
@@ -115,4 +116,4 @@
 | unknown | [Perform String Shifts](https://github.com/kantuni/LeetCode/tree/master/unknown) |
 
 
-Problems solved: **111**
+Problems solved: **112**
