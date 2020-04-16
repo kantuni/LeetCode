@@ -1,6 +1,6 @@
 class Solution {
   private:
-    bool helper(string &s, int pos, int cnt) {
+    bool solve(string &s, int pos, int cnt) {
       if (pos == s.size()) {
         return cnt == 0;
       }
@@ -8,20 +8,20 @@ class Solution {
         return false;
       }
       if (s[pos] == '(') {
-        return helper(s, pos + 1, cnt + 1);
+        return solve(s, pos + 1, cnt + 1);
       }
       if (s[pos] == ')') {
-        return helper(s, pos + 1, cnt - 1);
+        return solve(s, pos + 1, cnt - 1);
       }
       return (
-        helper(s, pos + 1, cnt + 1) or
-        helper(s, pos + 1, cnt - 1) or
-        helper(s, pos + 1, cnt)
+        solve(s, pos + 1, cnt + 1) or
+        solve(s, pos + 1, cnt - 1) or
+        solve(s, pos + 1, cnt)
       );
     }
 
   public:
     bool checkValidString(string s) {
-      return helper(s, 0, 0);
+      return solve(s, 0, 0);
     }
 };
