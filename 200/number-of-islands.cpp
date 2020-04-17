@@ -6,7 +6,8 @@ class Solution {
     void dfs(vector<vector<char>>& grid, int r, int c) {
       grid[r][c] = '2';
       for (int i = 0; i < 4; i++) {
-        int nr = r + dr[i], nc = c + dc[i];
+        int nr = r + dr[i];
+        int nc = c + dc[i];
         bool rok = 0 <= nr and nr < grid.size();
         bool cok = 0 <= nc and nc < grid[0].size();
         if (rok and cok and grid[nr][nc] == '1') {
