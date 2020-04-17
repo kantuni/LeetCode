@@ -62,6 +62,7 @@
 | 190 | [Reverse Bits](https://github.com/kantuni/LeetCode/tree/master/190) |
 | 191 | [Number of 1 Bits](https://github.com/kantuni/LeetCode/tree/master/191) |
 | 198 | [House Robber](https://github.com/kantuni/LeetCode/tree/master/198) |
+| 200 | [Number of Islands](https://github.com/kantuni/LeetCode/tree/master/200) |
 | 202 | [Happy Number](https://github.com/kantuni/LeetCode/tree/master/202) |
 | 203 | [Remove Linked List Elements](https://github.com/kantuni/LeetCode/tree/master/203) |
 | 204 | [Count Primes](https://github.com/kantuni/LeetCode/tree/master/204) |
@@ -115,4 +116,4 @@
 | unknown | [Contiguous Array](https://github.com/kantuni/LeetCode/tree/master/unknown) |
 | unknown | [Perform String Shifts](https://github.com/kantuni/LeetCode/tree/master/unknown) |
 
-Problems solved: **112**
+Problems solved: **113**
