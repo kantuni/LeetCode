@@ -6,7 +6,7 @@ class Solution {
       if (rok or cok or grid[r][c] != '1') {
         return;
       }
-      grid[r][c] = '2';
+      grid[r][c] = '+';
       dfs(grid, r - 1, c);
       dfs(grid, r, c - 1);
       dfs(grid, r + 1, c);
