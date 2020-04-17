@@ -1,19 +1,16 @@
 class Solution {
   private:
-    int dr[4] = {-1, 0, 1, 0};
-    int dc[4] = {0, -1, 0, 1};
-
     void dfs(vector<vector<char>>& grid, int r, int c) {
-      grid[r][c] = '2';
-      for (int i = 0; i < 4; i++) {
-        int nr = r + dr[i];
-        int nc = c + dc[i];
-        bool rok = 0 <= nr and nr < grid.size();
-        bool cok = 0 <= nc and nc < grid[0].size();
-        if (rok and cok and grid[nr][nc] == '1') {
-          dfs(grid, nr, nc);
-        }
+      bool rok = r < 0 or r >= grid.size();
+      bool cok = c < 0 or c >= grid[0].size();
+      if (rok or cok or grid[r][c] != '1') {
+        return;
       }
+      grid[r][c] = '2';
+      dfs(grid, r - 1, c);
+      dfs(grid, r, c - 1);
+      dfs(grid, r + 1, c);
+      dfs(grid, r, c + 1);
     }
 
   public:
