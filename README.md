@@ -22,6 +22,7 @@
 | 53 | [Maximum Subarray](https://github.com/kantuni/LeetCode/tree/master/53) |
 | 54 | [Spiral Matrix](https://github.com/kantuni/LeetCode/tree/master/54) |
 | 58 | [Length of Last Word](https://github.com/kantuni/LeetCode/tree/master/58) |
+| 64 | [Minimum Path Sum](https://github.com/kantuni/LeetCode/tree/master/64) |
 | 66 | [Plus One](https://github.com/kantuni/LeetCode/tree/master/66) |
 | 67 | [Add Binary](https://github.com/kantuni/LeetCode/tree/master/67) |
 | 69 | [Sqrt(x)](https://github.com/kantuni/LeetCode/tree/master/69) |
@@ -116,4 +117,4 @@
 | unknown | [Contiguous Array](https://github.com/kantuni/LeetCode/tree/master/unknown) |
 | unknown | [Perform String Shifts](https://github.com/kantuni/LeetCode/tree/master/unknown) |
 
-Problems solved: **113**
+Problems solved: **114**
