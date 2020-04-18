@@ -5,12 +5,12 @@ class Solution {
   
     int remember(vector<vector<int>>& grid, int r, int c) {
       if (memo.count(r) == 0 or memo[r].count(c) == 0) {
-        memo[r][c] = dfs(grid, r, c);
+        memo[r][c] = solve(grid, r, c);
       }
       return memo[r][c];
     }
 
-    int dfs(vector<vector<int>>& grid, int r, int c) {
+    int solve(vector<vector<int>>& grid, int r, int c) {
       if (r >= grid.size() or c >= grid[0].size()) {
         return INF;
       }
@@ -27,6 +27,6 @@ class Solution {
       if (grid.size() == 0) {
         return 0;
       }
-      return dfs(grid, 0, 0);
+      return solve(grid, 0, 0);
     }
 };
