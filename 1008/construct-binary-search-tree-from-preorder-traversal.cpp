@@ -14,16 +14,18 @@ class Solution {
       if (start == end) {
         return nullptr;
       }
-      int mid = end;
-      for (int i = start; i < end; i++) {
-        if (order[i] > order[start]) {
-          mid = i;
-          break;
+      int low = start + 1, high = end - 1;
+      while (low <= high) {
+        int mid = low + (high - low) / 2;
+        if (order[start] > order[mid]) {
+          low = mid + 1;
+        } else {
+          high = mid - 1;
         }
       }
       auto root = new TreeNode(order[start]);
-      root->left = helper(order, start + 1, mid);
-      root->right = helper(order, mid, end);
+      root->left = helper(order, start + 1, low);
+      root->right = helper(order, low, end);
       return root;
     }
 
