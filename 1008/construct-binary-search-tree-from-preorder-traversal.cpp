@@ -14,8 +14,6 @@ class Solution {
       if (start == end) {
         return nullptr;
       }
-      auto root = new TreeNode();
-      root->val = order[start];
       int mid = end;
       for (int i = start; i < end; i++) {
         if (order[i] > order[start]) {
@@ -23,6 +21,7 @@ class Solution {
           break;
         }
       }
+      auto root = new TreeNode(order[start]);
       root->left = helper(order, start + 1, mid);
       root->right = helper(order, mid, end);
       return root;
