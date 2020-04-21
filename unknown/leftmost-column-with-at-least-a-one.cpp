@@ -16,8 +16,8 @@ class Solution {
       int x = 0, y = m - 1;
       int ans = m;
       while (x < n and y >= 0) {
-        int pos = binaryMatrix.get(x, y);
-        if (pos == 0) {
+        int cell = binaryMatrix.get(x, y);
+        if (cell == 0) {
           x++;
         } else {
           ans = min(ans, y);
