@@ -6,10 +6,6 @@ class Solution {
       for (int i = 1; i < n + 1; i++) {
         ps[i] = ps[i - 1] + nums[i - 1];
       }
-      map<int, int> memo;
-      for (int i = 1; i < n + 1; i++) {
-        memo[ps[i]] += 1;
-      }
       int ans = 0;
       for (int i = 1; i < n + 1; i++) {
         for (int j = i + 1; j < n + 1; j++) {
