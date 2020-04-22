@@ -3,8 +3,8 @@ class Solution {
     int subarraySum(vector<int>& nums, int k) {
       map<int, int> memo;
       int ans = 0, sum = 0;
-      for (int i = 0; i < nums.size(); i++) {
-        sum += nums[i];
+      for (auto num: nums) {
+        sum += num;
         int cmpl = sum - k;
         if (cmpl == 0) {
           ans++;
