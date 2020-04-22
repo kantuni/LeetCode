@@ -7,17 +7,16 @@ class Solution {
         ps[i] = ps[i - 1] + nums[i - 1];
       }
       int ans = 0;
+      map<int, int> memo;
       for (int i = 1; i < n + 1; i++) {
-        for (int j = i + 1; j < n + 1; j++) {
-          if (ps[j] - ps[i] == k) {
-            ans++;
-          }
-        }
-      }
-      for (int i = 1; i < n + 1; i++) {
-        if (ps[i] == k) {
+        int cmpl = ps[i] - k;
+        if (cmpl == 0) {
           ans++;
         }
+        if (memo.count(cmpl) > 0) {
+          ans += memo[cmpl];
+        }
+        memo[ps[i]]++;
       }
       return ans;
     }
