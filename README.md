@@ -51,6 +51,7 @@
 | 141 | [Linked List Cycle](https://github.com/kantuni/LeetCode/tree/master/141) |
 | 144 | [Binary Tree Preorder Traversal](https://github.com/kantuni/LeetCode/tree/master/144) |
 | 145 | [Binary Tree Postorder Traversal](https://github.com/kantuni/LeetCode/tree/master/145) |
+| 146 | [LRU Cache](https://github.com/kantuni/LeetCode/tree/master/146) |
 | 155 | [Min Stack](https://github.com/kantuni/LeetCode/tree/master/155) |
 | 153 | [Find Minimum in Rotated Sorted Array](https://github.com/kantuni/LeetCode/tree/master/153) |
 | 160 | [Intersection of Two Linked Lists](https://github.com/kantuni/LeetCode/tree/master/160) |
@@ -120,4 +121,4 @@
 | unknown | [Perform String Shifts](https://github.com/kantuni/LeetCode/tree/master/unknown) |
 | unknown | [Leftmost Column with at Least a One](https://github.com/kantuni/LeetCode/tree/master/unknown) |
 
-Problems solved: **117**
+Problems solved: **118**
