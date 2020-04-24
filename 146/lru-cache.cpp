@@ -3,6 +3,20 @@ class LRUCache {
     map<int, int> memo, kToA, aToK;
     // NB: Age cannot start at 0
     int capacity, age = 1;
+  
+    void update(int key) {
+      aToK.erase(kToA[key]);
+      kToA[key] = age;
+      aToK[age] = key;
+      age++;
+    }
+  
+    void removeLRU() {
+      auto [oldAge, oldKey] = *aToK.begin();
+      memo.erase(oldKey);
+      kToA.erase(oldKey);
+      aToK.erase(oldAge);
+    }
 
   public:
     LRUCache(int capacity) {
@@ -13,24 +27,15 @@ class LRUCache {
       if (memo.count(key) == 0) {
         return -1;
       }
-      aToK.erase(kToA[key]);
-      kToA[key] = age;
-      aToK[age] = key;
-      age++;
+      update(key);
       return memo[key];
     }
 
     void put(int key, int value) {
       if (memo.count(key) == 0 and memo.size() == capacity) {
-        auto [oldAge, oldKey] = *aToK.begin();
-        memo.erase(oldKey);
-        kToA.erase(oldKey);
-        aToK.erase(oldAge);
+        removeLRU();
       }
+      update(key);
       memo[key] = value;
-      aToK.erase(kToA[key]);
-      kToA[key] = age;
-      aToK[age] = key;
-      age++;
     }
 };
