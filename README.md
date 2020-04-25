@@ -21,6 +21,7 @@
 | 49 | [Group Anagrams](https://github.com/kantuni/LeetCode/tree/master/49) |
 | 53 | [Maximum Subarray](https://github.com/kantuni/LeetCode/tree/master/53) |
 | 54 | [Spiral Matrix](https://github.com/kantuni/LeetCode/tree/master/54) |
+| 55 | [Jump Game](https://github.com/kantuni/LeetCode/tree/master/55) |
 | 58 | [Length of Last Word](https://github.com/kantuni/LeetCode/tree/master/58) |
 | 64 | [Minimum Path Sum](https://github.com/kantuni/LeetCode/tree/master/64) |
 | 66 | [Plus One](https://github.com/kantuni/LeetCode/tree/master/66) |
@@ -121,4 +122,4 @@
 | unknown | [Perform String Shifts](https://github.com/kantuni/LeetCode/tree/master/unknown) |
 | unknown | [Leftmost Column with at Least a One](https://github.com/kantuni/LeetCode/tree/master/unknown) |
 
-Problems solved: **118**
+Problems solved: **119**
