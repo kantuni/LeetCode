@@ -116,10 +116,11 @@
 | 912 | [Sort an Array](https://github.com/kantuni/LeetCode/tree/master/912) |
 | 977 | [Squares of a Sorted Array](https://github.com/kantuni/LeetCode/tree/master/977) |
 | 984 | [String Without AAA or BBB](https://github.com/kantuni/LeetCode/tree/master/984) |
+| 1143 | [Longest Common Subsequence](https://github.com/kantuni/LeetCode/tree/master/1143) |
 | unknown | [Counting Elements](https://github.com/kantuni/LeetCode/tree/master/unknown) |
 | unknown | [Last Stone Weight](https://github.com/kantuni/LeetCode/tree/master/unknown) |
 | unknown | [Contiguous Array](https://github.com/kantuni/LeetCode/tree/master/unknown) |
 | unknown | [Perform String Shifts](https://github.com/kantuni/LeetCode/tree/master/unknown) |
 | unknown | [Leftmost Column with at Least a One](https://github.com/kantuni/LeetCode/tree/master/unknown) |
 
-Problems solved: **119**
+Problems solved: **120**
