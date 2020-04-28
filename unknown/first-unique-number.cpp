@@ -22,7 +22,9 @@ class FirstUnique {
     }
     
     void add(int value) {
-      q.push(value);
+      if (memo.count(value) == 0) {
+        q.push(value);
+      }
       memo[value] += 1;
     }
 };
