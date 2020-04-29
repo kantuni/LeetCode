@@ -47,6 +47,7 @@
 | 119 | [Pascal's Triangle II](https://github.com/kantuni/LeetCode/tree/master/119) |
 | 121 | [Best Time to Buy and Sell Stock](https://github.com/kantuni/LeetCode/tree/master/121) |
 | 122 | [Best Time to Buy and Sell Stock II](https://github.com/kantuni/LeetCode/tree/master/122) |
+| 124 | [Binary Tree Maximum Path Sum](https://github.com/kantuni/LeetCode/tree/master/124) |
 | 125 | [Valid Palindrome](https://github.com/kantuni/LeetCode/tree/master/125) |
 | 136 | [Single Number](https://github.com/kantuni/LeetCode/tree/master/136) |
 | 141 | [Linked List Cycle](https://github.com/kantuni/LeetCode/tree/master/141) |
@@ -123,4 +124,4 @@
 | unknown | [Perform String Shifts](https://github.com/kantuni/LeetCode/tree/master/unknown) |
 | unknown | [Leftmost Column with at Least a One](https://github.com/kantuni/LeetCode/tree/master/unknown) |
 
-Problems solved: **120**
+Problems solved: **121**
