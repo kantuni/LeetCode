@@ -1,22 +1,8 @@
 class LRUCache {
   private:
-    map<int, int> memo, kToA, aToK;
-    // NB: Age cannot start at 0
-    int capacity, age = 1;
-  
-    void update(int key) {
-      aToK.erase(kToA[key]);
-      kToA[key] = age;
-      aToK[age] = key;
-      age++;
-    }
-  
-    void removeLRU() {
-      auto [oldAge, oldKey] = *aToK.begin();
-      memo.erase(oldKey);
-      kToA.erase(oldKey);
-      aToK.erase(oldAge);
-    }
+    int capacity;
+    list<pair<int, int>> values;
+    unordered_map<int, list<pair<int, int>>::iterator> memo;
 
   public:
     LRUCache(int capacity) {
@@ -27,15 +13,22 @@ class LRUCache {
       if (memo.count(key) == 0) {
         return -1;
       }
-      update(key);
-      return memo[key];
+      values.splice(values.begin(), values, memo[key]);
+      return values.front().second;
     }
 
     void put(int key, int value) {
-      if (memo.count(key) == 0 and memo.size() == capacity) {
-        removeLRU();
+      if (memo.count(key) == 0) {
+        values.push_front({key, value});
+        memo[key] = values.begin();
+      } else {
+        memo[key]->second = value;
+        values.splice(values.begin(), values, memo[key]);
       }
-      update(key);
-      memo[key] = value;
+      if (memo.size() > capacity) {
+        auto lru = values.back();
+        memo.erase(lru.first);
+        values.pop_back();
+      }
     }
 };
