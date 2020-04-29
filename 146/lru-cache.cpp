@@ -1,7 +1,7 @@
 class LRUCache {
   private:
     int capacity;
-    list<pair<int, int>> values;
+    list<pair<int, int>> items;
     unordered_map<int, list<pair<int, int>>::iterator> memo;
 
   public:
@@ -13,22 +13,22 @@ class LRUCache {
       if (memo.count(key) == 0) {
         return -1;
       }
-      values.splice(values.begin(), values, memo[key]);
-      return values.front().second;
+      items.splice(items.begin(), items, memo[key]);
+      return items.front().second;
     }
 
     void put(int key, int value) {
       if (memo.count(key) == 0) {
-        values.push_front({key, value});
-        memo[key] = values.begin();
+        items.push_front({key, value});
+        memo[key] = items.begin();
       } else {
         memo[key]->second = value;
-        values.splice(values.begin(), values, memo[key]);
+        items.splice(items.begin(), items, memo[key]);
       }
       if (memo.size() > capacity) {
-        auto lru = values.back();
+        auto lru = items.back();
         memo.erase(lru.first);
-        values.pop_back();
+        items.pop_back();
       }
     }
 };
