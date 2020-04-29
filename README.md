@@ -75,6 +75,7 @@
 | 206 | [Reverse Linked List](https://github.com/kantuni/LeetCode/tree/master/206) |
 | 217 | [Contains Duplicate](https://github.com/kantuni/LeetCode/tree/master/217) |
 | 219 | [Contains Duplicate II](https://github.com/kantuni/LeetCode/tree/master/219) |
+| 221 | [Maximal Square](https://github.com/kantuni/LeetCode/tree/master/221) |
 | 225 | [Implement Stack using Queues](https://github.com/kantuni/LeetCode/tree/master/225) |
 | 226 | [Invert Binary Tree](https://github.com/kantuni/LeetCode/tree/master/226) |
 | 231 | [Power of Two](https://github.com/kantuni/LeetCode/tree/master/231) |
@@ -124,4 +125,4 @@
 | unknown | [Perform String Shifts](https://github.com/kantuni/LeetCode/tree/master/unknown) |
 | unknown | [Leftmost Column with at Least a One](https://github.com/kantuni/LeetCode/tree/master/unknown) |
 
-Problems solved: **121**
+Problems solved: **122**
