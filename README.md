@@ -91,6 +91,7 @@
 | 268 | [Missing Number](https://github.com/kantuni/LeetCode/tree/master/268) |
 | 278 | [First Bad Version](https://github.com/kantuni/LeetCode/tree/master/278) |
 | 283 | [Move Zeroes](https://github.com/kantuni/LeetCode/tree/master/283) |
+| 290 | [Word Pattern](https://github.com/kantuni/LeetCode/tree/master/290) |
 | 383 | [Ransom Note](https://github.com/kantuni/LeetCode/tree/master/383) |
 | 389 | [Find the Difference](https://github.com/kantuni/LeetCode/tree/master/389) |
 | 394 | [Decode String](https://github.com/kantuni/LeetCode/tree/master/394) |
@@ -126,4 +127,4 @@
 | unknown | [Leftmost Column with at Least a One](https://github.com/kantuni/LeetCode/tree/master/unknown) |
 | unknown | [Check If a String Is a Valid Sequence from Root to Leaves Path in a Binary Tree](https://github.com/kantuni/LeetCode/tree/master/unknown) |
 
-Problems solved: **123**
+Problems solved: **124**
