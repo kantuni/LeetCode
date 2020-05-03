@@ -1,18 +1,16 @@
 class Solution {
   public:
     bool canConstruct(string ransomNote, string magazine) {
-      vector<int> frequency(26);
-      for (char letter: magazine) {
-        frequency[letter - 'a']++;
+      vector<int> cnt(26);
+      for (auto c: magazine) {
+        cnt[c - 'a']++;
       }
-      bool possible = true;
-      for (char letter: ransomNote) {
-        if (frequency[letter - 'a'] == 0) {
-          possible = false;
-          break;
+      for (auto c: ransomNote) {
+        if (cnt[c - 'a'] == 0) {
+          return false;
         }
-        frequency[letter - 'a']--;
+        cnt[c - 'a']--;
       }
-      return possible;
+      return true;
     }
 };
