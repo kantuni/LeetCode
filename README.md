@@ -95,6 +95,7 @@
 | 292 | [Nim Game](https://github.com/kantuni/LeetCode/tree/master/292) |
 | 299 | [Bulls and Cows](https://github.com/kantuni/LeetCode/tree/master/299) |
 | 303 | [Range Sum Query - Immutable](https://github.com/kantuni/LeetCode/tree/master/303) |
+| 326 | [Power of Three](https://github.com/kantuni/LeetCode/tree/master/326) |
 | 383 | [Ransom Note](https://github.com/kantuni/LeetCode/tree/master/383) |
 | 389 | [Find the Difference](https://github.com/kantuni/LeetCode/tree/master/389) |
 | 394 | [Decode String](https://github.com/kantuni/LeetCode/tree/master/394) |
@@ -132,4 +133,4 @@
 | unknown | [Leftmost Column with at Least a One](https://github.com/kantuni/LeetCode/tree/master/unknown) |
 | unknown | [Check If a String Is a Valid Sequence from Root to Leaves Path in a Binary Tree](https://github.com/kantuni/LeetCode/tree/master/unknown) |
 
-Problems solved: **129**
+Problems solved: **130**
