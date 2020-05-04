@@ -13,10 +13,10 @@ class Solution {
       for (int i = 0; i < guess.size(); i++) {
         bulls += i < secret.size() and guess[i] == secret[i];
       }
-      int cows = 0;
+      int matches = 0;
       for (int i = 0; i < 10; i++) {
-        cows += min(sm[i], gm[i]);
+        matches += min(sm[i], gm[i]);
       }
-      return to_string(bulls) + "A" + to_string(cows - bulls) + "B";
+      return to_string(bulls) + "A" + to_string(matches - bulls) + "B";
     }
 };
