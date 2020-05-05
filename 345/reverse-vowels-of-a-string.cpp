@@ -1,17 +1,10 @@
 class Solution {
-  private:
-    bool isVowel(char c) {
-      return (
-        c == 'a' or c == 'e' or c == 'i' or c == 'o' or c == 'u' or
-        c == 'A' or c == 'E' or c == 'I' or c == 'O' or c == 'U'
-      );
-    }
-
   public:
     string reverseVowels(string s) {
+      string vowels = "AEIOUaeiou";
       vector<int> pos;
       for (int i = 0; i < s.size(); i++) {
-        if (isVowel(s[i])) {
+        if (vowels.find(s[i]) != string::npos) {
           pos.push_back(i);
         }
       }
