@@ -98,6 +98,7 @@
 | 326 | [Power of Three](https://github.com/kantuni/LeetCode/tree/master/326) |
 | 342 | [Power of Four](https://github.com/kantuni/LeetCode/tree/master/342) |
 | 344 | [Reverse String](https://github.com/kantuni/LeetCode/tree/master/344) |
+| 345 | [Reverse Vowels of a String](https://github.com/kantuni/LeetCode/tree/master/345) |
 | 383 | [Ransom Note](https://github.com/kantuni/LeetCode/tree/master/383) |
 | 387 | [First Unique Character in a String](https://github.com/kantuni/LeetCode/tree/master/387) |
 | 389 | [Find the Difference](https://github.com/kantuni/LeetCode/tree/master/389) |
@@ -136,4 +137,4 @@
 | unknown | [Leftmost Column with at Least a One](https://github.com/kantuni/LeetCode/tree/master/unknown) |
 | unknown | [Check If a String Is a Valid Sequence from Root to Leaves Path in a Binary Tree](https://github.com/kantuni/LeetCode/tree/master/unknown) |
 
-Problems solved: **133**
+Problems solved: **134**
