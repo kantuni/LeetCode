@@ -8,13 +8,9 @@ class Solution {
           return true;
         }
         if (mid * mid > num) {
-          high = mid;
+          high = mid - 1;
         } else {
-          low = mid;
-        }
-        long long nextMid = low + (high - low) / 2;
-        if (mid == nextMid) {
-          return false;
+          low = mid + 1;
         }
       }
       return false;
