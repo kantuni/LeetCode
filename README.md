@@ -130,6 +130,7 @@
 | 977 | [Squares of a Sorted Array](https://github.com/kantuni/LeetCode/tree/master/977) |
 | 984 | [String Without AAA or BBB](https://github.com/kantuni/LeetCode/tree/master/984) |
 | 993 | [Cousins in Binary Tree](https://github.com/kantuni/LeetCode/tree/master/993) |
+| 997 | [Find the Town Judge](https://github.com/kantuni/LeetCode/tree/master/997) |
 | 1009 | [Complement of Base 10 Integer](https://github.com/kantuni/LeetCode/tree/master/1009) |
 | 1143 | [Longest Common Subsequence](https://github.com/kantuni/LeetCode/tree/master/1143) |
 | 1232 | [Check If It Is a Straight Line](https://github.com/kantuni/LeetCode/tree/master/1232) |
@@ -140,4 +141,4 @@
 | unknown | [Leftmost Column with at Least a One](https://github.com/kantuni/LeetCode/tree/master/unknown) |
 | unknown | [Check If a String Is a Valid Sequence from Root to Leaves Path in a Binary Tree](https://github.com/kantuni/LeetCode/tree/master/unknown) |
 
-Problems solved: **137**
+Problems solved: **138**
