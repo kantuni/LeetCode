@@ -1,12 +1,15 @@
 class Solution {
   public:
     vector<int> intersection(vector<int>& nums1, vector<int>& nums2) {
-      set<int> s1(nums1.begin(), nums1.end());
-      set<int> s2(nums2.begin(), nums2.end());
+      map<int, int> memo;
+      for (auto num: nums1) {
+        memo[num]++;
+      }
       vector<int> ans;
-      for (auto num: s1) {
-        if (s2.count(num)) {
+      for (auto num: nums2) {
+        if (memo[num] > 0) {
           ans.push_back(num);
+          memo[num] = 0;
         }
       }
       return ans;
