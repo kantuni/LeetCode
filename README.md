@@ -100,6 +100,7 @@
 | 344 | [Reverse String](https://github.com/kantuni/LeetCode/tree/master/344) |
 | 345 | [Reverse Vowels of a String](https://github.com/kantuni/LeetCode/tree/master/345) |
 | 349 | [Intersection of Two Arrays](https://github.com/kantuni/LeetCode/tree/master/349) |
+| 350 | [Intersection of Two Arrays II](https://github.com/kantuni/LeetCode/tree/master/350) |
 | 367 | [Valid Perfect Square](https://github.com/kantuni/LeetCode/tree/master/367) |
 | 383 | [Ransom Note](https://github.com/kantuni/LeetCode/tree/master/383) |
 | 387 | [First Unique Character in a String](https://github.com/kantuni/LeetCode/tree/master/387) |
@@ -143,4 +144,4 @@
 | unknown | [Leftmost Column with at Least a One](https://github.com/kantuni/LeetCode/tree/master/unknown) |
 | unknown | [Check If a String Is a Valid Sequence from Root to Leaves Path in a Binary Tree](https://github.com/kantuni/LeetCode/tree/master/unknown) |
 
-Problems solved: **140**
+Problems solved: **141**
