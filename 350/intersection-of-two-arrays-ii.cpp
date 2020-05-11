@@ -1,19 +1,15 @@
 class Solution {
   public:
     vector<int> intersect(vector<int>& nums1, vector<int>& nums2) {
-      map<int, int> m1;
+      map<int, int> memo;
       for (auto num: nums1) {
-        m1[num]++;
-      }
-      map<int, int> m2;
-      for (auto num: nums2) {
-        m2[num]++;
+        memo[num]++;
       }
       vector<int> ans;
-      for (auto [num, cnt1]: m1) {
-        int cnt = min(cnt1, m2[num]);
-        while (cnt--) {
+      for (auto num: nums2) {
+        if (memo[num] > 0) {
           ans.push_back(num);
+          memo[num]--;
         }
       }
       return ans;
