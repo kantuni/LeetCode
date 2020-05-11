@@ -2,7 +2,10 @@ class Solution {
   private:
     void dfs(vector<vector<int>>& image, int r, int c, int oldColor, int newColor) {
       int n = image.size(), m = image[0].size();
-      if (r < 0 or r >= n or c < 0 or c >= m or image[r][c] != oldColor) {
+      if (r < 0 or r >= n or c < 0 or c >= m) {
+        return;
+      }
+      if (image[r][c] != oldColor) {
         return;
       }
       image[r][c] = newColor;
