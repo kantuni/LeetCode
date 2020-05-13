@@ -25,7 +25,7 @@ class Solution {
           }
         }
         for (int i = 0; !removed and i < num.size() - 1; i++) {
-          if (num[i] < num[i + 1]) {
+          if (num[i + 1] > num[i]) {
             num.erase(i + 1, 1);
             removed = true;
           }
