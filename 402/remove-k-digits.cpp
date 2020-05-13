@@ -1,43 +1,21 @@
 class Solution {
-  private:
-    string removeLeadingZeros(string num) {
-      if (num.size() == 0) {
-        return "0";
-      }
-      auto firstNonZero = num.find_first_not_of("0");
-      if (firstNonZero == string::npos) {
-        return "0";
-      }
-      return num.substr(firstNonZero);
-    }
-
   public:
     string removeKdigits(string num, int k) {
-      if (num.size() == k) {
-        return "0";
-      }
-      while (k--) {
-        bool removed = false;
-        for (int i = 0; !removed and i < num.size() - 1; i++) {
-          if (num[i] > num[i + 1]) {
-            num.erase(i, 1);
-            removed = true;
-          }
+      string ans;
+      for (auto d: num) {
+        while (k > 0 and !ans.empty() and ans.back() > d) {
+          ans.pop_back();
+          k--;
         }
-        for (int i = 0; !removed and i < num.size() - 1; i++) {
-          if (num[i + 1] > num[i]) {
-            num.erase(i + 1, 1);
-            removed = true;
-          }
-        }
-        if (removed) {
+        if (ans.empty() and d == '0') {
           continue;
         }
-        if (num.size() < 2) {
-          return "0";
-        }
-        num.erase(1, 1);
+        ans.push_back(d);
       }
-      return removeLeadingZeros(num);
+      while (k > 0 and !ans.empty()) {
+        ans.pop_back();
+        k--;
+      }
+      return ans.empty() ? "0" : ans;
     }
 };
