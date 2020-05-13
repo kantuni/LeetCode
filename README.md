@@ -106,6 +106,7 @@
 | 387 | [First Unique Character in a String](https://github.com/kantuni/LeetCode/tree/master/387) |
 | 389 | [Find the Difference](https://github.com/kantuni/LeetCode/tree/master/389) |
 | 394 | [Decode String](https://github.com/kantuni/LeetCode/tree/master/394) |
+| 402 | [Remove K Digits](https://github.com/kantuni/LeetCode/tree/master/402) |
 | 404 | [Sum of Left Leaves](https://github.com/kantuni/LeetCode/tree/master/404) |
 | 412 | [Fizz Buzz](https://github.com/kantuni/LeetCode/tree/master/412) |
 | 416 | [Partition Equal Subset Sum](https://github.com/kantuni/LeetCode/tree/master/416) |
@@ -145,4 +146,4 @@
 | unknown | [Leftmost Column with at Least a One](https://github.com/kantuni/LeetCode/tree/master/unknown) |
 | unknown | [Check If a String Is a Valid Sequence from Root to Leaves Path in a Binary Tree](https://github.com/kantuni/LeetCode/tree/master/unknown) |
 
-Problems solved: **142**
+Problems solved: **143**
