@@ -73,6 +73,7 @@
 | 204 | [Count Primes](https://github.com/kantuni/LeetCode/tree/master/204) |
 | 205 | [Isomorphic Strings](https://github.com/kantuni/LeetCode/tree/master/205) |
 | 206 | [Reverse Linked List](https://github.com/kantuni/LeetCode/tree/master/206) |
+| 208 | [Implement Trie (Prefix Tree)](https://github.com/kantuni/LeetCode/tree/master/208) |
 | 217 | [Contains Duplicate](https://github.com/kantuni/LeetCode/tree/master/217) |
 | 219 | [Contains Duplicate II](https://github.com/kantuni/LeetCode/tree/master/219) |
 | 221 | [Maximal Square](https://github.com/kantuni/LeetCode/tree/master/221) |
@@ -147,4 +148,4 @@
 | unknown | [Leftmost Column with at Least a One](https://github.com/kantuni/LeetCode/tree/master/unknown) |
 | unknown | [Check If a String Is a Valid Sequence from Root to Leaves Path in a Binary Tree](https://github.com/kantuni/LeetCode/tree/master/unknown) |
 
-Problems solved: **144**
+Problems solved: **145**
