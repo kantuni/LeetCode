@@ -97,6 +97,7 @@
 | 299 | [Bulls and Cows](https://github.com/kantuni/LeetCode/tree/master/299) |
 | 303 | [Range Sum Query - Immutable](https://github.com/kantuni/LeetCode/tree/master/303) |
 | 326 | [Power of Three](https://github.com/kantuni/LeetCode/tree/master/326) |
+| 328 | [Odd Even Linked List](https://github.com/kantuni/LeetCode/tree/master/328) |
 | 342 | [Power of Four](https://github.com/kantuni/LeetCode/tree/master/342) |
 | 344 | [Reverse String](https://github.com/kantuni/LeetCode/tree/master/344) |
 | 345 | [Reverse Vowels of a String](https://github.com/kantuni/LeetCode/tree/master/345) |
@@ -149,4 +150,4 @@
 | unknown | [Leftmost Column with at Least a One](https://github.com/kantuni/LeetCode/tree/master/unknown) |
 | unknown | [Check If a String Is a Valid Sequence from Root to Leaves Path in a Binary Tree](https://github.com/kantuni/LeetCode/tree/master/unknown) |
 
-Problems solved: **146**
+Problems solved: **147**
