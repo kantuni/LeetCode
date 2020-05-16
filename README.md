@@ -133,6 +133,7 @@
 | 884 | [Uncommon Words from Two Sentences](https://github.com/kantuni/LeetCode/tree/master/884) |
 | 905 | [Sort Array By Parity](https://github.com/kantuni/LeetCode/tree/master/905) |
 | 912 | [Sort an Array](https://github.com/kantuni/LeetCode/tree/master/912) |
+| 918 | [Maximum Sum Circular Subarray](https://github.com/kantuni/LeetCode/tree/master/918) |
 | 977 | [Squares of a Sorted Array](https://github.com/kantuni/LeetCode/tree/master/977) |
 | 984 | [String Without AAA or BBB](https://github.com/kantuni/LeetCode/tree/master/984) |
 | 993 | [Cousins in Binary Tree](https://github.com/kantuni/LeetCode/tree/master/993) |
@@ -148,4 +149,4 @@
 | unknown | [Leftmost Column with at Least a One](https://github.com/kantuni/LeetCode/tree/master/unknown) |
 | unknown | [Check If a String Is a Valid Sequence from Root to Leaves Path in a Binary Tree](https://github.com/kantuni/LeetCode/tree/master/unknown) |
 
-Problems solved: **145**
+Problems solved: **146**
