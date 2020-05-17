@@ -1,14 +1,4 @@
 class Solution {
-  private:
-    bool isAnagram(vector<int>& a, vector<int>& b) {
-      for (int i = 0; i < 26; i++) {
-        if (a[i] != b[i]) {
-          return false;
-        }
-      }
-      return true;
-    }
-
   public:
     vector<int> findAnagrams(string s, string p) {
       if (s.size() < p.size()) {
@@ -21,7 +11,7 @@ class Solution {
       }
       vector<int> ans;
       int start = 0, end = p.size() - 1;
-      if (isAnagram(pcnt, scnt)) {
+      if (pcnt == scnt) {
         ans.push_back(start);
       }
       while (end + 1 < s.size()) {
@@ -29,7 +19,7 @@ class Solution {
         start++;
         end++;
         scnt[s[end] - 'a']++;
-        if (isAnagram(pcnt, scnt)) {
+        if (pcnt == scnt) {
           ans.push_back(start);
         }
       }
