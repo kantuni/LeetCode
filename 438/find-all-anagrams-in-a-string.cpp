@@ -4,22 +4,22 @@ class Solution {
       if (s.size() < p.size()) {
         return {};
       }
-      vector<int> pcnt(26), scnt(26);
+      vector<int> pc(26), sc(26);
       for (int i = 0; i < p.size(); i++) {
-        pcnt[p[i] - 'a']++;
-        scnt[s[i] - 'a']++;
+        pc[p[i] - 'a']++;
+        sc[s[i] - 'a']++;
       }
       vector<int> ans;
       int start = 0, end = p.size() - 1;
-      if (pcnt == scnt) {
+      if (pc == sc) {
         ans.push_back(start);
       }
       while (end + 1 < s.size()) {
-        scnt[s[start] - 'a']--;
+        sc[s[start] - 'a']--;
         start++;
         end++;
-        scnt[s[end] - 'a']++;
-        if (pcnt == scnt) {
+        sc[s[end] - 'a']++;
+        if (pc == sc) {
           ans.push_back(start);
         }
       }
