@@ -1,26 +1,17 @@
 class Solution {
   public:
     vector<int> findAnagrams(string s, string p) {
-      if (s.size() < p.size()) {
-        return {};
-      }
-      vector<int> pc(26), sc(26);
+      vector<int> ans, pc(26), sc(26);
       for (int i = 0; i < p.size(); i++) {
         pc[p[i] - 'a']++;
+      }
+      for (int i = 0; i < s.size(); i++) {
         sc[s[i] - 'a']++;
-      }
-      vector<int> ans;
-      int start = 0, end = p.size() - 1;
-      if (pc == sc) {
-        ans.push_back(start);
-      }
-      while (end + 1 < s.size()) {
-        sc[s[start] - 'a']--;
-        start++;
-        end++;
-        sc[s[end] - 'a']++;
+        if (i >= p.size()) {
+          sc[s[i - p.size()] - 'a']--;
+        }
         if (pc == sc) {
-          ans.push_back(start);
+          ans.push_back(i - p.size() + 1);
         }
       }
       return ans;
