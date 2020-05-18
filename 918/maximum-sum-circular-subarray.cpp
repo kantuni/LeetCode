@@ -1,14 +1,4 @@
 class Solution {
-  private:
-    int maxSubarraySum(vector<int>& A) {
-      int global = INT_MIN, local = 0;
-      for (int i = 0; i < A.size(); i++) {
-        local = max(local + A[i], A[i]);
-        global = max(global, local);
-      }
-      return global;
-    }
-
   public:
     int maxSubarraySumCircular(vector<int>& A) {
       int n = A.size();
@@ -20,7 +10,7 @@ class Solution {
         }
       }
       if (allPositive) {
-        return maxSubarraySum(A);
+        return accumulate(A.begin(), A.end(), 0);
       }
       int global = INT_MIN, local = 0;
       int start = 0, end = 0;
