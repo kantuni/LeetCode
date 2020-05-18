@@ -1,7 +1,6 @@
 class Solution {
   public:
     int maxSubarraySumCircular(vector<int>& A) {
-      int n = A.size();
       bool allPositive = true;
       for (auto num: A) {
         if (num < 0) {
@@ -12,6 +11,7 @@ class Solution {
       if (allPositive) {
         return accumulate(A.begin(), A.end(), 0);
       }
+      int n = A.size();
       int global = INT_MIN, local = 0;
       int start = 0, end = 0;
       for (int i = 0; i < 2 * n; i++) {
