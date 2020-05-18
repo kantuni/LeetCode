@@ -121,6 +121,7 @@
 | 540 | [Single Element in a Sorted Array](https://github.com/kantuni/LeetCode/tree/master/540) |
 | 543 | [Diameter of Binary Tree](https://github.com/kantuni/LeetCode/tree/master/543) |
 | 560 | [Subarray Sum Equals K](https://github.com/kantuni/LeetCode/tree/master/560) |
+| 567 | [Permutation in String](https://github.com/kantuni/LeetCode/tree/master/567) |
 | 678 | [Valid Parenthesis String](https://github.com/kantuni/LeetCode/tree/master/678) |
 | 700 | [Search in a Binary Search Tree](https://github.com/kantuni/LeetCode/tree/master/700) |
 | 709 | [To Lower Case](https://github.com/kantuni/LeetCode/tree/master/709) |
@@ -151,4 +152,4 @@
 | unknown | [Leftmost Column with at Least a One](https://github.com/kantuni/LeetCode/tree/master/unknown) |
 | unknown | [Check If a String Is a Valid Sequence from Root to Leaves Path in a Binary Tree](https://github.com/kantuni/LeetCode/tree/master/unknown) |
 
-Problems solved: **148**
+Problems solved: **149**
