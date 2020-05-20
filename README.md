@@ -79,6 +79,7 @@
 | 221 | [Maximal Square](https://github.com/kantuni/LeetCode/tree/master/221) |
 | 225 | [Implement Stack using Queues](https://github.com/kantuni/LeetCode/tree/master/225) |
 | 226 | [Invert Binary Tree](https://github.com/kantuni/LeetCode/tree/master/226) |
+| 230 | [Kth Smallest Element in a BST](https://github.com/kantuni/LeetCode/tree/master/230) |
 | 231 | [Power of Two](https://github.com/kantuni/LeetCode/tree/master/231) |
 | 232 | [Implement Queue using Stacks](https://github.com/kantuni/LeetCode/tree/master/232) |
 | 234 | [Palindrome Linked List](https://github.com/kantuni/LeetCode/tree/master/234) |
@@ -153,4 +154,4 @@
 | unknown | [Leftmost Column with at Least a One](https://github.com/kantuni/LeetCode/tree/master/unknown) |
 | unknown | [Check If a String Is a Valid Sequence from Root to Leaves Path in a Binary Tree](https://github.com/kantuni/LeetCode/tree/master/unknown) |
 
-Problems solved: **150**
+Problems solved: **151**
