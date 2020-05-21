@@ -146,6 +146,7 @@
 | 1009 | [Complement of Base 10 Integer](https://github.com/kantuni/LeetCode/tree/master/1009) |
 | 1143 | [Longest Common Subsequence](https://github.com/kantuni/LeetCode/tree/master/1143) |
 | 1232 | [Check If It Is a Straight Line](https://github.com/kantuni/LeetCode/tree/master/1232) |
+| 1277 | [Count Square Submatrices with All Ones](https://github.com/kantuni/LeetCode/tree/master/1277) |
 | 1394 | [Find Lucky Integer in an Array](https://github.com/kantuni/LeetCode/tree/master/1394) |
 | unknown | [Counting Elements](https://github.com/kantuni/LeetCode/tree/master/unknown) |
 | unknown | [Last Stone Weight](https://github.com/kantuni/LeetCode/tree/master/unknown) |
@@ -154,4 +155,4 @@
 | unknown | [Leftmost Column with at Least a One](https://github.com/kantuni/LeetCode/tree/master/unknown) |
 | unknown | [Check If a String Is a Valid Sequence from Root to Leaves Path in a Binary Tree](https://github.com/kantuni/LeetCode/tree/master/unknown) |
 
-Problems solved: **151**
+Problems solved: **152**
