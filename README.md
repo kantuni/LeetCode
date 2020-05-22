@@ -114,6 +114,7 @@
 | 412 | [Fizz Buzz](https://github.com/kantuni/LeetCode/tree/master/412) |
 | 416 | [Partition Equal Subset Sum](https://github.com/kantuni/LeetCode/tree/master/416) |
 | 438 | [Find All Anagrams in a String](https://github.com/kantuni/LeetCode/tree/master/438) |
+| 451 | [Sort Characters By Frequency](https://github.com/kantuni/LeetCode/tree/master/451) |
 | 476 | [Number Complement](https://github.com/kantuni/LeetCode/tree/master/476) |
 | 485 | [Max Consecutive Ones](https://github.com/kantuni/LeetCode/tree/master/485) |
 | 498 | [Diagonal Traverse](https://github.com/kantuni/LeetCode/tree/master/498) |
@@ -155,4 +156,4 @@
 | unknown | [Leftmost Column with at Least a One](https://github.com/kantuni/LeetCode/tree/master/unknown) |
 | unknown | [Check If a String Is a Valid Sequence from Root to Leaves Path in a Binary Tree](https://github.com/kantuni/LeetCode/tree/master/unknown) |
 
-Problems solved: **152**
+Problems solved: **153**
