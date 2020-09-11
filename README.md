@@ -150,7 +150,7 @@
 | 1232 | [Check If It Is a Straight Line](https://github.com/kantuni/LeetCode/tree/master/1232) |
 | 1277 | [Count Square Submatrices with All Ones](https://github.com/kantuni/LeetCode/tree/master/1277) |
 | 1394 | [Find Lucky Integer in an Array](https://github.com/kantuni/LeetCode/tree/master/1394) |
-| unknown | [Counting Elements](https://github.com/kantuni/LeetCode/tree/master/unknown) |
+| 1426 | [Counting Elements](https://github.com/kantuni/LeetCode/tree/master/1426) |
 | unknown | [Last Stone Weight](https://github.com/kantuni/LeetCode/tree/master/unknown) |
 | unknown | [Contiguous Array](https://github.com/kantuni/LeetCode/tree/master/unknown) |
 | unknown | [Perform String Shifts](https://github.com/kantuni/LeetCode/tree/master/unknown) |
