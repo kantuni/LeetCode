@@ -5,8 +5,6 @@ class Solution {
       int ans = 0;
       for (int i = 0; i < n; i++) {
         ans += mat[i][i];
-      }
-      for (int i = n - 1; i > -1; i--) {
         ans += mat[n - 1 - i][i];
       }
       if (n % 2 == 1) {
