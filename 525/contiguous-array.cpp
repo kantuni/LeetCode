@@ -10,8 +10,8 @@ class Solution {
       int ans = 0;
       for (auto [key, values]: memo) {
         int len = (key == 0)
-            ? values.back() + 1
-            : values.back() - values.front();
+          ? values.back() + 1
+          : values.back() - values.front();
         ans = max(ans, len);
       }
       return ans;
