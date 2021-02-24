@@ -149,13 +149,13 @@
 | 993 | [Cousins in Binary Tree](https://github.com/kantuni/LeetCode/tree/master/993) |
 | 997 | [Find the Town Judge](https://github.com/kantuni/LeetCode/tree/master/997) |
 | 1009 | [Complement of Base 10 Integer](https://github.com/kantuni/LeetCode/tree/master/1009) |
+| 1046 | [Last Stone Weight](https://github.com/kantuni/LeetCode/tree/master/1046) |
 | 1143 | [Longest Common Subsequence](https://github.com/kantuni/LeetCode/tree/master/1143) |
 | 1232 | [Check If It Is a Straight Line](https://github.com/kantuni/LeetCode/tree/master/1232) |
 | 1277 | [Count Square Submatrices with All Ones](https://github.com/kantuni/LeetCode/tree/master/1277) |
 | 1394 | [Find Lucky Integer in an Array](https://github.com/kantuni/LeetCode/tree/master/1394) |
 | 1426 | [Counting Elements](https://github.com/kantuni/LeetCode/tree/master/1426) |
 | 1572 | [Matrix Diagonal Sum](https://github.com/kantuni/LeetCode/tree/master/1572) |
-| unknown | [Last Stone Weight](https://github.com/kantuni/LeetCode/tree/master/unknown) |
 | unknown | [Contiguous Array](https://github.com/kantuni/LeetCode/tree/master/unknown) |
 | unknown | [Perform String Shifts](https://github.com/kantuni/LeetCode/tree/master/unknown) |
 | unknown | [Leftmost Column with at Least a One](https://github.com/kantuni/LeetCode/tree/master/unknown) |
