@@ -123,6 +123,7 @@
 | 498 | [Diagonal Traverse](https://github.com/kantuni/LeetCode/tree/master/498) |
 | 509 | [Fibonacci Number](https://github.com/kantuni/LeetCode/tree/master/509) |
 | 520 | [Detect Capital](https://github.com/kantuni/LeetCode/tree/master/520) |
+| 525 | [Contiguous Array](https://github.com/kantuni/LeetCode/tree/master/525) |
 | 540 | [Single Element in a Sorted Array](https://github.com/kantuni/LeetCode/tree/master/540) |
 | 543 | [Diameter of Binary Tree](https://github.com/kantuni/LeetCode/tree/master/543) |
 | 560 | [Subarray Sum Equals K](https://github.com/kantuni/LeetCode/tree/master/560) |
@@ -156,7 +157,6 @@
 | 1394 | [Find Lucky Integer in an Array](https://github.com/kantuni/LeetCode/tree/master/1394) |
 | 1426 | [Counting Elements](https://github.com/kantuni/LeetCode/tree/master/1426) |
 | 1572 | [Matrix Diagonal Sum](https://github.com/kantuni/LeetCode/tree/master/1572) |
-| unknown | [Contiguous Array](https://github.com/kantuni/LeetCode/tree/master/unknown) |
 | unknown | [Perform String Shifts](https://github.com/kantuni/LeetCode/tree/master/unknown) |
 | unknown | [Leftmost Column with at Least a One](https://github.com/kantuni/LeetCode/tree/master/unknown) |
 | unknown | [Check If a String Is a Valid Sequence from Root to Leaves Path in a Binary Tree](https://github.com/kantuni/LeetCode/tree/master/unknown) |
