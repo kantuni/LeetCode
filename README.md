@@ -158,7 +158,7 @@
 | 1426 | [Counting Elements](https://github.com/kantuni/LeetCode/tree/master/1426) |
 | 1427 | [Perform String Shifts](https://github.com/kantuni/LeetCode/tree/master/1427) |
 | 1428 | [Leftmost Column with at Least a One](https://github.com/kantuni/LeetCode/tree/master/1428) |
+| 1430 | [Check If a String Is a Valid Sequence from Root to Leaves Path in a Binary Tree](https://github.com/kantuni/LeetCode/tree/master/1430) |
 | 1572 | [Matrix Diagonal Sum](https://github.com/kantuni/LeetCode/tree/master/1572) |
-| unknown | [Check If a String Is a Valid Sequence from Root to Leaves Path in a Binary Tree](https://github.com/kantuni/LeetCode/tree/master/unknown) |
 
 Problems solved: **158**
