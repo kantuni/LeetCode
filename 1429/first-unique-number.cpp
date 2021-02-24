@@ -9,6 +9,13 @@ class FirstUnique {
         add(num);
       }
     }
+  
+    void add(int value) {
+      if (memo.count(value) == 0) {
+        q.push(value);
+      }
+      memo[value] += 1;
+    }
     
     int showFirstUnique() {
       while (!q.empty()) {
@@ -19,12 +26,5 @@ class FirstUnique {
         q.pop();
       }
       return -1;
-    }
-    
-    void add(int value) {
-      if (memo.count(value) == 0) {
-        q.push(value);
-      }
-      memo[value] += 1;
     }
 };
