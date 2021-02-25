@@ -22,6 +22,7 @@
 | 53 | [Maximum Subarray](https://github.com/kantuni/LeetCode/tree/master/53) |
 | 54 | [Spiral Matrix](https://github.com/kantuni/LeetCode/tree/master/54) |
 | 55 | [Jump Game](https://github.com/kantuni/LeetCode/tree/master/55) |
+| 56 | [Merge Intervals](https://github.com/kantuni/LeetCode/tree/master/56) |
 | 58 | [Length of Last Word](https://github.com/kantuni/LeetCode/tree/master/58) |
 | 64 | [Minimum Path Sum](https://github.com/kantuni/LeetCode/tree/master/64) |
 | 66 | [Plus One](https://github.com/kantuni/LeetCode/tree/master/66) |
@@ -162,4 +163,4 @@
 | 1430 | [Check If a String Is a Valid Sequence from Root to Leaves Path in a Binary Tree](https://github.com/kantuni/LeetCode/tree/master/1430) |
 | 1572 | [Matrix Diagonal Sum](https://github.com/kantuni/LeetCode/tree/master/1572) |
 
-Problems solved: **159**
+Problems solved: **160**
