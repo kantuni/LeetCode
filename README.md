@@ -51,6 +51,7 @@
 | 124 | [Binary Tree Maximum Path Sum](https://github.com/kantuni/LeetCode/tree/master/124) |
 | 125 | [Valid Palindrome](https://github.com/kantuni/LeetCode/tree/master/125) |
 | 136 | [Single Number](https://github.com/kantuni/LeetCode/tree/master/136) |
+| 139 | [Word Break](https://github.com/kantuni/LeetCode/tree/master/139) |
 | 141 | [Linked List Cycle](https://github.com/kantuni/LeetCode/tree/master/141) |
 | 144 | [Binary Tree Preorder Traversal](https://github.com/kantuni/LeetCode/tree/master/144) |
 | 145 | [Binary Tree Postorder Traversal](https://github.com/kantuni/LeetCode/tree/master/145) |
@@ -163,4 +164,4 @@
 | 1430 | [Check If a String Is a Valid Sequence from Root to Leaves Path in a Binary Tree](https://github.com/kantuni/LeetCode/tree/master/1430) |
 | 1572 | [Matrix Diagonal Sum](https://github.com/kantuni/LeetCode/tree/master/1572) |
 
-Problems solved: **160**
+Problems solved: **161**
