@@ -1,6 +1,6 @@
 class Solution {
   private:
-    set<string> words;
+    map<int, set<string>> words;
     map<string, bool> memo;
   
     bool remember(string s) {
@@ -14,21 +14,22 @@ class Solution {
       if (s.size() == 0) {
         return true;
       }
-      bool ok = false;
-      for (int i = 0; i < s.size(); i++) {
-        string px = s.substr(0, i + 1);
-        string sx = s.substr(i + 1);
-        if (words.count(px) > 0 and remember(sx)) {
-          ok = true;
+      for (auto [len, _]: words) {
+        if (len <= s.size()) {
+          string px = s.substr(0, len);
+          string sx = s.substr(len);
+          if (words[len].count(px) > 0 and remember(sx)) {
+            return true;
+          }
         }
       }
-      return ok;
+      return false;
     }
 
   public:
     bool wordBreak(string s, vector<string>& wordDict) {
       for (auto word: wordDict) {
-        words.insert(word);
+        words[word.size()].insert(word);
       }
       return solve(s);
     }
