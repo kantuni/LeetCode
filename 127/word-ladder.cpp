@@ -2,8 +2,8 @@ class Solution {
   public:
     int ladderLength(string beginWord, string endWord, vector<string>& wordList) {
       set<string> words(wordList.begin(), wordList.end());
-      map<string, int> color, dist;
       queue<string> q;
+      map<string, int> color, dist;
       q.push(beginWord);
       color[beginWord] = 1;
       dist[beginWord] = 1;
