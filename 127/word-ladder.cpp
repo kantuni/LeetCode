@@ -7,7 +7,7 @@ class Solution {
       q.push(beginWord);
       color[beginWord] = 1;
       while (!q.empty()) {
-        auto cur = q.front(); q.pop();
+        string cur = q.front(); q.pop();
         if (cur == endWord) {
           return dist[cur] + 1;
         }
