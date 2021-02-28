@@ -6,10 +6,11 @@ class Solution {
       queue<string> q;
       q.push(beginWord);
       color[beginWord] = 1;
+      dist[beginWord] = 1;
       while (!q.empty()) {
         string cur = q.front(); q.pop();
         if (cur == endWord) {
-          return dist[cur] + 1;
+          return dist[cur];
         }
         for (int i = 0; i < cur.size(); i++) {
           for (int j = 0; j < 26; j++) {
