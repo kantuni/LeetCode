@@ -50,6 +50,7 @@
 | 122 | [Best Time to Buy and Sell Stock II](https://github.com/kantuni/LeetCode/tree/master/122) |
 | 124 | [Binary Tree Maximum Path Sum](https://github.com/kantuni/LeetCode/tree/master/124) |
 | 125 | [Valid Palindrome](https://github.com/kantuni/LeetCode/tree/master/125) |
+| 127 | [Word Ladder](https://github.com/kantuni/LeetCode/tree/master/127) |
 | 136 | [Single Number](https://github.com/kantuni/LeetCode/tree/master/136) |
 | 139 | [Word Break](https://github.com/kantuni/LeetCode/tree/master/139) |
 | 141 | [Linked List Cycle](https://github.com/kantuni/LeetCode/tree/master/141) |
@@ -164,4 +165,4 @@
 | 1430 | [Check If a String Is a Valid Sequence from Root to Leaves Path in a Binary Tree](https://github.com/kantuni/LeetCode/tree/master/1430) |
 | 1572 | [Matrix Diagonal Sum](https://github.com/kantuni/LeetCode/tree/master/1572) |
 
-Problems solved: **161**
+Problems solved: **162**
