@@ -153,6 +153,7 @@
 | 984 | [String Without AAA or BBB](https://github.com/kantuni/LeetCode/tree/master/984) |
 | 993 | [Cousins in Binary Tree](https://github.com/kantuni/LeetCode/tree/master/993) |
 | 997 | [Find the Town Judge](https://github.com/kantuni/LeetCode/tree/master/997) |
+| 1008 | [Construct Binary Search Tree from Preorder Traversal](https://github.com/kantuni/LeetCode/tree/master/1008) |
 | 1009 | [Complement of Base 10 Integer](https://github.com/kantuni/LeetCode/tree/master/1009) |
 | 1046 | [Last Stone Weight](https://github.com/kantuni/LeetCode/tree/master/1046) |
 | 1143 | [Longest Common Subsequence](https://github.com/kantuni/LeetCode/tree/master/1143) |
@@ -166,4 +167,4 @@
 | 1430 | [Check If a String Is a Valid Sequence from Root to Leaves Path in a Binary Tree](https://github.com/kantuni/LeetCode/tree/master/1430) |
 | 1572 | [Matrix Diagonal Sum](https://github.com/kantuni/LeetCode/tree/master/1572) |
 
-Problems solved: **163**
+Problems solved: **164**
