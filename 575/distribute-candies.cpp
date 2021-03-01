@@ -1,10 +1,10 @@
 class Solution {
   public:
     int distributeCandies(vector<int>& candyType) {
-      map<int, int> memo;
+      set<int> types;
       for (auto type: candyType) {
-        memo[type]++;
+        types.insert(type);
       }
-      return min(memo.size(), candyType.size() / 2);
+      return min(types.size(), candyType.size() / 2);
     }
 };
