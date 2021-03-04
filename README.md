@@ -11,6 +11,7 @@
 | 14 | [Longest Common Prefix](https://github.com/kantuni/LeetCode/tree/master/14) |
 | 20 | [Valid Parentheses](https://github.com/kantuni/LeetCode/tree/master/20) |
 | 21 | [Merge Two Sorted Lists](https://github.com/kantuni/LeetCode/tree/master/21) |
+| 24 | [Swap Nodes in Pairs](https://github.com/kantuni/LeetCode/tree/master/24) |
 | 26 | [Remove Duplicates from Sorted Array](https://github.com/kantuni/LeetCode/tree/master/26) |
 | 27 | [Remove Element](https://github.com/kantuni/LeetCode/tree/master/27) |
 | 28 | [Implement strStr()](https://github.com/kantuni/LeetCode/tree/master/28) |
@@ -168,4 +169,4 @@
 | 1430 | [Check If a String Is a Valid Sequence from Root to Leaves Path in a Binary Tree](https://github.com/kantuni/LeetCode/tree/master/1430) |
 | 1572 | [Matrix Diagonal Sum](https://github.com/kantuni/LeetCode/tree/master/1572) |
 
-Problems solved: **165**
+Problems solved: **166**
