@@ -136,6 +136,7 @@
 | 645 | [Set Mismatch](https://github.com/kantuni/LeetCode/tree/master/645) |
 | 678 | [Valid Parenthesis String](https://github.com/kantuni/LeetCode/tree/master/678) |
 | 700 | [Search in a Binary Search Tree](https://github.com/kantuni/LeetCode/tree/master/700) |
+| 706 | [Design HashMap](https://github.com/kantuni/LeetCode/tree/master/706) |
 | 709 | [To Lower Case](https://github.com/kantuni/LeetCode/tree/master/709) |
 | 724 | [Find Pivot Index](https://github.com/kantuni/LeetCode/tree/master/724) |
 | 733 | [Flood Fill](https://github.com/kantuni/LeetCode/tree/master/733) |
@@ -169,4 +170,4 @@
 | 1430 | [Check If a String Is a Valid Sequence from Root to Leaves Path in a Binary Tree](https://github.com/kantuni/LeetCode/tree/master/1430) |
 | 1572 | [Matrix Diagonal Sum](https://github.com/kantuni/LeetCode/tree/master/1572) |
 
-Problems solved: **166**
+Problems solved: **167**
