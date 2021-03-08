@@ -162,6 +162,7 @@
 | 1143 | [Longest Common Subsequence](https://github.com/kantuni/LeetCode/tree/master/1143) |
 | 1232 | [Check If It Is a Straight Line](https://github.com/kantuni/LeetCode/tree/master/1232) |
 | 1277 | [Count Square Submatrices with All Ones](https://github.com/kantuni/LeetCode/tree/master/1277) |
+| 1332 | [Remove Palindromic Subsequences](https://github.com/kantuni/LeetCode/tree/master/1332) |
 | 1394 | [Find Lucky Integer in an Array](https://github.com/kantuni/LeetCode/tree/master/1394) |
 | 1426 | [Counting Elements](https://github.com/kantuni/LeetCode/tree/master/1426) |
 | 1427 | [Perform String Shifts](https://github.com/kantuni/LeetCode/tree/master/1427) |
@@ -170,4 +171,4 @@
 | 1430 | [Check If a String Is a Valid Sequence from Root to Leaves Path in a Binary Tree](https://github.com/kantuni/LeetCode/tree/master/1430) |
 | 1572 | [Matrix Diagonal Sum](https://github.com/kantuni/LeetCode/tree/master/1572) |
 
-Problems solved: **167**
+Problems solved: **168**
