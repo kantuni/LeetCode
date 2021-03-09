@@ -14,8 +14,6 @@ class Solution {
       if (s.size() == 0) {
         return 0;
       }
-      int a = count(s.begin(), s.end(), 'a') > 0;
-      int b = count(s.begin(), s.end(), 'b') > 0;
-      return isPalindrome(s) ? 1 : a + b;
+      return isPalindrome(s) ? 1 : 2;
     }
 };
