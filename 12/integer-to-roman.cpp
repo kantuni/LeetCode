@@ -11,14 +11,10 @@ class Solution {
         {1, "I"}
       };
       string ans;
-      int pos = 0;
-      while (pos < marks.size()) {
-        auto [mark, roman] = marks[pos];
-        if (mark <= num) {
+      for (auto [mark, roman]: marks) {
+        while (mark <= num) {
           ans += roman;
           num -= mark;
-        } else {
-          pos++;
         }
       }
       return ans;
