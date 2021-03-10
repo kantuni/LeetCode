@@ -7,6 +7,7 @@
 | 3 | [Longest Substring Without Repeating Characters](https://github.com/kantuni/LeetCode/tree/master/3) |
 | 7 | [Reverse Integer](https://github.com/kantuni/LeetCode/tree/master/7) |
 | 9	| [Palindrome Number](https://github.com/kantuni/LeetCode/tree/master/9) |
+| 12 | [Integer to Roman](https://github.com/kantuni/LeetCode/tree/master/12) |
 | 13 | [Roman to Integer](https://github.com/kantuni/LeetCode/tree/master/13) |
 | 14 | [Longest Common Prefix](https://github.com/kantuni/LeetCode/tree/master/14) |
 | 20 | [Valid Parentheses](https://github.com/kantuni/LeetCode/tree/master/20) |
@@ -172,4 +173,4 @@
 | 1430 | [Check If a String Is a Valid Sequence from Root to Leaves Path in a Binary Tree](https://github.com/kantuni/LeetCode/tree/master/1430) |
 | 1572 | [Matrix Diagonal Sum](https://github.com/kantuni/LeetCode/tree/master/1572) |
 
-Problems solved: **169**
+Problems solved: **170**
