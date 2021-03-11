@@ -103,6 +103,7 @@
 | 299 | [Bulls and Cows](https://github.com/kantuni/LeetCode/tree/master/299) |
 | 303 | [Range Sum Query - Immutable](https://github.com/kantuni/LeetCode/tree/master/303) |
 | 309 | [Best Time to Buy and Sell Stock with Cooldown](https://github.com/kantuni/LeetCode/tree/master/309) |
+| 322 | [Coin Change](https://github.com/kantuni/LeetCode/tree/master/322) |
 | 326 | [Power of Three](https://github.com/kantuni/LeetCode/tree/master/326) |
 | 328 | [Odd Even Linked List](https://github.com/kantuni/LeetCode/tree/master/328) |
 | 342 | [Power of Four](https://github.com/kantuni/LeetCode/tree/master/342) |
@@ -173,4 +174,4 @@
 | 1430 | [Check If a String Is a Valid Sequence from Root to Leaves Path in a Binary Tree](https://github.com/kantuni/LeetCode/tree/master/1430) |
 | 1572 | [Matrix Diagonal Sum](https://github.com/kantuni/LeetCode/tree/master/1572) |
 
-Problems solved: **170**
+Problems solved: **171**
