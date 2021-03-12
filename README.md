@@ -172,6 +172,7 @@
 | 1428 | [Leftmost Column with at Least a One](https://github.com/kantuni/LeetCode/tree/master/1428) |
 | 1429 | [First Unique Number](https://github.com/kantuni/LeetCode/tree/master/1429) |
 | 1430 | [Check If a String Is a Valid Sequence from Root to Leaves Path in a Binary Tree](https://github.com/kantuni/LeetCode/tree/master/1430) |
+| 1461 | [Check If a String Contains All Binary Codes of Size K](https://github.com/kantuni/LeetCode/tree/master/1461) |
 | 1572 | [Matrix Diagonal Sum](https://github.com/kantuni/LeetCode/tree/master/1572) |
 
-Problems solved: **171**
+Problems solved: **172**
