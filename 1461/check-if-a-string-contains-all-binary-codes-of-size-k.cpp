@@ -1,11 +1,12 @@
 class Solution {
   public:
     bool hasAllCodes(string s, int k) {
-      if (s.size() < k) {
+      int n = s.size();
+      if (n - k + 1 < pow(2, k)) {
         return false;
       }
-      set<string> bin;
-      for (int i = 0; i <= s.size() - k; i++) {
+      unordered_set<string> bin;
+      for (int i = 0; i <= n - k; i++) {
         string ss = s.substr(i, k);
         bin.insert(ss);
       }
