@@ -22,8 +22,8 @@ class Solution {
         memo[p] = (memo[p] + (left * right) % P) % P;
       }
       long long ans = 0;
-      for (auto [_, value]: memo) {
-        ans = (ans + value) % P;
+      for (auto [_, combinations]: memo) {
+        ans = (ans + combinations) % P;
       }
       return ans;
     }
