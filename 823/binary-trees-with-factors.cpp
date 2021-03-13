@@ -11,7 +11,7 @@ class Solution {
         for (int j = 0; j < a.size(); j++) {
           auto p = (long long) a[i] * a[j];
           if (memo.count(p) > 0) {
-            products.push_back({ p, a[i], a[j] });
+            products.push_back({p, a[i], a[j]});
           }
         }
       }
