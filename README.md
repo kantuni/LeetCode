@@ -175,5 +175,6 @@
 | 1430 | [Check If a String Is a Valid Sequence from Root to Leaves Path in a Binary Tree](https://github.com/kantuni/LeetCode/tree/master/1430) |
 | 1461 | [Check If a String Contains All Binary Codes of Size K](https://github.com/kantuni/LeetCode/tree/master/1461) |
 | 1572 | [Matrix Diagonal Sum](https://github.com/kantuni/LeetCode/tree/master/1572) |
+| 1721 | [Swapping Nodes in a Linked List](https://github.com/kantuni/LeetCode/tree/master/1721) |
 
-Problems solved: **173**
+Problems solved: **174**
