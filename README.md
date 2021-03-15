@@ -130,6 +130,7 @@
 | 509 | [Fibonacci Number](https://github.com/kantuni/LeetCode/tree/master/509) |
 | 520 | [Detect Capital](https://github.com/kantuni/LeetCode/tree/master/520) |
 | 525 | [Contiguous Array](https://github.com/kantuni/LeetCode/tree/master/525) |
+| 535 | [Encode and Decode TinyURL](https://github.com/kantuni/LeetCode/tree/master/535) |
 | 540 | [Single Element in a Sorted Array](https://github.com/kantuni/LeetCode/tree/master/540) |
 | 543 | [Diameter of Binary Tree](https://github.com/kantuni/LeetCode/tree/master/543) |
 | 560 | [Subarray Sum Equals K](https://github.com/kantuni/LeetCode/tree/master/560) |
@@ -177,4 +178,4 @@
 | 1572 | [Matrix Diagonal Sum](https://github.com/kantuni/LeetCode/tree/master/1572) |
 | 1721 | [Swapping Nodes in a Linked List](https://github.com/kantuni/LeetCode/tree/master/1721) |
 
-Problems solved: **174**
+Problems solved: **175**
