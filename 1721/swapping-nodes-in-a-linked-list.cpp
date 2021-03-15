@@ -12,13 +12,16 @@
 class Solution {
   public:
     ListNode* swapNodes(ListNode* head, int k) {
-      map<int, ListNode*> memo;
-      auto tmp = head;
-      for (int i = 0; tmp != nullptr; i++) {
-        memo[i] = tmp;
-        tmp = tmp->next;
+      ListNode *p1 = nullptr, *p2 = nullptr;
+      for (auto p = head; p != nullptr; p = p->next, k--) {
+        if (k == 1) {
+          p1 = p;
+          p2 = head;
+        } else {
+          p2 = (p2 != nullptr) ? p2->next : nullptr;
+        }
       }
-      swap(memo[k - 1]->val, memo[memo.size() - k]->val);
+      swap(p1->val, p2->val);
       return head;
     }
 };
