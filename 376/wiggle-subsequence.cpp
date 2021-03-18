@@ -19,7 +19,7 @@ class Solution {
           up[i] = up[i - 1];
           down[i] = up[i - 1] + 1;
         } else {
-          // Otherwise, the values remain the same.
+          // Otherwise, the max length remains the same.
           up[i] = up[i - 1];
           down[i] = down[i - 1];
         }
