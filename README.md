@@ -112,6 +112,7 @@
 | 349 | [Intersection of Two Arrays](https://github.com/kantuni/LeetCode/tree/master/349) |
 | 350 | [Intersection of Two Arrays II](https://github.com/kantuni/LeetCode/tree/master/350) |
 | 367 | [Valid Perfect Square](https://github.com/kantuni/LeetCode/tree/master/367) |
+| 376 | [Wiggle Subsequence](https://github.com/kantuni/LeetCode/tree/master/376) |
 | 383 | [Ransom Note](https://github.com/kantuni/LeetCode/tree/master/383) |
 | 387 | [First Unique Character in a String](https://github.com/kantuni/LeetCode/tree/master/387) |
 | 389 | [Find the Difference](https://github.com/kantuni/LeetCode/tree/master/389) |
@@ -181,4 +182,4 @@
 | 1572 | [Matrix Diagonal Sum](https://github.com/kantuni/LeetCode/tree/master/1572) |
 | 1721 | [Swapping Nodes in a Linked List](https://github.com/kantuni/LeetCode/tree/master/1721) |
 
-Problems solved: **178**
+Problems solved: **179**
