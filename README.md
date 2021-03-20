@@ -174,6 +174,7 @@
 | 1277 | [Count Square Submatrices with All Ones](https://github.com/kantuni/LeetCode/tree/master/1277) |
 | 1332 | [Remove Palindromic Subsequences](https://github.com/kantuni/LeetCode/tree/master/1332) |
 | 1394 | [Find Lucky Integer in an Array](https://github.com/kantuni/LeetCode/tree/master/1394) |
+| 1396 | [Design Underground System](https://github.com/kantuni/LeetCode/tree/master/1396) |
 | 1426 | [Counting Elements](https://github.com/kantuni/LeetCode/tree/master/1426) |
 | 1427 | [Perform String Shifts](https://github.com/kantuni/LeetCode/tree/master/1427) |
 | 1428 | [Leftmost Column with at Least a One](https://github.com/kantuni/LeetCode/tree/master/1428) |
@@ -183,4 +184,4 @@
 | 1572 | [Matrix Diagonal Sum](https://github.com/kantuni/LeetCode/tree/master/1572) |
 | 1721 | [Swapping Nodes in a Linked List](https://github.com/kantuni/LeetCode/tree/master/1721) |
 
-Problems solved: **180**
+Problems solved: **181**
