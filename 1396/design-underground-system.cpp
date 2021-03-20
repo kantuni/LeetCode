@@ -3,9 +3,7 @@ class UndergroundSystem {
     map<int, pair<string, int>> enter;
     map<string, map<string, pair<double, int>>> average;
 
-  public:
-    UndergroundSystem() {}
-    
+  public:    
     void checkIn(int id, string stationName, int t) {
       enter[id] = {stationName, t};
     }
