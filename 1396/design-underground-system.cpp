@@ -15,6 +15,7 @@ class UndergroundSystem {
         oldSum + (t - enterTime), 
         count + 1
       };
+      enter.erase(id);
     }
     
     double getAverageTime(string startStation, string endStation) {
