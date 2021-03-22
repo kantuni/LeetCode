@@ -163,6 +163,7 @@
 | 912 | [Sort an Array](https://github.com/kantuni/LeetCode/tree/master/912) |
 | 918 | [Maximum Sum Circular Subarray](https://github.com/kantuni/LeetCode/tree/master/918) |
 | 935 | [Knight Dialer](https://github.com/kantuni/LeetCode/tree/master/935) |
+| 966 | [Vowel Spellchecker](https://github.com/kantuni/LeetCode/tree/master/966) |
 | 977 | [Squares of a Sorted Array](https://github.com/kantuni/LeetCode/tree/master/977) |
 | 984 | [String Without AAA or BBB](https://github.com/kantuni/LeetCode/tree/master/984) |
 | 993 | [Cousins in Binary Tree](https://github.com/kantuni/LeetCode/tree/master/993) |
@@ -185,4 +186,4 @@
 | 1572 | [Matrix Diagonal Sum](https://github.com/kantuni/LeetCode/tree/master/1572) |
 | 1721 | [Swapping Nodes in a Linked List](https://github.com/kantuni/LeetCode/tree/master/1721) |
 
-Problems solved: **182**
+Problems solved: **183**
