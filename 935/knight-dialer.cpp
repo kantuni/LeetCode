@@ -17,12 +17,12 @@ class Solution {
 
     int remember(int start, int cnt) {
       if (memo[start][cnt] == -1) {
-        memo[start][cnt] = helper(start, cnt);
+        memo[start][cnt] = solve(start, cnt);
       }
       return memo[start][cnt];
     }
 
-    int helper(int start, int cnt) {
+    int solve(int start, int cnt) {
       if (cnt == 0) {
         return 1;
       }
@@ -41,7 +41,7 @@ class Solution {
       memo.resize(10, vector<int>(n, -1));
       int ans = 0;
       for (int i = 0; i < 10; i++) {
-        ans = (ans + remember(i, n - 1) % P) % P;
+        ans = (ans + solve(i, n - 1) % P) % P;
       }
       return ans;
     }
