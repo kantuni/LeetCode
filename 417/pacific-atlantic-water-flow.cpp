@@ -1,61 +1,57 @@
 class Solution {
-  private:
-    int m, n;
-    vector<vector<int>> color;
-    vector<int> dr = {-1, 0, 0, 1};
-    vector<int> dc = {0, -1, 1, 0};
-
-    void dfs(vector<vector<int>>& g, int r, int c) {
-      color[r][c] = 1;
-      for (int i = 0; i < 4; i++) {
-        int nr = r + dr[i], nc = c + dc[i];
-        if (nr < 0 or nc < 0 or nr == m or nc == n) {
-          continue;
-        }
-        if (color[nr][nc] == 0 and g[r][c] >= g[nr][nc]) {
-          dfs(g, nr, nc);
-        }
-      }
-    }
-
   public:
     vector<vector<int>> pacificAtlantic(vector<vector<int>>& matrix) {
       if (matrix.size() == 0) {
         return {};
       }
-      m = matrix.size(), n = matrix[0].size();
+      vector<int> dr = {-1, 0, 0, 1};
+      vector<int> dc = {0, -1, 1, 0};
+      int m = matrix.size(), n = matrix[0].size();
+      vector<vector<int>> pc(m, vector<int>(n));
+      vector<vector<int>> ac(m, vector<int>(n));
+      queue<pair<int, int>> pq, aq;
+      for (int r = 0; r < m; r++) {
+        pq.push({r, 0});
+        pc[r][0] = 1;
+        aq.push({r, n - 1});
+        ac[r][n - 1] = 1;
+      }
+      for (int c = 0; c < n; c++) {
+        pq.push({0, c});
+        pc[0][c] = 1;
+        aq.push({m - 1, c});
+        ac[m - 1][c] = 1;
+      }
+      while (!pq.empty()) {
+        auto [r, c] = pq.front(); pq.pop();
+        for (int i = 0; i < 4; i++) {
+          int nr = r + dr[i], nc = c + dc[i];
+          if (nr == -1 or nr == m or nc == -1 or nc == n) {
+            continue;
+          }
+          if (pc[nr][nc] == 0 and matrix[nr][nc] >= matrix[r][c]) {
+            pq.push({nr, nc});
+            pc[nr][nc] = 1;
+          }
+        }
+      }
+      while (!aq.empty()) {
+        auto [r, c] = aq.front(); aq.pop();
+        for (int i = 0; i < 4; i++) {
+          int nr = r + dr[i], nc = c + dc[i];
+          if (nr == -1 or nr == m or nc == -1 or nc == n) {
+            continue;
+          }
+          if (ac[nr][nc] == 0 and matrix[nr][nc] >= matrix[r][c]) {
+            aq.push({nr, nc});
+            ac[nr][nc] = 1;
+          }
+        }
+      }
       vector<vector<int>> ans;
       for (int r = 0; r < m; r++) {
         for (int c = 0; c < n; c++) {
-          color.assign(m, vector<int>(n, 0));
-          dfs(matrix, r, c);
-          bool pacific = false;
-          for (int i = 0; i < m; i++) {
-            if (color[i][0] == 1) {
-              pacific = true;
-              break;
-            }
-          }
-          for (int i = 0; i < n; i++) {
-            if (color[0][i] == 1) {
-              pacific = true;
-              break;
-            }
-          }
-          bool atlantic = false;
-          for (int i = 0; i < m; i++) {
-            if (color[i][n - 1] == 1) {
-              atlantic = true;
-              break;
-            }
-          }
-          for (int i = 0; i < n; i++) {
-            if (color[m - 1][i] == 1) {
-              atlantic = true;
-              break;
-            }
-          }
-          if (pacific and atlantic) {
+          if (pc[r][c] == 1 and ac[r][c] == 1) {
             ans.push_back({r, c});
           }
         }
