@@ -142,6 +142,7 @@
 | 623 | [Add One Row to Tree](https://github.com/kantuni/LeetCode/tree/master/623) |
 | 637 | [Average of Levels in Binary Tree](https://github.com/kantuni/LeetCode/tree/master/637) |
 | 645 | [Set Mismatch](https://github.com/kantuni/LeetCode/tree/master/645) |
+| 647 | [Palindromic Substrings](https://github.com/kantuni/LeetCode/tree/master/647) |
 | 678 | [Valid Parenthesis String](https://github.com/kantuni/LeetCode/tree/master/678) |
 | 700 | [Search in a Binary Search Tree](https://github.com/kantuni/LeetCode/tree/master/700) |
 | 706 | [Design HashMap](https://github.com/kantuni/LeetCode/tree/master/706) |
@@ -190,4 +191,4 @@
 | 1572 | [Matrix Diagonal Sum](https://github.com/kantuni/LeetCode/tree/master/1572) |
 | 1721 | [Swapping Nodes in a Linked List](https://github.com/kantuni/LeetCode/tree/master/1721) |
 
-Problems solved: **187**
+Problems solved: **188**
