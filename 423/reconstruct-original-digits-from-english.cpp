@@ -13,8 +13,7 @@ class Solution {
       vector<pair<int, char>> order = {
         // This order uniquely identifies the digits.
         {0, 'z'}, {2, 'w'}, {4, 'u'}, {6, 'x'}, {8, 'g'},
-        {3, 'r'}, {5, 'f'}, {7, 's'},
-        {1, 'o'}, {9, 'i'}
+        {1, 'o'}, {3, 'r'}, {5, 'f'}, {7, 's'}, {9, 'i'}
       };
       string ans;
       for (auto [d, c]: order) {
