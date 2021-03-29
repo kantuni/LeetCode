@@ -153,6 +153,7 @@
 | 733 | [Flood Fill](https://github.com/kantuni/LeetCode/tree/master/733) |
 | 747 | [Largest Number At Least Twice of Others](https://github.com/kantuni/LeetCode/tree/master/747) |
 | 771 | [Jewels and Stones](https://github.com/kantuni/LeetCode/tree/master/771) |
+| 820 | [Short Encoding of Words](https://github.com/kantuni/LeetCode/tree/master/820) |
 | 823 | [Binary Trees With Factors](https://github.com/kantuni/LeetCode/tree/master/823) |
 | 836 | [Rectangle Overlap](https://github.com/kantuni/LeetCode/tree/master/836) |
 | 841 | [Keys and Rooms](https://github.com/kantuni/LeetCode/tree/master/841) |
@@ -193,4 +194,4 @@
 | 1572 | [Matrix Diagonal Sum](https://github.com/kantuni/LeetCode/tree/master/1572) |
 | 1721 | [Swapping Nodes in a Linked List](https://github.com/kantuni/LeetCode/tree/master/1721) |
 
-Problems solved: **190**
+Problems solved: **191**
