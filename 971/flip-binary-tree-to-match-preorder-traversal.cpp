@@ -12,31 +12,26 @@
 
 class Solution {
   private:
-    void preorder(TreeNode* root, vector<int>& voyage, vector<int>& ans) {
+    int pos = 0;
+    vector<int> ans;
+
+    bool preorder(TreeNode* root, vector<int>& voyage) {
       if (root == nullptr) {
-        return;
+        return true;
       }
-      if (root->val != voyage.back()) {
-        ans.push_back(-1);
+      if (root->val != voyage[pos]) {
+        return false;
       }
-      voyage.pop_back();
-      if (root->left != nullptr and root->left->val != voyage.back()) {
+      pos++;
+      if (root->left and root->left->val != voyage[pos]) {
         swap(root->left, root->right);
         ans.push_back(root->val);
       }
-      preorder(root->left, voyage, ans);
-      preorder(root->right, voyage, ans);
+      return preorder(root->left, voyage) and preorder(root->right, voyage);
     }
 
   public:
     vector<int> flipMatchVoyage(TreeNode* root, vector<int>& voyage) {
-      reverse(voyage.begin(), voyage.end());
-      vector<int> ans;
-      preorder(root, voyage, ans);
-      int cnt = count(ans.begin(), ans.end(), -1);
-      if (cnt > 0) {
-        return {-1};
-      }
-      return ans;
+      return preorder(root, voyage) ? ans : vector<int>{-1};
     }
 };
