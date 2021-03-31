@@ -111,6 +111,7 @@
 | 345 | [Reverse Vowels of a String](https://github.com/kantuni/LeetCode/tree/master/345) |
 | 349 | [Intersection of Two Arrays](https://github.com/kantuni/LeetCode/tree/master/349) |
 | 350 | [Intersection of Two Arrays II](https://github.com/kantuni/LeetCode/tree/master/350) |
+| 354 | [Russian Doll Envelopes](https://github.com/kantuni/LeetCode/tree/master/354) |
 | 367 | [Valid Perfect Square](https://github.com/kantuni/LeetCode/tree/master/367) |
 | 376 | [Wiggle Subsequence](https://github.com/kantuni/LeetCode/tree/master/376) |
 | 383 | [Ransom Note](https://github.com/kantuni/LeetCode/tree/master/383) |
@@ -194,4 +195,4 @@
 | 1572 | [Matrix Diagonal Sum](https://github.com/kantuni/LeetCode/tree/master/1572) |
 | 1721 | [Swapping Nodes in a Linked List](https://github.com/kantuni/LeetCode/tree/master/1721) |
 
-Problems solved: **191**
+Problems solved: **192**
