@@ -8,7 +8,7 @@ class Solution {
       string ans;
       for (int i = 0; i < s.size(); i++) {
         if (s[i] == '(') {
-          string key = "";
+          string key;
           for (int j = i + 1; s[j] != ')'; j++) {
             key += s[j];
           }
