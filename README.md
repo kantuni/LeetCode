@@ -197,5 +197,6 @@
 | 1461 | [Check If a String Contains All Binary Codes of Size K](https://github.com/kantuni/LeetCode/tree/master/1461) |
 | 1572 | [Matrix Diagonal Sum](https://github.com/kantuni/LeetCode/tree/master/1572) |
 | 1721 | [Swapping Nodes in a Linked List](https://github.com/kantuni/LeetCode/tree/master/1721) |
+| 1807 | [Evaluate the Bracket Pairs of a String](https://github.com/kantuni/LeetCode/tree/master/1807) |
 
-Problems solved: **195**
+Problems solved: **196**
