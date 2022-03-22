@@ -21,6 +21,7 @@
 | 35 | [Search Insert Position](https://github.com/kantuni/LeetCode/tree/master/35) |
 | 38 | [Count and Say](https://github.com/kantuni/LeetCode/tree/master/38) |
 | 41 | [First Missing Positive](https://github.com/kantuni/LeetCode/tree/master/41) |
+| 46 | [Permutations](https://github.com/kantuni/LeetCode/tree/master/46) |
 | 49 | [Group Anagrams](https://github.com/kantuni/LeetCode/tree/master/49) |
 | 53 | [Maximum Subarray](https://github.com/kantuni/LeetCode/tree/master/53) |
 | 54 | [Spiral Matrix](https://github.com/kantuni/LeetCode/tree/master/54) |
@@ -202,4 +203,4 @@
 | 1721 | [Swapping Nodes in a Linked List](https://github.com/kantuni/LeetCode/tree/master/1721) |
 | 1807 | [Evaluate the Bracket Pairs of a String](https://github.com/kantuni/LeetCode/tree/master/1807) |
 
-Problems solved: **199**
+Problems solved: **200**
