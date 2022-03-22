@@ -12,12 +12,8 @@ class Solution {
         s.push_back(first);
       }
       vector<vector<int>> ans;
-      for (auto s: subrest) {
-        ans.push_back(s);
-      }
-      for (auto s: subfirst) {
-        ans.push_back(s);
-      }
+      ans.insert(ans.end(), subrest.begin(), subrest.end());
+      ans.insert(ans.end(), subfirst.begin(), subfirst.end());
       return ans;
     }
 };
