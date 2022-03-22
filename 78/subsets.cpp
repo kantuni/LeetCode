@@ -4,16 +4,16 @@ class Solution {
       if (nums.size() == 1) {
         return {{}, nums};
       }
-      int first = nums.front();
-      vector<int> rest(next(nums.begin()), nums.end());
-      vector<vector<int>> subrest = subsets(rest);
-      vector<vector<int>> subfirst(subrest);
-      for (auto &s: subfirst) {
-        s.push_back(first);
+      int head = nums.front();
+      vector<int> tail(next(nums.begin()), nums.end());
+      vector<vector<int>> subtail = subsets(tail);
+      vector<vector<int>> subhead(subtail);
+      for (auto &s: subhead) {
+        s.push_back(head);
       }
       vector<vector<int>> ans;
-      ans.insert(ans.end(), subrest.begin(), subrest.end());
-      ans.insert(ans.end(), subfirst.begin(), subfirst.end());
+      ans.insert(ans.end(), subtail.begin(), subtail.end());
+      ans.insert(ans.end(), subhead.begin(), subhead.end());
       return ans;
     }
 };
