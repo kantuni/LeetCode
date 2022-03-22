@@ -32,6 +32,7 @@
 | 67 | [Add Binary](https://github.com/kantuni/LeetCode/tree/master/67) |
 | 69 | [Sqrt(x)](https://github.com/kantuni/LeetCode/tree/master/69) |
 | 70 | [Climbing Stairs](https://github.com/kantuni/LeetCode/tree/master/70) |
+| 78 | [Subsets](https://github.com/kantuni/LeetCode/tree/master/78) |
 | 83 | [Remove Duplicates from Sorted List](https://github.com/kantuni/LeetCode/tree/master/83) |
 | 88 | [Merge Sorted Array](https://github.com/kantuni/LeetCode/tree/master/88) |
 | 94 | [Binary Tree Inorder Traversal](https://github.com/kantuni/LeetCode/tree/master/94) |
@@ -200,4 +201,4 @@
 | 1721 | [Swapping Nodes in a Linked List](https://github.com/kantuni/LeetCode/tree/master/1721) |
 | 1807 | [Evaluate the Bracket Pairs of a String](https://github.com/kantuni/LeetCode/tree/master/1807) |
 
-Problems solved: **197**
+Problems solved: **198**
