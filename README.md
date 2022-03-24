@@ -25,6 +25,7 @@
 | 47 | [Permutations II](https://github.com/kantuni/LeetCode/tree/master/47) |
 | 49 | [Group Anagrams](https://github.com/kantuni/LeetCode/tree/master/49) |
 | 51 | [N-Queens](https://github.com/kantuni/LeetCode/tree/master/51) |
+| 52 | [N-Queens II](https://github.com/kantuni/LeetCode/tree/master/52) |
 | 53 | [Maximum Subarray](https://github.com/kantuni/LeetCode/tree/master/53) |
 | 54 | [Spiral Matrix](https://github.com/kantuni/LeetCode/tree/master/54) |
 | 55 | [Jump Game](https://github.com/kantuni/LeetCode/tree/master/55) |
@@ -205,4 +206,4 @@
 | 1721 | [Swapping Nodes in a Linked List](https://github.com/kantuni/LeetCode/tree/master/1721) |
 | 1807 | [Evaluate the Bracket Pairs of a String](https://github.com/kantuni/LeetCode/tree/master/1807) |
 
-Problems solved: **202**
+Problems solved: **203**
