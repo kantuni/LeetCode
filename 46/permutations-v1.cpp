@@ -8,13 +8,12 @@ class Solution {
       vector<vector<int>> ans;
       for (int i = 0; i < n; i++) {
         vector<int> rest;
-        for (int j = 0; j < i; j++) {
-          rest.push_back(nums[j]);
+        for (int j = 0; j < n; j++) {
+          if (i != j) {
+            rest.push_back(nums[j]);
+          }
         }
-        for (int j = i + 1; j < n; j++) {
-          rest.push_back(nums[j]);
-        }
-        vector<vector<int>> ps = permute(rest);
+        auto ps = permute(rest);
         for (auto p: ps) {
           p.push_back(nums[i]);
           ans.push_back(p);
