@@ -1,12 +1,12 @@
 class Solution {
   private:
     int ans;
-    set<int> col, d45, d135;
+    set<int> cols, main, secondary;
   
     bool valid(int r, int c) {
-      bool c1 = col.count(c) == 0; // same column
-      bool c2 = d45.count(r + c) == 0; // 45º diagonals
-      bool c3 = d135.count(r - c) == 0; // 135º diagonals
+      bool c1 = cols.count(c) == 0; // same column
+      bool c2 = main.count(r + c) == 0; // 45º diagonals
+      bool c3 = secondary.count(r - c) == 0; // 135º diagonals
       return c1 and c2 and c3;
     }
   
@@ -17,13 +17,13 @@ class Solution {
       }
       for (int c = 0; c < n; c++) {
         if (valid(r, c)) {
-          col.insert(c);
-          d45.insert(r + c);
-          d135.insert(r - c);
+          cols.insert(c);
+          main.insert(r + c);
+          secondary.insert(r - c);
           backtrack(r + 1, n);
-          col.erase(c);
-          d45.erase(r + c);
-          d135.erase(r - c);
+          cols.erase(c);
+          main.erase(r + c);
+          secondary.erase(r - c);
         }
       }
     }
