@@ -1,8 +1,8 @@
 class Solution {
   private:
+    map<int, int> memo;
     vector<vector<int>> ans;
     vector<int> p;
-    map<int, int> memo;
     
     void helper(vector<int>& nums) {
       if (p.size() == nums.size()) {
