@@ -1,5 +1,3 @@
-typedef vector<string> board;
-
 class Solution {
   private:
     vector<vector<string>> ans;
