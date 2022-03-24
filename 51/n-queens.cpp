@@ -128,7 +128,8 @@ class Solution {
       return c1 and c2 and c3;
     }
   
-    void backtrack(int r, int n) {
+    void backtrack(int r) {
+      int n = board.size();
       if (r == n) {
         ans.push_back(board);
         return;
@@ -136,7 +137,7 @@ class Solution {
       for (int c = 0; c < n; c++) {
         board[r][c] = 'Q';
         if (valid(board)) {
-          backtrack(r + 1, n);
+          backtrack(r + 1);
         }
         board[r][c] = '.';
       }
@@ -145,7 +146,7 @@ class Solution {
   public:
     vector<vector<string>> solveNQueens(int n) {
       board.assign(n, string(n, '.'));
-      backtrack(0, n);
+      backtrack(0);
       return ans;
     }
 };
