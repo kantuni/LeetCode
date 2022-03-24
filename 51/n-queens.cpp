@@ -9,9 +9,9 @@ class Solution {
         int q = 0;
         for (int c = 0; c < n; c++) {
           q += board[r][c] == 'Q' ? 1 : 0;
-        }
-        if (q > 1) {
-          return false;
+          if (q > 1) {
+            return false;
+          }
         }
       }
       return true;
@@ -23,9 +23,9 @@ class Solution {
         int q = 0;
         for (int r = 0; r < n; r++) {
           q += board[r][c] == 'Q' ? 1 : 0;
-        }
-        if (q > 1) {
-          return false;
+          if (q > 1) {
+            return false;
+          }
         }
       }
       return true;
@@ -35,10 +35,10 @@ class Solution {
       int n = board.size();
       int q = 0;
       for (int r = 0; r < n; r++) {
-        q += board[r][r] == 'Q' ? 1 : 0; 
-      }
-      if (q > 1) {
-        return false;
+        q += board[r][r] == 'Q' ? 1 : 0;
+        if (q > 1) {
+          return false;
+        }
       }
       return true;
     }
@@ -49,9 +49,9 @@ class Solution {
         int q = 0;
         for (int r = n - 1 - i, c = 0; r < n; r++, c++) {
           q += board[r][c] == 'Q' ? 1 : 0;
-        }
-        if (q > 1) {
-          return false;
+          if (q > 1) {
+            return false;
+          }
         }
       }
       return true;
@@ -63,9 +63,49 @@ class Solution {
         int q = 0;
         for (int r = 0, c = n - 1 - i; c < n; r++, c++) {
           q += board[r][c] == 'Q' ? 1 : 0;
+          if (q > 1) {
+            return false;
+          }
         }
+      }
+      return true;
+    }
+  
+    bool checkSecondaryDiagonal(vector<string>& board) {
+      int n = board.size();
+      int q = 0;
+      for (int r = 0, c = n - 1; r < n; r++, c--) {
+        q += board[r][c] == 'Q' ? 1 : 0;
         if (q > 1) {
           return false;
+        }
+      }
+      return true;
+    }
+  
+    bool checkBelowSecondaryDiagonal(vector<string>& board) {
+      int n = board.size();
+      for (int i = 1; i < n; i++) {
+        int q = 0;
+        for (int r = n - 1, c = i; c < n; r--, c++) {
+          q += board[r][c] == 'Q' ? 1 : 0;
+          if (q > 1) {
+            return false;
+          }
+        }
+      }
+      return true;
+    }
+  
+    bool checkAboveSecondaryDiagonal(vector<string>& board) {
+      int n = board.size();
+      for (int i = 1; i < n; i++) {
+        int q = 0;
+        for (int r = 0, c = n - 1 - i; c > -1; r++, c--) {
+          q += board[r][c] == 'Q' ? 1 : 0;
+          if (q > 1) {
+            return false;
+          }
         }
       }
       return true;
@@ -79,46 +119,6 @@ class Solution {
       bool c5 = checkBelowSecondaryDiagonal(board);
       bool c6 = checkAboveSecondaryDiagonal(board);
       return c1 and c2 and c3 and c4 and c5 and c6;
-    }
-  
-    bool checkSecondaryDiagonal(vector<string>& board) {
-      int n = board.size();
-      int q = 0;
-      for (int r = 0, c = n - 1; r < n; r++, c--) {
-        q += board[r][c] == 'Q' ? 1 : 0;
-      }
-      if (q > 1) {
-        return false;
-      }
-      return true;
-    }
-  
-    bool checkBelowSecondaryDiagonal(vector<string>& board) {
-      int n = board.size();
-      for (int i = 1; i < n; i++) {
-        int q = 0;
-        for (int r = n - 1, c = i; c < n; r--, c++) {
-          q += board[r][c] == 'Q' ? 1 : 0;
-        }
-        if (q > 1) {
-          return false;
-        }
-      }
-      return true;
-    }
-  
-    bool checkAboveSecondaryDiagonal(vector<string>& board) {
-      int n = board.size();
-      for (int i = 1; i < n; i++) {
-        int q = 0;
-        for (int r = 0, c = n - 1 - i; c > -1; r++, c--) {
-          q += board[r][c] == 'Q' ? 1 : 0;
-        }
-        if (q > 1) {
-          return false;
-        }
-      }
-      return true;
     }
   
     bool valid(vector<string>& board) {
