@@ -155,6 +155,7 @@
 | 645 | [Set Mismatch](https://github.com/kantuni/LeetCode/tree/master/645) |
 | 647 | [Palindromic Substrings](https://github.com/kantuni/LeetCode/tree/master/647) |
 | 678 | [Valid Parenthesis String](https://github.com/kantuni/LeetCode/tree/master/678) |
+| 680 | [Valid Palindrome II](https://github.com/kantuni/LeetCode/tree/master/680) |
 | 700 | [Search in a Binary Search Tree](https://github.com/kantuni/LeetCode/tree/master/700) |
 | 706 | [Design HashMap](https://github.com/kantuni/LeetCode/tree/master/706) |
 | 709 | [To Lower Case](https://github.com/kantuni/LeetCode/tree/master/709) |
@@ -207,4 +208,4 @@
 | 1721 | [Swapping Nodes in a Linked List](https://github.com/kantuni/LeetCode/tree/master/1721) |
 | 1807 | [Evaluate the Bracket Pairs of a String](https://github.com/kantuni/LeetCode/tree/master/1807) |
 
-Problems solved: **204**
+Problems solved: **205**
