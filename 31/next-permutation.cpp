@@ -15,12 +15,9 @@ class Solution {
       }
       if (i != -1) {
         // Find the next element > nums[i] in nums[i + 1...].
-        int j = -1, mnd = INT_MAX;
-        for (int k = i + 1; k < nums.size(); k++) {
-          if (nums[k] > nums[i] and nums[k] - nums[i] <= mnd) {
-            mnd = nums[k] - nums[i];
-            j = k;
-          }
+        int j = nums.size() - 1;
+        while (nums[j] <= nums[i]) {
+          j--;
         }
         // Swap nums[i] with nums[j].
         swap(nums[i], nums[j]);
