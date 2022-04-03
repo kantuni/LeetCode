@@ -17,6 +17,7 @@
 | 26 | [Remove Duplicates from Sorted Array](https://github.com/kantuni/LeetCode/tree/master/26) |
 | 27 | [Remove Element](https://github.com/kantuni/LeetCode/tree/master/27) |
 | 28 | [Implement strStr()](https://github.com/kantuni/LeetCode/tree/master/28) |
+| 31 | [Next Permutation](https://github.com/kantuni/LeetCode/tree/master/31) |
 | 33 | [Search in Rotated Sorted Array](https://github.com/kantuni/LeetCode/tree/master/33) |
 | 35 | [Search Insert Position](https://github.com/kantuni/LeetCode/tree/master/35) |
 | 38 | [Count and Say](https://github.com/kantuni/LeetCode/tree/master/38) |
@@ -208,4 +209,4 @@
 | 1721 | [Swapping Nodes in a Linked List](https://github.com/kantuni/LeetCode/tree/master/1721) |
 | 1807 | [Evaluate the Bracket Pairs of a String](https://github.com/kantuni/LeetCode/tree/master/1807) |
 
-Problems solved: **205**
+Problems solved: **206**
