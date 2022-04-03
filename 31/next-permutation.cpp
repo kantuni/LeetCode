@@ -13,38 +13,19 @@ class Solution {
         }
         i--;
       }
-      // Reset the index if no elements where 
-      // nums[i] < nums[i + 1] where found.
-      // Example: [3, 2, 1]
-      int j = -1;
-      if (i == -1) {
-        i = 0;
-        // Find the minimum element != nums[i] in nums[i + 1...].
-        int mn = INT_MAX;
-        for (int k = i + 1; k < nums.size(); k++) {
-          if (nums[k] != nums[i] and nums[k] < mn) {
-            mn = nums[k];
-            j = k;
-          }
-        }
-      } else {
+      if (i != -1) {
         // Find the next element > nums[i] in nums[i + 1...].
-        int mnd = INT_MAX;
+        int j = -1, mnd = INT_MAX;
         for (int k = i + 1; k < nums.size(); k++) {
-          if (nums[k] > nums[i] and nums[k] - nums[i] < mnd) {
+          if (nums[k] > nums[i] and nums[k] - nums[i] <= mnd) {
             mnd = nums[k] - nums[i];
             j = k;
           }
         }
+        // Swap nums[i] with nums[j].
+        swap(nums[i], nums[j]);
       }
-      // Next permutation doesn't exist.
-      // Example: [1, 1]
-      if (j == -1) {
-        return;
-      }
-      // Swap nums[i] with nums[j].
-      swap(nums[i], nums[j]);
-      // Sort nums[i + 1...].
-      sort(nums.begin() + i + 1, nums.end());
+      // Reverse nums[i + 1...].
+      reverse(nums.begin() + i + 1, nums.end());
     }
 };
