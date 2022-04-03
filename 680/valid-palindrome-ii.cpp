@@ -14,7 +14,9 @@ class Solution {
           i++, j--;
           continue;
         }
+        // [i + 1...j]
         string s1 = s.substr(i + 1, j - i);
+        // [i...j - 1]
         string s2 = s.substr(i, j - i);
         return isPalindrome(s1) or isPalindrome(s2);
       }
