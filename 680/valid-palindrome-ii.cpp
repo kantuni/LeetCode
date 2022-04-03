@@ -7,7 +7,6 @@ class Solution {
 
   public:
     bool validPalindrome(string s) {
-      bool ok = true;
       int i = 0, j = s.size() - 1;
       while (i < j) {
         if (s[i] == s[j]) {
@@ -20,6 +19,6 @@ class Solution {
         string s2 = s.substr(i, j - i);
         return isPalindrome(s1) or isPalindrome(s2);
       }
-      return ok;
+      return true;
     }
 };
