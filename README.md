@@ -68,6 +68,7 @@
 | 144 | [Binary Tree Preorder Traversal](https://github.com/kantuni/LeetCode/tree/master/144) |
 | 145 | [Binary Tree Postorder Traversal](https://github.com/kantuni/LeetCode/tree/master/145) |
 | 146 | [LRU Cache](https://github.com/kantuni/LeetCode/tree/master/146) |
+| 150 | [Evaluate Reverse Polish Notation](https://github.com/kantuni/LeetCode/tree/master/150) |
 | 155 | [Min Stack](https://github.com/kantuni/LeetCode/tree/master/155) |
 | 153 | [Find Minimum in Rotated Sorted Array](https://github.com/kantuni/LeetCode/tree/master/153) |
 | 160 | [Intersection of Two Linked Lists](https://github.com/kantuni/LeetCode/tree/master/160) |
@@ -211,4 +212,4 @@
 | 1721 | [Swapping Nodes in a Linked List](https://github.com/kantuni/LeetCode/tree/master/1721) |
 | 1807 | [Evaluate the Bracket Pairs of a String](https://github.com/kantuni/LeetCode/tree/master/1807) |
 
-Problems solved: **208**
+Problems solved: **209**
