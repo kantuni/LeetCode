@@ -116,7 +116,7 @@
 | 322 | [Coin Change](https://github.com/kantuni/LeetCode/tree/master/322) |
 | 326 | [Power of Three](https://github.com/kantuni/LeetCode/tree/master/326) |
 | 328 | [Odd Even Linked List](https://github.com/kantuni/LeetCode/tree/master/328) |
-| 338 | [Counting Bits](https://github.com/kantuni/LeetCode/tree/master/388) |
+| 338 | [Counting Bits](https://github.com/kantuni/LeetCode/tree/master/338) |
 | 342 | [Power of Four](https://github.com/kantuni/LeetCode/tree/master/342) |
 | 344 | [Reverse String](https://github.com/kantuni/LeetCode/tree/master/344) |
 | 345 | [Reverse Vowels of a String](https://github.com/kantuni/LeetCode/tree/master/345) |
