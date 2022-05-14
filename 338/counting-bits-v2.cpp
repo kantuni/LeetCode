@@ -16,9 +16,17 @@ class Solution {
       if (n == 1) {
         return 1;
       }
+      // Number of 1s in any even number n = number of 1s in n/2.
+      // Example:
+      // 10 -> 1010
+      // 5 -> 101
       if (n % 2 == 0) {
         return solve(n / 2);
       }
+      // Number of 1s in any odd number n = 1 + number of 1s in (n - 1).
+      // Example:
+      // 11 -> 1011
+      // 10 -> 1010 (+1)
       return solve(n - 1) + 1;
     }
 
