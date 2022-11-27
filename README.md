@@ -125,6 +125,7 @@
 | 350 | [Intersection of Two Arrays II](https://github.com/kantuni/LeetCode/tree/master/350) |
 | 354 | [Russian Doll Envelopes](https://github.com/kantuni/LeetCode/tree/master/354) |
 | 367 | [Valid Perfect Square](https://github.com/kantuni/LeetCode/tree/master/367) |
+| 374 | [Guess Number Higher or Lower](https://github.com/kantuni/LeetCode/tree/master/374) |
 | 376 | [Wiggle Subsequence](https://github.com/kantuni/LeetCode/tree/master/376) |
 | 383 | [Ransom Note](https://github.com/kantuni/LeetCode/tree/master/383) |
 | 387 | [First Unique Character in a String](https://github.com/kantuni/LeetCode/tree/master/387) |
@@ -212,4 +213,4 @@
 | 1721 | [Swapping Nodes in a Linked List](https://github.com/kantuni/LeetCode/tree/master/1721) |
 | 1807 | [Evaluate the Bracket Pairs of a String](https://github.com/kantuni/LeetCode/tree/master/1807) |
 
-Problems solved: **209**
+Problems solved: **210**
