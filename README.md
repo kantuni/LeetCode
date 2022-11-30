@@ -199,6 +199,7 @@
 | 1009 | [Complement of Base 10 Integer](https://github.com/kantuni/LeetCode/tree/master/1009) |
 | 1046 | [Last Stone Weight](https://github.com/kantuni/LeetCode/tree/master/1046) |
 | 1143 | [Longest Common Subsequence](https://github.com/kantuni/LeetCode/tree/master/1143) |
+| 1207 | [Unique Number of Occurrences](https://github.com/kantuni/LeetCode/tree/master/1207) |
 | 1232 | [Check If It Is a Straight Line](https://github.com/kantuni/LeetCode/tree/master/1232) |
 | 1277 | [Count Square Submatrices with All Ones](https://github.com/kantuni/LeetCode/tree/master/1277) |
 | 1332 | [Remove Palindromic Subsequences](https://github.com/kantuni/LeetCode/tree/master/1332) |
@@ -216,4 +217,4 @@
 | 1807 | [Evaluate the Bracket Pairs of a String](https://github.com/kantuni/LeetCode/tree/master/1807) |
 | 2225 | [Find Players With Zero or One Losses](https://github.com/kantuni/LeetCode/tree/master/2225) |
 
-Problems solved: **213**
+Problems solved: **214**
