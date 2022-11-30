@@ -130,6 +130,7 @@
 | 383 | [Ransom Note](https://github.com/kantuni/LeetCode/tree/master/383) |
 | 387 | [First Unique Character in a String](https://github.com/kantuni/LeetCode/tree/master/387) |
 | 389 | [Find the Difference](https://github.com/kantuni/LeetCode/tree/master/389) |
+| 392 | [Is Subsequence](https://github.com/kantuni/LeetCode/tree/master/392) |
 | 394 | [Decode String](https://github.com/kantuni/LeetCode/tree/master/394) |
 | 402 | [Remove K Digits](https://github.com/kantuni/LeetCode/tree/master/402) |
 | 403 | [Frog Jump](https://github.com/kantuni/LeetCode/tree/master/403) |
@@ -215,4 +216,4 @@
 | 1807 | [Evaluate the Bracket Pairs of a String](https://github.com/kantuni/LeetCode/tree/master/1807) |
 | 2225 | [Find Players With Zero or One Losses](https://github.com/kantuni/LeetCode/tree/master/2225) |
 
-Problems solved: **212**
+Problems solved: **213**
