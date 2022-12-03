@@ -139,6 +139,7 @@
 | 409 | [Longest Palindrome](https://github.com/kantuni/LeetCode/tree/master/409) |
 | 412 | [Fizz Buzz](https://github.com/kantuni/LeetCode/tree/master/412) |
 | 414 | [Third Maximum Number](https://github.com/kantuni/LeetCode/tree/master/414) |
+| 415 | [Add Strings](https://github.com/kantuni/LeetCode/tree/master/415) |
 | 416 | [Partition Equal Subset Sum](https://github.com/kantuni/LeetCode/tree/master/416) |
 | 417 | [Pacific Atlantic Water Flow](https://github.com/kantuni/LeetCode/tree/master/417) |
 | 423 | [Reconstruct Original Digits from English](https://github.com/kantuni/LeetCode/tree/master/423) |
@@ -218,4 +219,4 @@
 | 1807 | [Evaluate the Bracket Pairs of a String](https://github.com/kantuni/LeetCode/tree/master/1807) |
 | 2225 | [Find Players With Zero or One Losses](https://github.com/kantuni/LeetCode/tree/master/2225) |
 
-Problems solved: **215**
+Problems solved: **216**
