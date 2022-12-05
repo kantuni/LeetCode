@@ -12,6 +12,9 @@ class Solution {
       // (k + 0.5)^2 - 0.25 <= 2 * n
       // (k + 0.5) <= sqrt(2 * n + 0.25)
       // k <= sqrt(2 * n + 0.25) - 0.5
+
+      // NOTE: We use 2.0 instead of 2 to convert
+      // the int to float to avoid integer overflow.
       return sqrt(2.0 * n + 0.25) - 0.5;
     }
 };
