@@ -146,6 +146,7 @@
 | 434 | [Number of Segments in a String](https://github.com/kantuni/LeetCode/tree/master/434) |
 | 438 | [Find All Anagrams in a String](https://github.com/kantuni/LeetCode/tree/master/438) |
 | 441 | [Arranging Coins](https://github.com/kantuni/LeetCode/tree/master/441) |
+| 448 | [Find All Numbers Disappeared in an Array](https://github.com/kantuni/LeetCode/tree/master/448) |
 | 451 | [Sort Characters By Frequency](https://github.com/kantuni/LeetCode/tree/master/451) |
 | 455 | [Assign Cookies](https://github.com/kantuni/LeetCode/tree/master/455) |
 | 476 | [Number Complement](https://github.com/kantuni/LeetCode/tree/master/476) |
@@ -221,4 +222,4 @@
 | 1807 | [Evaluate the Bracket Pairs of a String](https://github.com/kantuni/LeetCode/tree/master/1807) |
 | 2225 | [Find Players With Zero or One Losses](https://github.com/kantuni/LeetCode/tree/master/2225) |
 
-Problems solved: **218**
+Problems solved: **219**
