@@ -149,6 +149,7 @@
 | 448 | [Find All Numbers Disappeared in an Array](https://github.com/kantuni/LeetCode/tree/master/448) |
 | 451 | [Sort Characters By Frequency](https://github.com/kantuni/LeetCode/tree/master/451) |
 | 455 | [Assign Cookies](https://github.com/kantuni/LeetCode/tree/master/455) |
+| 459 | [Repeated Substring Pattern](https://github.com/kantuni/LeetCode/tree/master/459) |
 | 476 | [Number Complement](https://github.com/kantuni/LeetCode/tree/master/476) |
 | 478 | [Generate Random Point in a Circle](https://github.com/kantuni/LeetCode/tree/master/478) |
 | 485 | [Max Consecutive Ones](https://github.com/kantuni/LeetCode/tree/master/485) |
@@ -223,4 +224,4 @@
 | 1807 | [Evaluate the Bracket Pairs of a String](https://github.com/kantuni/LeetCode/tree/master/1807) |
 | 2225 | [Find Players With Zero or One Losses](https://github.com/kantuni/LeetCode/tree/master/2225) |
 
-Problems solved: **220**
+Problems solved: **221**
