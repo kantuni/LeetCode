@@ -4,7 +4,7 @@ class Solution:
       s1 = s.upper()
       # Remove all dashes.
       s2 = s1.replace("-", "")
-      # Reverse the string, and then reverse it again later
+      # Reverse the string (and then reverse it again later)
       # so that all groups contain exactly k elements, 
       # except for the first group which can
       # contain less than k elements.
