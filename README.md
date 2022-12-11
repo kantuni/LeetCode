@@ -154,6 +154,7 @@
 | 463 | [Island Perimeter](https://github.com/kantuni/LeetCode/tree/master/463) |
 | 476 | [Number Complement](https://github.com/kantuni/LeetCode/tree/master/476) |
 | 478 | [Generate Random Point in a Circle](https://github.com/kantuni/LeetCode/tree/master/478) |
+| 482 | [License Key Formatting](https://github.com/kantuni/LeetCode/tree/master/482) |
 | 485 | [Max Consecutive Ones](https://github.com/kantuni/LeetCode/tree/master/485) |
 | 498 | [Diagonal Traverse](https://github.com/kantuni/LeetCode/tree/master/498) |
 | 509 | [Fibonacci Number](https://github.com/kantuni/LeetCode/tree/master/509) |
@@ -226,4 +227,4 @@
 | 1807 | [Evaluate the Bracket Pairs of a String](https://github.com/kantuni/LeetCode/tree/master/1807) |
 | 2225 | [Find Players With Zero or One Losses](https://github.com/kantuni/LeetCode/tree/master/2225) |
 
-Problems solved: **223**
+Problems solved: **224**
