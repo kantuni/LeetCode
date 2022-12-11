@@ -5,11 +5,8 @@ class Solution {
       for (int i = 0; i < s.size(); i++) {
         if (s[i] == '-') {
           continue;
-        } else if (islower(s[i])) {
-          tmp += toupper(s[i]);
-        } else {
-          tmp += s[i];
         }
+        tmp += toupper(s[i]);
       }
       string ans;
       for (int i = tmp.size() - 1, j = 0; i > -1; i--, j++) {
