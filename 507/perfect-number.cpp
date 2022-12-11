@@ -1,20 +1,16 @@
 class Solution {
   public:
-    bool checkPerfectNumber(int num) {
-      if (num == 1) {
+    bool checkPerfectNumber(int n) {
+      if (n == 1) {
         return false;
       }
-      set<int> divisors = {1};
-      for (int i = 2; i * i <= num; i++) {
-        if (num % i == 0) {
-          divisors.insert(i);
-          divisors.insert(num / i);
+      int m = 1;
+      for (int i = 2; i * i < n; i++) {
+        if (n % i == 0) {
+          m += i;
+          m += n / i;
         }
       }
-      int sum = 0;
-      for (auto d: divisors) {
-        sum += d;
-      }
-      return sum == num;
+      return n == m;
     }
 };
