@@ -165,6 +165,7 @@
 | 540 | [Single Element in a Sorted Array](https://github.com/kantuni/LeetCode/tree/master/540) |
 | 543 | [Diameter of Binary Tree](https://github.com/kantuni/LeetCode/tree/master/543) |
 | 560 | [Subarray Sum Equals K](https://github.com/kantuni/LeetCode/tree/master/560) |
+| 561 | [Array Partition](https://github.com/kantuni/LeetCode/tree/master/561) |
 | 567 | [Permutation in String](https://github.com/kantuni/LeetCode/tree/master/567) |
 | 575 | [Distribute Candies](https://github.com/kantuni/LeetCode/tree/master/575) |
 | 623 | [Add One Row to Tree](https://github.com/kantuni/LeetCode/tree/master/623) |
@@ -228,4 +229,4 @@
 | 1807 | [Evaluate the Bracket Pairs of a String](https://github.com/kantuni/LeetCode/tree/master/1807) |
 | 2225 | [Find Players With Zero or One Losses](https://github.com/kantuni/LeetCode/tree/master/2225) |
 
-Problems solved: **225**
+Problems solved: **226**
