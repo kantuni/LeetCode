@@ -180,6 +180,7 @@
 | 714 | [Best Time to Buy and Sell Stock with Transaction Fee](https://github.com/kantuni/LeetCode/tree/master/714) |
 | 721 | [Accounts Merge](https://github.com/kantuni/LeetCode/tree/master/721) |
 | 724 | [Find Pivot Index](https://github.com/kantuni/LeetCode/tree/master/724) |
+| 728 | [Self Dividing Numbers](https://github.com/kantuni/LeetCode/tree/master/728) |
 | 733 | [Flood Fill](https://github.com/kantuni/LeetCode/tree/master/733) |
 | 747 | [Largest Number At Least Twice of Others](https://github.com/kantuni/LeetCode/tree/master/747) |
 | 771 | [Jewels and Stones](https://github.com/kantuni/LeetCode/tree/master/771) |
@@ -229,4 +230,4 @@
 | 1807 | [Evaluate the Bracket Pairs of a String](https://github.com/kantuni/LeetCode/tree/master/1807) |
 | 2225 | [Find Players With Zero or One Losses](https://github.com/kantuni/LeetCode/tree/master/2225) |
 
-Problems solved: **226**
+Problems solved: **227**
