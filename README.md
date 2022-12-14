@@ -170,6 +170,7 @@
 | 575 | [Distribute Candies](https://github.com/kantuni/LeetCode/tree/master/575) |
 | 623 | [Add One Row to Tree](https://github.com/kantuni/LeetCode/tree/master/623) |
 | 637 | [Average of Levels in Binary Tree](https://github.com/kantuni/LeetCode/tree/master/637) |
+| 643 | [Maximum Average Subarray I](https://github.com/kantuni/LeetCode/tree/master/643) |
 | 645 | [Set Mismatch](https://github.com/kantuni/LeetCode/tree/master/645) |
 | 647 | [Palindromic Substrings](https://github.com/kantuni/LeetCode/tree/master/647) |
 | 678 | [Valid Parenthesis String](https://github.com/kantuni/LeetCode/tree/master/678) |
@@ -230,4 +231,4 @@
 | 1807 | [Evaluate the Bracket Pairs of a String](https://github.com/kantuni/LeetCode/tree/master/1807) |
 | 2225 | [Find Players With Zero or One Losses](https://github.com/kantuni/LeetCode/tree/master/2225) |
 
-Problems solved: **227**
+Problems solved: **228**
