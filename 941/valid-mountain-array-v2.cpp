@@ -4,7 +4,7 @@ class Solution {
       int n = arr.size();
       // 2 pointers from left and right should meet
       // at the same location, which can't be the beginning
-      // or the end.
+      // or the end of the array.
       int i = 0;
       while (i + 1 < n and arr[i] < arr[i + 1]) {
         i++;
