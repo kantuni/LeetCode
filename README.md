@@ -203,6 +203,7 @@
 | 923 | [3Sum With Multiplicity](https://github.com/kantuni/LeetCode/tree/master/923) |
 | 935 | [Knight Dialer](https://github.com/kantuni/LeetCode/tree/master/935) |
 | 938 | [Range Sum of BST](https://github.com/kantuni/LeetCode/tree/master/938) |
+| 941 | [Valid Mountain Array](https://github.com/kantuni/LeetCode/tree/master/941) |
 | 966 | [Vowel Spellchecker](https://github.com/kantuni/LeetCode/tree/master/966) |
 | 971 | [Flip Binary Tree To Match Preorder Traversal](https://github.com/kantuni/LeetCode/tree/master/971) |
 | 977 | [Squares of a Sorted Array](https://github.com/kantuni/LeetCode/tree/master/977) |
@@ -231,4 +232,4 @@
 | 1807 | [Evaluate the Bracket Pairs of a String](https://github.com/kantuni/LeetCode/tree/master/1807) |
 | 2225 | [Find Players With Zero or One Losses](https://github.com/kantuni/LeetCode/tree/master/2225) |
 
-Problems solved: **228**
+Problems solved: **229**
