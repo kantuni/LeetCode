@@ -20,7 +20,7 @@ class Solution {
           long long b = s.top(); s.pop();
           s.push(b / a);
         } else {
-          s.push(stoi(t));
+          s.push(stoll(t));
         }
       }
       return s.top();
