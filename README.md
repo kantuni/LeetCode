@@ -197,6 +197,7 @@
 | 876 | [Middle of the Linked List](https://github.com/kantuni/LeetCode/tree/master/876) |
 | 883 | [Projection Area of 3D Shapes](https://github.com/kantuni/LeetCode/tree/master/883) |
 | 884 | [Uncommon Words from Two Sentences](https://github.com/kantuni/LeetCode/tree/master/884) |
+| 886 | [Possible Bipartition](https://github.com/kantuni/LeetCode/tree/master/886) |
 | 901 | [Online Stock Span](https://github.com/kantuni/LeetCode/tree/master/901) |
 | 905 | [Sort Array By Parity](https://github.com/kantuni/LeetCode/tree/master/905) |
 | 912 | [Sort an Array](https://github.com/kantuni/LeetCode/tree/master/912) |
@@ -238,4 +239,4 @@
 | 2215 | [Find the Difference of Two Arrays](https://github.com/kantuni/LeetCode/tree/master/2215) |
 | 2225 | [Find Players With Zero or One Losses](https://github.com/kantuni/LeetCode/tree/master/2225) |
 
-Problems solved: **235**
+Problems solved: **236**
