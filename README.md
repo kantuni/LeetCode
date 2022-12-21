@@ -175,6 +175,7 @@
 | 647 | [Palindromic Substrings](https://github.com/kantuni/LeetCode/tree/master/647) |
 | 678 | [Valid Parenthesis String](https://github.com/kantuni/LeetCode/tree/master/678) |
 | 680 | [Valid Palindrome II](https://github.com/kantuni/LeetCode/tree/master/680) |
+| 682 | [Baseball Game](https://github.com/kantuni/LeetCode/tree/master/682) |
 | 697 | [Degree of an Array](https://github.com/kantuni/LeetCode/tree/master/697) |
 | 700 | [Search in a Binary Search Tree](https://github.com/kantuni/LeetCode/tree/master/700) |
 | 706 | [Design HashMap](https://github.com/kantuni/LeetCode/tree/master/706) |
@@ -237,4 +238,4 @@
 | 2215 | [Find the Difference of Two Arrays](https://github.com/kantuni/LeetCode/tree/master/2215) |
 | 2225 | [Find Players With Zero or One Losses](https://github.com/kantuni/LeetCode/tree/master/2225) |
 
-Problems solved: **234**
+Problems solved: **235**
