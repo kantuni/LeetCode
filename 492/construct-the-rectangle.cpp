@@ -4,8 +4,8 @@ class Solution {
       int l, w;
       for (int i = sqrt(area); i > 0; i--) {
         if (area % i == 0) {
-          l = max(i, area / i);
-          w = min(i, area / i);
+          l = area / i;
+          w = i;
           break;
         }
       }
