@@ -157,6 +157,7 @@
 | 482 | [License Key Formatting](https://github.com/kantuni/LeetCode/tree/master/482) |
 | 485 | [Max Consecutive Ones](https://github.com/kantuni/LeetCode/tree/master/485) |
 | 492 | [Construct the Rectangle](https://github.com/kantuni/LeetCode/tree/master/492) |
+| 495 | [Teemo Attacking](https://github.com/kantuni/LeetCode/tree/master/495) |
 | 498 | [Diagonal Traverse](https://github.com/kantuni/LeetCode/tree/master/498) |
 | 507 | [Perfect Number](https://github.com/kantuni/LeetCode/tree/master/507) |
 | 509 | [Fibonacci Number](https://github.com/kantuni/LeetCode/tree/master/509) |
@@ -240,4 +241,4 @@
 | 2215 | [Find the Difference of Two Arrays](https://github.com/kantuni/LeetCode/tree/master/2215) |
 | 2225 | [Find Players With Zero or One Losses](https://github.com/kantuni/LeetCode/tree/master/2225) |
 
-Problems solved: **237**
+Problems solved: **238**
