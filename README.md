@@ -227,6 +227,7 @@
 | 1207 | [Unique Number of Occurrences](https://github.com/kantuni/LeetCode/tree/master/1207) |
 | 1232 | [Check If It Is a Straight Line](https://github.com/kantuni/LeetCode/tree/master/1232) |
 | 1277 | [Count Square Submatrices with All Ones](https://github.com/kantuni/LeetCode/tree/master/1277) |
+| 1295 | [Find Numbers with Even Number of Digits](https://github.com/kantuni/LeetCode/tree/master/1295) |
 | 1332 | [Remove Palindromic Subsequences](https://github.com/kantuni/LeetCode/tree/master/1332) |
 | 1386 | [Cinema Seat Allocation](https://github.com/kantuni/LeetCode/tree/master/1386) |
 | 1394 | [Find Lucky Integer in an Array](https://github.com/kantuni/LeetCode/tree/master/1394) |
@@ -244,4 +245,4 @@
 | 2215 | [Find the Difference of Two Arrays](https://github.com/kantuni/LeetCode/tree/master/2215) |
 | 2225 | [Find Players With Zero or One Losses](https://github.com/kantuni/LeetCode/tree/master/2225) |
 
-Problems solved: **241**
+Problems solved: **242**
