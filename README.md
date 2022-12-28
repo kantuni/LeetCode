@@ -239,10 +239,11 @@
 | 1430 | [Check If a String Is a Valid Sequence from Root to Leaves Path in a Binary Tree](https://github.com/kantuni/LeetCode/tree/master/1430) |
 | 1461 | [Check If a String Contains All Binary Codes of Size K](https://github.com/kantuni/LeetCode/tree/master/1461) |
 | 1572 | [Matrix Diagonal Sum](https://github.com/kantuni/LeetCode/tree/master/1572) |
+| 1672 | [Richest Customer Wealth](https://github.com/kantuni/LeetCode/tree/master/1672) |
 | 1721 | [Swapping Nodes in a Linked List](https://github.com/kantuni/LeetCode/tree/master/1721) |
 | 1807 | [Evaluate the Bracket Pairs of a String](https://github.com/kantuni/LeetCode/tree/master/1807) |
 | 1971 | [Find if Path Exists in Graph](https://github.com/kantuni/LeetCode/tree/master/1971) |
 | 2215 | [Find the Difference of Two Arrays](https://github.com/kantuni/LeetCode/tree/master/2215) |
 | 2225 | [Find Players With Zero or One Losses](https://github.com/kantuni/LeetCode/tree/master/2225) |
 
-Problems solved: **242**
+Problems solved: **243**
