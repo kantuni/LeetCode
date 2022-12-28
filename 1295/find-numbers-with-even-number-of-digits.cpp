@@ -3,8 +3,8 @@ class Solution {
     int findNumbers(vector<int>& nums) {
       int ans = 0;
       for (int num: nums) {
-        int d = to_string(num).size();
-        if (d % 2 == 0) {
+        int digits = to_string(num).size();
+        if (digits % 2 == 0) {
           ans++;
         }
       }
