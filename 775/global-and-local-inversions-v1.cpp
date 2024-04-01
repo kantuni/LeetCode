@@ -1,3 +1,6 @@
+// Verdict: TLE
+// Complexity: O(nlogn)
+
 class Solution {
   private:
     long long countLocalInversions(vector<int>& nums) {
