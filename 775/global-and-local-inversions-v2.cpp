@@ -1,11 +1,13 @@
+// Verdict: Accepted
+// Complexity: O(nlogn)
+
 class Solution {
   public:
     bool isIdealPermutation(vector<int>& nums) {
       set<int> s;
       bool ideal = true;
       for (int i = nums.size() - 2; i > -1; i--) {
-        int smallest = *s.begin();
-        if (!s.empty() and smallest < nums[i]) {
+        if (!s.empty() and *s.begin() < nums[i]) {
           ideal = false;
           break;
         }
