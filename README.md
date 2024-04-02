@@ -192,7 +192,7 @@
 | 733 | [Flood Fill](https://github.com/kantuni/LeetCode/tree/master/733) |
 | 747 | [Largest Number At Least Twice of Others](https://github.com/kantuni/LeetCode/tree/master/747) |
 | 771 | [Jewels and Stones](https://github.com/kantuni/LeetCode/tree/master/771) |
-| 775 | [Global and Local Inversions](https://github.com/kantuni/LeetCode/tree/master/775) `TLE` |
+| 775 | [Global and Local Inversions](https://github.com/kantuni/LeetCode/tree/master/775) |
 | 820 | [Short Encoding of Words](https://github.com/kantuni/LeetCode/tree/master/820) |
 | 823 | [Binary Trees With Factors](https://github.com/kantuni/LeetCode/tree/master/823) |
 | 836 | [Rectangle Overlap](https://github.com/kantuni/LeetCode/tree/master/836) |
@@ -247,4 +247,4 @@
 | 2215 | [Find the Difference of Two Arrays](https://github.com/kantuni/LeetCode/tree/master/2215) |
 | 2225 | [Find Players With Zero or One Losses](https://github.com/kantuni/LeetCode/tree/master/2225) |
 
-Problems solved: **243**
+Problems solved: **244**
