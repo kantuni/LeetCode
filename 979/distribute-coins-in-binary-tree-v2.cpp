@@ -24,23 +24,18 @@ class Solution {
         auto [vl, cl] = helper(root->left);
         auto [vr, cr] = helper(root->right);
         int nv = root->val + (vl - 1) + (vr - 1);
-        root->val = nv;
         return {nv, cl + cr + abs(vl - 1) + abs(vr - 1)};
       }
       if (root->left) {
         auto [vl, cl] = helper(root->left);
         int nv = root->val + (vl - 1);
-        root->val = nv;
         return {nv, cl + abs(vl - 1)};
       }
       if (root->right) {
         auto [vr, cr] = helper(root->right);
         int nv = root->val + (vr - 1);
-        root->val = nv;
         return {nv, cr + abs(vr - 1)};
       }
-      int nv = root->val;
-      root->val = 1;
-      return {nv, 0};
+      return {root->val, 0};
     }
 };
