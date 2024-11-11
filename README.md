@@ -216,6 +216,7 @@
 | 966 | [Vowel Spellchecker](https://github.com/kantuni/LeetCode/tree/master/966) |
 | 971 | [Flip Binary Tree To Match Preorder Traversal](https://github.com/kantuni/LeetCode/tree/master/971) |
 | 977 | [Squares of a Sorted Array](https://github.com/kantuni/LeetCode/tree/master/977) |
+| 979 | [Distribute Coins in Binary Tree](https://github.com/kantuni/LeetCode/tree/master/979) |
 | 984 | [String Without AAA or BBB](https://github.com/kantuni/LeetCode/tree/master/984) |
 | 993 | [Cousins in Binary Tree](https://github.com/kantuni/LeetCode/tree/master/993) |
 | 997 | [Find the Town Judge](https://github.com/kantuni/LeetCode/tree/master/997) |
@@ -247,4 +248,4 @@
 | 2215 | [Find the Difference of Two Arrays](https://github.com/kantuni/LeetCode/tree/master/2215) |
 | 2225 | [Find Players With Zero or One Losses](https://github.com/kantuni/LeetCode/tree/master/2225) |
 
-Problems solved: **244**
+Problems solved: **245**
