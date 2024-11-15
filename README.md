@@ -38,6 +38,7 @@
 | 69 | [Sqrt(x)](https://github.com/kantuni/LeetCode/tree/master/69) |
 | 70 | [Climbing Stairs](https://github.com/kantuni/LeetCode/tree/master/70) |
 | 78 | [Subsets](https://github.com/kantuni/LeetCode/tree/master/78) |
+| 80 | [Remove Duplicates from Sorted Array II](https://github.com/kantuni/LeetCode/tree/master/80) |
 | 83 | [Remove Duplicates from Sorted List](https://github.com/kantuni/LeetCode/tree/master/83) |
 | 88 | [Merge Sorted Array](https://github.com/kantuni/LeetCode/tree/master/88) |
 | 89 | [Gray Code](https://github.com/kantuni/LeetCode/tree/master/89) |
@@ -248,4 +249,4 @@
 | 2215 | [Find the Difference of Two Arrays](https://github.com/kantuni/LeetCode/tree/master/2215) |
 | 2225 | [Find Players With Zero or One Losses](https://github.com/kantuni/LeetCode/tree/master/2225) |
 
-Problems solved: **245**
+Problems solved: **246**
