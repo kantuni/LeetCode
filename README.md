@@ -108,6 +108,7 @@
 | 258 | [Add Digits](https://github.com/kantuni/LeetCode/tree/master/258) |
 | 263 | [Ugly Number](https://github.com/kantuni/LeetCode/tree/master/263) |
 | 268 | [Missing Number](https://github.com/kantuni/LeetCode/tree/master/268) |
+| 274 | [H-Index](https://github.com/kantuni/LeetCode/tree/master/274) |
 | 278 | [First Bad Version](https://github.com/kantuni/LeetCode/tree/master/278) |
 | 283 | [Move Zeroes](https://github.com/kantuni/LeetCode/tree/master/283) |
 | 290 | [Word Pattern](https://github.com/kantuni/LeetCode/tree/master/290) |
@@ -249,4 +250,4 @@
 | 2215 | [Find the Difference of Two Arrays](https://github.com/kantuni/LeetCode/tree/master/2215) |
 | 2225 | [Find Players With Zero or One Losses](https://github.com/kantuni/LeetCode/tree/master/2225) |
 
-Problems solved: **246**
+Problems solved: **247**
