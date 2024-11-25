@@ -93,6 +93,7 @@
 | 217 | [Contains Duplicate](https://github.com/kantuni/LeetCode/tree/master/217) |
 | 219 | [Contains Duplicate II](https://github.com/kantuni/LeetCode/tree/master/219) |
 | 221 | [Maximal Square](https://github.com/kantuni/LeetCode/tree/master/221) |
+| 222 | [Count Complete Tree Nodes](https://github.com/kantuni/LeetCode/tree/master/222) |
 | 225 | [Implement Stack using Queues](https://github.com/kantuni/LeetCode/tree/master/225) |
 | 226 | [Invert Binary Tree](https://github.com/kantuni/LeetCode/tree/master/226) |
 | 228 | [Summary Ranges](https://github.com/kantuni/LeetCode/tree/master/228) |
@@ -250,4 +251,4 @@
 | 2215 | [Find the Difference of Two Arrays](https://github.com/kantuni/LeetCode/tree/master/2215) |
 | 2225 | [Find Players With Zero or One Losses](https://github.com/kantuni/LeetCode/tree/master/2225) |
 
-Problems solved: **247**
+Problems solved: **248**
